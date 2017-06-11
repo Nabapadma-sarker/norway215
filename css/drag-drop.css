@@ -1,0 +1,29 @@
+.sortable{ 
+list-style-type: none;
+ margin: 0;
+ padding: 0; 
+ margin-bottom: 10px;
+ min-height:100px;
+ padding:5px 0;
+ }
+ .customizer_layout {
+  background-color:#ccc;
+ }
+ .sortable li {
+ margin: 5px;
+ padding: 5px;
+ width: 215px; 
+ background-color:#fff;
+ border:1px solid #000;
+ text-align:center;
+ }
+ 
+ #customize-control-wallstreet_pro_options-front_page_data label , #customize-control-wallstreet_pro_options-layout_textbox_disable label
+ {
+ display:none !important;
+ }
+#customize-control-wallstreet_pro_options-webriti_stylesheet input {display:none !important;}
+
+#customize-control-wallstreet_pro_options-webriti_stylesheet label { display: inline; margin-left: 8px;}
+#customize-control-wallstreet_pro_options-webriti_stylesheet img { margin-top:20px;}
+.color_scheem_active{ border:2px solid yellow !important; }

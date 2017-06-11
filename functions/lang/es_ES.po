@@ -1,0 +1,2211 @@
+# Translators:
+# Luis Rull <luisrull@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: wallstreet\n"
+"POT-Creation-Date: 2016-10-24 16:59+0530\n"
+"PO-Revision-Date: 2016-10-27 11:52+0530\n"
+"Last-Translator: Luis Rull <luisrull@gmail.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/webriti/teams/67887/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wp_pro\\wp-content\\themes\\wallstreet-"
+"pro\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wp_pro\\wp-content\\themes"
+"\\wallstreet-pro\n"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/404.php:17
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/404.php:29
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/breadcrumbs/breadcrumbs.php:104
+msgid "Error 404"
+msgstr "Error 404"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/404.php:30
+msgid "Oops! Page not found"
+msgstr "¡Vaya! Página no encontrada"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/404.php:31
+msgid "We`re sorry, but the page you are looking for doesn`t exist."
+msgstr "Lo siento, pero la página que estás buscando no existe."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/404.php:32
+msgid "Go to Homepage"
+msgstr "Ir a página de inicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/about-us.php:169
+msgid "Danial Creg"
+msgstr "Danial Creg"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/about-us.php:169
+msgid "Alexia Doe"
+msgstr "Alexia Doe"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/about-us.php:169
+msgid "John Doe"
+msgstr "John Doe"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/about-us.php:169
+msgid "Beatrix Doe"
+msgstr "Beatrix Doe"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/about-us.php:170
+msgid "Founder & Ceo"
+msgstr "Fundador & CEO"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/about-us.php:170
+msgid "Developer"
+msgstr "Desarrollador"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/about-us.php:170
+msgid "Designer"
+msgstr "Diseñador"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/about-us.php:180
+msgid ""
+"Lorem ipsum dolor sit amet, conet adipis cing. Lorem ipsum dolore sit amet, "
+"consectetur adipisicings elit"
+msgstr ""
+"Lorem ipsum dolor sit amet, conet adipis cing. Lorem ipsum dolore sit amet, "
+"consectetur adipisicings elit"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/archive.php:21
+msgid "Daily Archives:"
+msgstr "Archivos diarios:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/archive.php:23
+msgid "Monthly Archives:"
+msgstr "Archivos mensuales"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/archive.php:25
+msgid "Yearly Archives:"
+msgstr "Archivos anuales"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/archive.php:27
+msgid "Blog Archives"
+msgstr "Archivos del blog"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/archive.php:64
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/author.php:57
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/category.php:58
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:115
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-blog.php:55
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index.php:57
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/tag.php:57
+msgid "Read More"
+msgstr "Leer más"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/archive.php:65
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/author.php:58
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/blog-fullwidth.php:60
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/blog-left-sidebar.php:55
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/blog-right-sidebar.php:57
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/category.php:59
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index.php:58
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/single.php:55
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/tag.php:58
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/author.php:19
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archivos del autor: %s"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr "Instalar plugins requeridos"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:162
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:220
+msgid "Install Plugins"
+msgstr "Instalar plugins"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:163
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:221
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalar plugins: %s"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr "Algo salió mal."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:175
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:233
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de plugins requeridos"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr "Volver al escritorio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:177
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1939
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:234
+msgid "Plugin activated successfully."
+msgstr "Plugin activado con éxito."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr "El siguiente plugin fue activado con éxito:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugins fueron activados con éxito. %1$s"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr "Ocultar este aviso"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:531
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2156
+msgid "Return to the Dashboard"
+msgstr "Volver al escritorio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1166
+msgid "Private Repository"
+msgstr "Repositorio privado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1169
+msgid "Pre-Packaged"
+msgstr "Pre-empaquetado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1174
+msgid "WordPress Repository"
+msgstr "Repositorio de WordPress"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1177
+msgid "Required"
+msgstr "Requerido"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1177
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1180
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1182
+msgid "Installed But Not Activated"
+msgstr "Instalado pero no activado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1287
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1395
+msgid "Install"
+msgstr "Instalado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1309
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1396
+msgid "Activate"
+msgstr "Activado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1358
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"No hay plugins que instalar o activar. <a href=\"%1$s\" title=\"Volver al "
+"escritorio\">Volver al escritorio</a>"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1374
+msgid "Plugin"
+msgstr "Plugin"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1375
+msgid "Source"
+msgstr "Fuente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1376
+msgid "Type"
+msgstr "Tipo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1377
+msgid "Status"
+msgstr "Estatus"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1922
+msgid "Install package not available."
+msgstr "Paquete de instalación no disponible."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1923
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Descargar el paquete de instalación desde <span class=\"code\">%s</"
+"span>&#8230;"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1924
+msgid "Unpacking the package&#8230;"
+msgstr "Desempaquetando el paquete&#8230;"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1925
+msgid "Installing the plugin&#8230;"
+msgstr "Instalando el plugin&#8230;"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1926
+msgid "Plugin install failed."
+msgstr "Falló la instalación del plugin."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1927
+msgid "Plugin installed successfully."
+msgstr "Plugin instalado con éxito."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:1938
+msgid "Plugin activation failed."
+msgstr "Falló la activación del plugin."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2052
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"El proceso de instalación y la activación ha comenzado. Este proceso puede "
+"llevar un tiempo, dependiendo del alojamiento. Ten paciencia."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2053
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado y activado con éxito."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2053
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2062
+msgid "Show Details"
+msgstr "Mostrar detalles"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2053
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2062
+msgid "Hide Details"
+msgstr "Ocultar detalles"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2054
+msgid "All installations and activations have been completed."
+msgstr "Todas las instalaciones y activaciones se han completado."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2055
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando y activando el plugin %1$s (%2$d/%3$d)"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2059
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"El proceso de instalación ha comenzado. Este proceso puede llevar un tiempo, "
+"dependiendo del alojamiento. Ten paciencia."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2060
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Hubo un error al instalar %1$s: <strong>%2$s</strong>."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "La instalación de %1$s falló."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2062
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s se instaló con éxito."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2063
+msgid "All installations have been completed."
+msgstr "Todas las instalaciones se han completado."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/class-tgm-plugin-activation.php:2064
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando el plugin %1$s (%2$d/%3$d)"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:11
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Esta entrada está protegida por contraseña. Escribe la contraseña para ver "
+"los comentarios."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:23
+msgid "Reply"
+msgstr "Responder"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:32
+msgid "Posted on &nbsp;"
+msgstr "Publicado en &nbsp;"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:34
+msgid "Edit"
+msgstr "Editar"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:40
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:59
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios posteriores &rarr;"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:71
+msgid "You must be"
+msgstr "Tu debes ser"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:71
+msgid "logged in"
+msgstr "conectado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:71
+msgid "to post a comment"
+msgstr "publicar un comentario"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:79
+msgid "Name:"
+msgstr "Nombre:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:80
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:104
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:89
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:112
+msgid "Message:"
+msgstr "Mensaje:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:90
+msgid "Logged in as "
+msgstr "Conectado como"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:90
+msgid "Log out of this account"
+msgstr "Desconectarse de esta cuenta"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:90
+msgid " Log out?"
+msgstr "¿Desconectar?"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:92
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:115
+msgid "Send Message"
+msgstr "Enviar mensaje"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/comments.php:95
+msgid "Leave a Comment"
+msgstr "Deja un comentario"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:96
+msgid "First Name:"
+msgstr "Nombre de pila:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:97
+msgid "Please Enter Your First Name"
+msgstr "Por favor, escribe tu nombre de pila"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:100
+msgid "Last Name:"
+msgstr "Apellido:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:101
+msgid "Please Enter Your Last Name"
+msgstr "Por favor, escribe tu nombre de pila"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:105
+msgid "Please Enter Your Email Address"
+msgstr "Por favor, escribe tu dirección de correo electrónico"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:108
+msgid "Website:"
+msgstr "Sitio web:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:109
+msgid "Please Enter Your Website"
+msgstr "Por favor, escribe tu sitio web"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:113
+msgid "Please Enter Your Message"
+msgstr "Por favor, escribe tu mensaje"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:116
+msgid "Sorry, your nonce did not verify"
+msgstr "Lo siento, tu nonce no se ha verificado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:122
+msgid "Thank  you!"
+msgstr "¡Gracias!"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/contact-us.php:122
+msgid "You successfully sent contact information..."
+msgstr "Has enviado la información de contacto con éxito..."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:65
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/breadcrumbs/breadcrumbs.php:109
+msgid "Page"
+msgstr "Página"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:81
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:219
+msgid "Install Recommended Plugins"
+msgstr "Instalar plugins recomendados"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:222
+msgid "Something went wrong with the plugin API."
+msgstr "Algo salió mal con la API del plugin."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions.php:235
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Todos los plugins fueron activados con éxito. %s"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-blog.php:50
+msgid "No Comments"
+msgstr "Sin comentarios"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-blog.php:50
+msgid "1 Comments"
+msgstr "1 comentario"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-blog.php:50
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-blog.php:61
+msgid "No Posts to show..."
+msgstr "No hay entradas que mostrar..."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-portfolio.php:78
+msgid "Wall Street Style"
+msgstr "Estilo Wall Street"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-portfolio.php:79
+msgid ""
+"A wonderful serenity has taken possession of my entire soul, like these "
+"sweet mornings."
+msgstr ""
+"Reina en mi espíritu una alegría admirable, muy parecida a las dulces "
+"alboradas de la primavera."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-portfolio.php:80
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-service.php:92
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/search.php:53
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:107
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/excerpt/excerpt.php:34
+msgid "Read more"
+msgstr "Leer más"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-portfolio.php:89
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-service.php:68
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:83
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:169
+msgid "Insert Your Icon"
+msgstr "Inserta tu icono"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-service.php:83
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:97
+msgid "Product Designing"
+msgstr "Diseño de productos"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-service.php:83
+msgid "WordPress Themes"
+msgstr "Temas de WordPress"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-service.php:83
+msgid "Responsive Designs"
+msgstr "Diseños adaptativos"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-service.php:91
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:106
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor "
+"sit amet, consectetur adipisicing elit dignissim dapib tumst dign eger porta "
+"nisl."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor "
+"sit amet, consectetur adipisicing elit dignissim dapib tumst dign eger porta "
+"nisl."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-slider.php:79
+msgid "Clean & Fresh Theme"
+msgstr "Tema limpio y fresco"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-slider.php:80
+msgid "Welcome To "
+msgstr "Bienvenido a "
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-slider.php:80
+msgid "Wallstreet"
+msgstr "Wallstreet"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-slider.php:81
+msgid ""
+"The state-of-the-art HTML5 powered flexible layout with lightspeed fast CSS3 "
+"transition effects. Works perfect in any modern mobile..."
+msgstr ""
+"Lo último en diseño flexible con la tecnología HTML5 con efectos de "
+"transición CSS3 extraordinariamente rápidos.  Funciona perfectamente en "
+"cualquier móvil."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-slider.php:83
+msgid "Purchase Now"
+msgstr "Compra ahora"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-testimonials.php:77
+msgid ""
+"Juis voluptatem sequi nesciunt. Neque porro quisquam est, qui don numquam "
+"eius modi ssim hen urlus mattis dignissim dapibctumst."
+msgstr ""
+"Juis voluptatem sequi nesciunt. Neque porro quisquam est, qui don numquam "
+"eius modi ssim hen urlus mattis dignissim dapibctumst."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/index-testimonials.php:78
+msgid "David Warner"
+msgstr "David Warner"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/portfolio-2-column.php:148
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/portfolio-3-column.php:146
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/portfolio-4-column.php:146
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/taxonomy-portfolio_categories.php:106
+msgid ""
+"Opps! No Portfolio Found! Add Portfolio Using PORTFOLIO/PROJECT section."
+msgstr ""
+"¡Vaya! No se ha encontrado portfolio. Añade portfolio en la sección "
+"PORTFOLIO/PROJECTO"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/search.php:33
+#, php-format
+msgid "Search Results For: %s"
+msgstr "Resultados de búsqueda de: %s "
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/search.php:70
+msgid "Previous"
+msgstr "Anterior"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/search.php:71
+msgid "Next"
+msgstr "Siguiente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/search.php:75
+msgid "Nothing Found"
+msgstr "No se encontró nada"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/search.php:77
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo siento, pero no hay nada que coincida con tu criterio de búsqueda. Por "
+"favor, inténtalo de nuevo con otras palabras clave."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:97
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:178
+msgid "Wordpress Themes"
+msgstr "Temas de WordPress"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:97
+msgid "Responsive Design"
+msgstr "Diseño adaptativo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:178
+msgid "Responsive"
+msgstr "Adaptativo (Responsive)"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:178
+msgid "Mobile Ready"
+msgstr "Preparado para móviles"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:178
+msgid "Live Support"
+msgstr "Soporte en directo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/service-template.php:187
+msgid ""
+"Mauris rhoncus pretium porttitor Cras scelerisque commodo odio Phasellus "
+"dolor."
+msgstr ""
+"Mauris rhoncus pretium porttitor Cras scelerisque commodo odio Phasellus "
+"dolor."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/single-wallstreet_portfolio.php:55
+msgid "Client: "
+msgstr "Cliente:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/single-wallstreet_portfolio.php:57
+msgid "Date: "
+msgstr "Fecha:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/single-wallstreet_portfolio.php:58
+msgid "Categories: "
+msgstr "Categorías:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/single-wallstreet_portfolio.php:61
+msgid "Visit Website: "
+msgstr "Visita el sitio web:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/single-wallstreet_portfolio.php:64
+msgid "Visit Website"
+msgstr "Visita el sitio web"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/tag.php:19
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archivos de etiquetas: %s"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:32
+msgid "Our Services"
+msgstr "Nuestros servicios"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:33
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:35
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:43
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:139
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:160
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:44
+msgid "We Offer Great Services to our Clients"
+msgstr "Ofrecemos grandes servicios a nuestros clientes"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:34
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:138
+msgid "Other Services"
+msgstr "Otros servicios"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:40
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:51
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:41
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:156
+msgid "Featured Portfolio Project"
+msgstr "Proyecto de portfolio destacado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:41
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:52
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:174
+msgid "Most Popular of Our Works."
+msgstr "Nuestros trabajos más populares"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:42
+msgid "Related Projects"
+msgstr "Proyectos relacionados"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:44
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:87
+msgid "View All Projects"
+msgstr "Ver todos los proyectos"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:58
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:60
+msgid "Core Features of Theme"
+msgstr "Funcionalidades básicas del tema"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:60
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:101
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:161
+msgid "Incredibly Flexible"
+msgstr "Increíblemente flexible"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:61
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:64
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:67
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:121
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:181
+msgid "Perspiciatis unde omnis iste natus error sit voluptaem omnis iste."
+msgstr "Perspiciatis unde omnis iste natus error sit voluptaem omnis iste."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:63
+msgid "Fully Cutomizable"
+msgstr "Completamente personalizable"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:66
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:221
+msgid "Ultimate Shortcodes"
+msgstr "Los mejores shortcodes"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:73
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-client.php:23
+msgid "Our Clients"
+msgstr "Nuestros clientes"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:74
+msgid ""
+"HAVE A LOOK AT OUR CLIENT WE ARE GROWING THEIR BUSINESS AND THEY ARE GOING "
+"UP IN THE MARKET BY BEATING THEIR COMPETITORS"
+msgstr ""
+"ÉCHALE UN VISTAZO A NUESTRO CLIENTE. ESTAMOS HACIENDO CRECER SU NEGOCIO, "
+"ESTÁN AGRANDANDO SU MERCADO Y SUPERANDO A SUS COMPETIDORES"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:77
+msgid "Meet Our"
+msgstr "Conoce a "
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:78
+msgid "Great Team"
+msgstr "Gran equipo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:79
+msgid "Related Project"
+msgstr "Proyecto relacionado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:82
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:239
+msgid "Wallstreet is an elegant and modern theme for business websites."
+msgstr "Wallstreet es un tema moderno y elegante para sitios webs de negocios."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:83
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:254
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros elit, "
+"pretium et adipiscing vel, consectetur adipiscing elit."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros elit, "
+"pretium et adipiscing vel, consectetur adipiscing elit."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:84
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:279
+msgid "See All Feature"
+msgstr "Ver todas las funcionalidades"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:118
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:247
+msgid "Address"
+msgstr "Dirección"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:119
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:265
+msgid "Hoffman Parkway, P.O. Box 353"
+msgstr "Hoffman Parkway, P.O. Box 353"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:120
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:281
+msgid "Mountain View. USA"
+msgstr "Mountain View. USA"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:134
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:535
+msgid "Drop Us a Line"
+msgstr "Déjanos una líneas"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:135
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:553
+msgid "Feel Free to write us a Message"
+msgstr "Déjanos un mensaje escrito"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:138
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:26
+msgid "Our Great Team"
+msgstr "Nuestro gran equipo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:140
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-blog.php:36
+msgid "Our Latest Blog Post"
+msgstr "La última entrada de nuestro blog"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:141
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-blog.php:51
+msgid "We Work With New Customers And Grow Their Businesses"
+msgstr "Trabajamos con nuevos clientes y hacemos crecer sus negocios"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:213
+msgid "Copyright @ 2014 - WALL STREET. Designed by "
+msgstr "Copyright @ 2014 - WALL STREET. Diseñado por"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/theme_setup_data.php:213
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-copyright.php:24
+msgid "Webriti"
+msgstr "Webriti"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/breadcrumbs/breadcrumbs.php:13
+msgid "Home"
+msgstr "Inicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/breadcrumbs/breadcrumbs.php:32
+msgid "Archive by category"
+msgstr "Archivo por categorías"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/breadcrumbs/breadcrumbs.php:35
+msgid "Search results for "
+msgstr "Resultados de búsqueda de "
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/breadcrumbs/breadcrumbs.php:96
+msgid "Posts tagged"
+msgstr "Entradas etiquetadas"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/breadcrumbs/breadcrumbs.php:101
+msgid "Articles posted by"
+msgstr "Artículos publicados por"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-blog.php:8
+msgid "Home Blog Settings"
+msgstr "Ajustes del blog de la página de inicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-blog.php:26
+msgid "Hide Blog Meta For Home Blog"
+msgstr "Ocultar el meta del blog en el inicio "
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-blog.php:43
+msgid "Home Page Blog Section Heading"
+msgstr "Encabezado de la sección de blog de la página de inicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-blog.php:58
+msgid "Home Page Blog Section Description"
+msgstr "Descripción de la sección de blog en la página de inicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-client.php:8
+msgid "Client Settings"
+msgstr "Ajustes de cliente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-client.php:14
+msgid "Client section Heading"
+msgstr "Encabezado de la sección \"Clientes\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-client.php:32
+msgid "Client Title"
+msgstr "Título de cliente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-client.php:41
+msgid ""
+"HAVE A LOOK AT OUR CLIENT WE ARE GROWING THEIR BUSINESS AND THEY ARE GOING "
+"UP IN THE MARKET BY BEATING THEIR COMPETITORS."
+msgstr ""
+"ÉCHALE UN VISTAZO A NUESTRO CLIENTE. ESTAMOS HACIENDO CRECER SU NEGOCIO, "
+"ESTÁN AGRANDANDO SU MERCADO Y SUPERANDO A SUS COMPETIDORES."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-client.php:50
+msgid "Client Description"
+msgstr "Descripción de cliente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-client.php:64
+msgid "Click Here To add Client"
+msgstr "Haz clic aquí para añadir cliente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-client.php:78
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:104
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:122
+msgid "Discover wallstreet Pro"
+msgstr "Descubre wallstreet Pro"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-copyright.php:7
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-copyright.php:13
+msgid "Footer Copyright Settings"
+msgstr "Ajustes de Copyright del pie"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-copyright.php:14
+msgid "This is a Footer section."
+msgstr "Esta es la sección \"Pie\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-copyright.php:24
+msgid "Copyright @ 2014 - WALL STREET. Designed by"
+msgstr "Copyright @ 2014 - WALL STREET. Diseñado por"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-copyright.php:32
+msgid "Copyright text"
+msgstr "Texto del Copyright"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:8
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:13
+msgid "Theme Feature Setting"
+msgstr "Ajustes del tema destacado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:35
+msgid "Check to enable Theme Featured section on Homepage"
+msgstr ""
+"Marcar para activar la sección destacada del tema en la página de inicio."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:49
+msgid "Choose section left image"
+msgstr "Elige la imagen de la sección izquierda"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:71
+msgid "Theme Feature Title:"
+msgstr "Título de la funcionalidad del tema:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:90
+msgid "First Feature Icon:"
+msgstr "Icono de la primera funcionalidad:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:109
+msgid "First Feature Title:"
+msgstr "Título de la primera funcionalidad:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:129
+msgid "First Feature Description:"
+msgstr "Descripción de la primera funcionalidad:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:150
+msgid "Second Feature Icon:"
+msgstr "Icono de la segunda funcionalidad:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:169
+msgid "Second Feature Title:"
+msgstr "Título de la segunda funcionalidad:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:189
+msgid "Second Feature Description:"
+msgstr "Descripción de la segunda funcionalidad:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:210
+msgid "Third Feature Icon:"
+msgstr "Icono de la tercera funcionalidad:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:229
+msgid "Third Feature Title:"
+msgstr "Título de la tercera funcionalidad:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:241
+msgid "Perspiciatis unde omnis iste natus error sit voluptaem omnis iste.."
+msgstr "Perspiciatis unde omnis iste natus error sit voluptaem omnis iste.."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:249
+msgid "Third Feature Description:"
+msgstr "Descripción de la tercera funcionalidad:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:257
+msgid "Theme Feature Section Background"
+msgstr "Fondo de la sección destacada del tema"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-feature.php:270
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:144
+msgid "Choose section Background"
+msgstr "Elige un fondo para la sección"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:8
+msgid "Header Settings"
+msgstr "Ajustes de cabecera"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:13
+msgid "Site favicon"
+msgstr "Favicon del sitio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:15
+msgid "Upload a favicon"
+msgstr "Subir un favicon"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:26
+msgid "Choose your favicon (ideal width and height is 16x16 or 32x32)"
+msgstr "Elige tu favicon (ancho y alto ideal: 16x16 o 32x32)"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:45
+msgid "Header Logo setting"
+msgstr "Ajustes de logo de la cabecera"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:63
+msgid "Upload a 150x150 for Logo Image"
+msgstr "Subir una image de 150x150 para el logo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:82
+msgid "Enable/Disabe Logo"
+msgstr "Activar/desativar logo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:103
+msgid "Enter Logo Width"
+msgstr "Introducir ancho del logo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:122
+msgid "Enter Logo Height"
+msgstr "Introducir altura del logo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:144
+msgid "Show Logo text"
+msgstr "Mostrar texto del logo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:152
+msgid "Custom css"
+msgstr "Css personalizado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:165
+msgid "Custom css snippet:"
+msgstr "Snippet de css personalizado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:174
+msgid "Header Contact Setting"
+msgstr "Ajustes del encabezado de \"Contacto\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-home.php:192
+msgid "Enable/Disabe Contact Header"
+msgstr "Activar/Desactivar el encabezado de \"Contacto\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:18
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:121
+msgid "Enable"
+msgstr "Activado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:26
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:138
+msgid "Disable"
+msgstr "Desactivado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:33
+msgid "Slider section always top on the home page"
+msgstr "La sección del slider siempre en la pagina de inicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:34
+msgid "Note:"
+msgstr "Nota:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:34
+msgid ""
+"By default all the section are enable on homepage. If you do not want to "
+"display any section just drag that section to the disabled box."
+msgstr ""
+"Por defecto todas las secciones están activadas en la página de inicio. Si "
+"no quieres mostrar alguna sección, sólo tienes que soltar esa sección en la "
+"caja de desactivados."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:84
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-layout.php:89
+msgid "Theme Layout Manager"
+msgstr "Gestor de la estructura del tema"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:10
+msgid "SEO Friendly Url's"
+msgstr "Urls "
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:15
+msgid "Post Type Slugs Settings"
+msgstr "Ajustes de slugs de los tipos de entrada"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:26
+msgid "Slider Slug"
+msgstr "Slug del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:38
+msgid "Service Slug"
+msgstr "Slug de \"Servicios\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:50
+msgid "Team Slug"
+msgstr "Slug de \"Equipos\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:62
+msgid "Portfolio Slug"
+msgstr "Slug de \"Portfolio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:75
+msgid "Portfolio-categories Slug"
+msgstr "Slug de categorías de \"Portfolio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:88
+msgid "Testimonial Slug"
+msgstr "Slug de \"Recomendación\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:101
+msgid "Client Slug"
+msgstr "Slug de cliente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:110
+msgid ""
+"After Changing slug don't forgat to save permalinks.without saving, the old "
+"permalinks will not revise."
+msgstr ""
+"Después de cambiar el slug, no olvides guardas los enlaces permanentes. Si "
+"no los guardas, los enlaces permanentes antiguos no se cambiarán"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:125
+msgid "Wallstreet Slug"
+msgstr "Slug de Wallstreet"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-post-type-slugs.php:138
+msgid "Click Here Permalinks Setting"
+msgstr "Haz click aquí para los ajustes de enlaces permanentes"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:8
+msgid "Project Settings"
+msgstr "Ajustes de \"Proyecto\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:14
+msgid "Home Project Settings"
+msgstr "Ajustes de la página de inicio de \"Proyecto\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:31
+msgid "Number of Portfolio on Portfolio section"
+msgstr "Número de portfolios en la sección Portfolios"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:48
+msgid "Project title"
+msgstr "Título de proyecto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:56
+msgid "Most Popular of Our Works"
+msgstr "Nuestros trabajos más populares"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:63
+msgid "Project Description"
+msgstr "Descripción de proyecto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:78
+msgid "Enabled View All Porfolio Button."
+msgstr "Activar el botón \"Ver todos los Portfolios\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:94
+msgid "Portfolio Project Button Text"
+msgstr "Texto del botón de proyecto de portfolio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:106
+msgid "Portfolio More Link"
+msgstr "Enlace \"Más\" de \"Portfolio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:110
+msgid "Enter the Portfolio more button link."
+msgstr "Escribe el enlace del botón más de Portfolio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:126
+msgid "Open link in a new window/tab.."
+msgstr "Abrir enlace en una nueva ventana/pestaña"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-project.php:139
+msgid "Click Here To add Project"
+msgstr "Haz clic aquí para añadir proyecto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:8
+msgid "Service Settings"
+msgstr "Ajustes de \"Servicios\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:13
+msgid "Service Heading "
+msgstr "Encabezado de \"Servicios\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:35
+msgid "Number of services on service section"
+msgstr "Número de servicios en la sección \"Servicios\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:46
+msgid "What We Do"
+msgstr "Lo que hacemos"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:55
+msgid "Service Title"
+msgstr "Título de \"Servicio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:65
+msgid ""
+"We provide best WordPress solutions for your business. Thanks to our "
+"framework you will get more happy customers."
+msgstr ""
+"Proporcionamos las mejores soluciones WordPress para tu negocio. Gracias a "
+"nuestra plataforma conseguirás muchos clientes felices."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:73
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:99
+msgid "Service Description"
+msgstr "Descripción de \"Servicio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:89
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:184
+msgid "Click Here To Add Service"
+msgstr "Haz clic aquí para añadir servicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:110
+msgid "Other Services Section "
+msgstr "Sección \"Otros servicios\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:128
+msgid "Enable Other Service Section in Service Template:"
+msgstr "Activar la sección \"Otro servicio\" en la plantilla de \"Servicio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:147
+msgid "Other Services Title"
+msgstr "Título para \"Otros servicios\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:169
+msgid "Other Services Description"
+msgstr "Descripción para \"Otros servicios\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:209
+msgid "Service call-out Settings"
+msgstr "Ajustes de la llamada de atención de \"Servicio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:229
+msgid "Enable Call Out Area Section :"
+msgstr "Activar la sección del área de llamada de atención"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:246
+msgid "Callout title"
+msgstr "Título de la Llamada de atención"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:261
+msgid "Callout Description"
+msgstr "Descripción de la Llamada de atención"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:269
+msgid "Purshase Now!"
+msgstr "¡Compra ahora!"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:287
+msgid "#"
+msgstr "#"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:297
+msgid "purchase callout Button Link"
+msgstr "Enlace del botón de llamada de atención de compra"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-service.php:314
+msgid "Open link new tab/window"
+msgstr "Abrir enlace en una nueva pestaña/ventana"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:8
+msgid "Slider  Settings"
+msgstr "Ajustes de slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:14
+msgid "Featured Slider Settings"
+msgstr "Ajustes de slider destacado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:33
+msgid "Enable Home Slider"
+msgstr "Activar en slider de la página de inicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:37
+msgid "Enable slider on front page."
+msgstr "Activar el slider en la página principal"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:56
+msgid "Select slider Animation"
+msgstr "Elegir animación del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:59
+msgid "slide"
+msgstr "slide"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:59
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:35
+msgid "fade"
+msgstr "Esfumarse"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:79
+msgid "Slide direction"
+msgstr "Dirección de las diapositivias"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:82
+msgid "horizontal"
+msgstr "horizontal"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:82
+msgid "vertical"
+msgstr "vertical"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:99
+msgid "Animation speed"
+msgstr "Velocidad de la animación "
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:119
+msgid "Slideshow speed"
+msgstr "Velocidad de paso de las dispositivas"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-slider.php:132
+msgid "Click Here To Add Slider"
+msgstr "Haz clic aquí para añadir sliders"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:7
+msgid "Social Link Setting"
+msgstr "Ajuste de enlace social"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:35
+msgid "Enable social media links on header section"
+msgstr "Activar enlaces de social media en la sección de cabecera"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:55
+msgid "Enable social media links on about us section"
+msgstr "Activar los enlaces de social media en la sección \"Sobre nosotros\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:75
+msgid "Enable social media links on Footer section"
+msgstr "Activar enlaces de social media en la sección de pie"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:97
+msgid "Twitter Profile Link:"
+msgstr "Enlace del perfil de Twitter:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:116
+msgid "Facebook Profile Link:"
+msgstr "Enlace del perfil de Facebook"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:136
+msgid "Google Plus Profile Link:"
+msgstr "Enlace del perfil de Google Plus"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:157
+msgid "Linkedin Profile Link:"
+msgstr "Enlace del perfil de Linkedin:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:177
+msgid "Pinterest Profile Link:"
+msgstr "Enlace del perfil de Pinterest:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:197
+msgid "Youtube Profile Link:"
+msgstr "Enlace del perfil de Youtube:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:216
+msgid "Skype Profile Link:"
+msgstr "Enlace del perfil de Skype:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:236
+msgid "Rss Feed Link:"
+msgstr "Enlace del Feed Rss"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:256
+msgid "WordPress Profile Link::"
+msgstr "Enlace del perfil de WordPress:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-social.php:276
+msgid "Dropbox Profile Link:"
+msgstr "Enlace del perfil de Dropbox:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:8
+msgid "Template Settings"
+msgstr "Ajustes de plantilla"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:16
+msgid "Section Heading"
+msgstr "Encabezado de sección"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:34
+msgid "About Us Page Team Heading"
+msgstr "Encabezado de Equipo de la página \"Sobre nosotros\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:52
+msgid "About Us Page Team Description"
+msgstr "Descripción de la página \"Sobre nosotros\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:59
+msgid "Blog Meta Settings"
+msgstr "Ajustes meta del blog"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:76
+msgid ""
+"Hide post meta i.e. author name, date of submission, category,tags from "
+"posts page."
+msgstr ""
+"Ocultar post meta. Por ejemplo: nombre de autor, fecha de envío, categoría o "
+"etiquetas de la página de entradas."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:95
+msgid ""
+"Hide post meta i.e. author name, date of submission, category,tags from page"
+msgstr ""
+"Ocultar post meta. Por ejemplo: nombre de autor, fecha de envío, categoría, "
+"etiquetas de la página"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:115
+msgid ""
+"Hide post meta i.e. author name, date of submission, category,tags from "
+"archive page."
+msgstr ""
+"Ocultar post meta. Por ejemplo: nombre de autor, fecha de envío, categoría o "
+"etiquetas de la página de archivo."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:128
+msgid "Portfolio Category Layout Settings"
+msgstr "Ajustes de diseño de la categoría \"Portfolio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:146
+msgid "Select Product category column layout"
+msgstr "Elige el diseño de la columna de la categoría \"Producto\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:164
+msgid "Portfolio Category Title:"
+msgstr "Título de la categoría \"Portfolio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:182
+msgid "Portfolio Category Description:"
+msgstr "Descripción de la categoría \"Portfolio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:196
+msgid "Contact Page Address Section Settings"
+msgstr "Ajustes de la sección \"Dirección\" de la página de contacto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:214
+msgid "Enable Contact Page Address Section:"
+msgstr "Activar la sección de \"Dirección\" de la página de contacto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:237
+msgid "Contact Address Icon:"
+msgstr "Icono de la dirección de contacto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:255
+msgid "Contact Address Title:"
+msgstr "Título de la dirección de contacto:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:273
+msgid "Contact Address Designation One:"
+msgstr "Denominación de la dirección de contacto uno:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:289
+msgid "Contact Address Designation Two:"
+msgstr "Denominación de la dirección de contacto dos:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:298
+msgid "Contact Page Phone Section Settings"
+msgstr "Ajustes de la sección \"Teléfono\" de la página de contacto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:318
+msgid "Enable Contact Page Phone Section:"
+msgstr "Activar la sección de \"Teléfono\" de la página de contacto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:338
+msgid "Contact Phone Icon:"
+msgstr "Icono del teléfono de contacto:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:349
+msgid "Phone"
+msgstr "Teléfono"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:357
+msgid "Contact Phone Title:"
+msgstr "Título del teléfono de contacto:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:367
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:385
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:487
+msgid "1-800-123-789"
+msgstr "1-800-123-789"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:375
+msgid "Contact Phone Number One:"
+msgstr "Teléfono de contacto número uno"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:393
+msgid "Contact Phone Number Two:"
+msgstr "Teléfono de contacto número dos"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:404
+msgid "Contact Page Email Section Settings"
+msgstr ""
+"Ajustes de la sección \"Dirección de correo electrónico\" de la página de "
+"contacto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:424
+msgid "Enable Contact Page Email Section:"
+msgstr ""
+"Activar la sección de \"Dirección de correo electrónico\" de la página de "
+"contacto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:441
+msgid "Contact Email Icon:"
+msgstr "Icono de dirección de correo electrónico de contacto:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:451
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:459
+msgid "Contact Email Title:"
+msgstr "Título de la dirección de correo electrónico de contacto:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:469
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:505
+msgid "info@webriti.com"
+msgstr "info@webriti.com"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:477
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:513
+msgid "Contact Email One:"
+msgstr "Dirección de correo electrónico uno:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:495
+msgid "Contact Email Two:"
+msgstr "Dirección de correo electrónico dos:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:524
+msgid "Contact Form Settings"
+msgstr "Ajustes del formulario de contacto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:543
+msgid "Contact Form title:"
+msgstr "Título del formulario de contacto:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:561
+msgid "Contact Form Description:"
+msgstr "Descripción del formulario de contacto:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:570
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:581
+msgid "themes@webriti.com"
+msgstr "themes@webriti.com"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:589
+msgid "Enable Google Map in contact page"
+msgstr "Activar Google Map en la página de contacto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:598
+msgid "Location Map"
+msgstr "Mapa de localización"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:606
+msgid "Google Map Title:"
+msgstr "Título del mapa de Google:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-template.php:624
+msgid "Google Map URL:"
+msgstr "Url del mapa de Google:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:8
+msgid "Testimonial Settings"
+msgstr "Ajustes de \"Recomendación\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:14
+msgid "Home Testimonial Settings"
+msgstr "Ajustes de la página de inicio de \"Recomendaciones\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:33
+msgid "Slide Type Variations"
+msgstr "Tipo de variaciones de la diapositiva"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:35
+msgid "scroll"
+msgstr "scroll"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:35
+msgid "crossfade"
+msgstr "fundido entelazado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:35
+msgid "cover-fade"
+msgstr "fundido cubierto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:53
+msgid "Scroll Items"
+msgstr "Elementos de scroll"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:62
+msgid "1500"
+msgstr "1500"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:73
+msgid "Scroll Duration"
+msgstr "Duración del scroll"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:82
+msgid "2000"
+msgstr "2000"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:93
+msgid "Time out Duration"
+msgstr "Duración del tiempo límite"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:108
+msgid "Click Here To add Testimonial"
+msgstr "Haz clic aquí para añadir recomendación"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-testimonial.php:131
+msgid "Testimonial Section Background"
+msgstr "Fondo de la sección de \"Recomendación\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:8
+msgid "Typography Settings"
+msgstr "Ajustes de tipografías"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:13
+msgid "Typhography Enable / Disable"
+msgstr "Activar / desactivar tipografías"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:27
+msgid "Enable Custom Typography"
+msgstr "Activar tipografías personalizadas"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:46
+msgid "General Typography"
+msgstr "Tipografía general"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:60
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:117
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:174
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:230
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:286
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:343
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:399
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:455
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:511
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:65
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:122
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:179
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:235
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:291
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:348
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:404
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:460
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:516
+msgid "Pixels"
+msgstr "Pixels"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:77
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:134
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:191
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:247
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:303
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:360
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:416
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:472
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:528
+msgid "Font Family"
+msgstr "Familia de fuente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:93
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:150
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:207
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:263
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:319
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:376
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:432
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:488
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:544
+msgid "Font Style"
+msgstr "Estilo de fuente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:103
+msgid "Menus Typography"
+msgstr "Tipografías de menús"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:160
+msgid "Post / Page Typography"
+msgstr "Tipografía de entrada / página"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:216
+msgid "Service Title Typography"
+msgstr "Tipografía del título de servicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:272
+msgid "Portfolio Title Typography"
+msgstr "Tipografía del título de portfolio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:329
+msgid "Widget Heading Title"
+msgstr "Título del widget del encabezado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:385
+msgid "Call Out Area Title"
+msgstr "Título del área de llamada de atención"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:441
+msgid "Call Out Area Description"
+msgstr "Descripción del área de llamada de atención"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer-typography.php:497
+msgid "Call Out Area Button"
+msgstr "Botón del área de llamada de atención"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer_theme_style.php:13
+msgid "Light & Dark Background Setting"
+msgstr "Ajustes  de fondo Claro & Oscuro"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer_theme_style.php:39
+msgid "Theme Style Setting"
+msgstr "Ajustes de estilo del tema"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer_theme_style.php:52
+msgid "Predefined Colors"
+msgstr "Colores predefinidos"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/customizer/customizer_theme_style.php:85
+msgid "Change Skin Color For Light And Dark Background."
+msgstr "Cambiar el color del diseño para el fondo de Claro & Oscuro"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:7
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:14
+msgid "Description"
+msgstr "Descripción"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:8
+msgid "featured Service"
+msgstr "Servicio destacado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:9
+msgid "Custom Portfolio Details"
+msgstr "Detalles de los portfolios personalizados"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:10
+msgid "Portfolio Featured Details"
+msgstr "Detalles de los portfolios destacados"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:15
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:16
+msgid "Detail"
+msgstr "Detalle"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:29
+msgid "Post Description"
+msgstr "Descripción de la entrada"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:30
+msgid "Enter post description"
+msgstr "Escribe la descripción de la entrada"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:48
+msgid "Page Description"
+msgstr "Descripción de la página"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:49
+msgid "Enter page description"
+msgstr "Escribe la descripción de la página"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:50
+msgid "Page Layout"
+msgstr "Diseño de la página"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:71
+msgid "Slider Title"
+msgstr "Título del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:72
+msgid "Enter slider title"
+msgstr "Escribe el título del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:73
+msgid "Slider Description"
+msgstr "Descripción del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:74
+msgid "Enter the slider description"
+msgstr "Escribre la descripción del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:75
+msgid "Slider Button Text"
+msgstr "Texto del botón del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:76
+msgid "Enter the slider Button Text"
+msgstr "Escribe el texto del botón del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:77
+msgid "Slider button Link"
+msgstr "Enlace del botón del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:78
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:97
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:115
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:138
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:179
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:183
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:187
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:191
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:195
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:199
+msgid "Open link in a new window/tab"
+msgstr "Abrir enlace en una nueva pestaña/ventana"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:79
+msgid "Enter the slider button URL"
+msgstr "Escribe la url del botón del slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:93
+msgid "Service Icon (Using Font Awesome icons name) like: fa-rub ."
+msgstr ""
+"Servicio de iconos (Utilizando los nombres de icono de Font Awesome) como: "
+"fa-rub."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:93
+msgid "Get your fontawesome icons."
+msgstr "Consigue los iconos de fontawesome"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:94
+msgid "To Enable Service Icon Check Mark The Check-Box"
+msgstr ""
+"Para activar el icono de \"Servicio\", marca la casilla de verificación"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:95
+msgid "Enter the fontawesome icon"
+msgstr "Escribe el icono de fontawesome"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:96
+msgid "Service Link"
+msgstr "Enlace de \"Servicio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:98
+msgid "Enter the service link"
+msgstr "Escribe el enlace de \"Servicios\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:100
+msgid "Enter Description for your service"
+msgstr "Escribe la descripción de tu servicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:101
+msgid "Service Read More Text"
+msgstr "Texto de \"Leer más\" de \"Servicio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:102
+msgid "Enter the service Read More text"
+msgstr "Escribe el texto de \"Leer más\" de \"Servicio\""
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:113
+msgid "Portfolio / Project Link"
+msgstr "Portfolio / Enlace del proyecto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:114
+msgid "Enter the project / portfolio link"
+msgstr "Escribe el proyecto / enlace de portfolio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:116
+msgid "Page Info"
+msgstr "Información de página"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:117
+msgid "Enter the single line page info"
+msgstr "Escribe la línea de la página de información"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:128
+msgid "Your clients"
+msgstr "Tus clientes"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:129
+msgid "Enter the client title, For example: Webriti"
+msgstr "Escribe el título del cliente, por ejemplo: Webriti"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:130
+msgid "Visit Website URL"
+msgstr "Url del sitio web para visitar"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:132
+msgid "Enter visit site url, For example:"
+msgstr "Escribe la url de visitar sitio. Por ejemplo:"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:133
+msgid "Button Text"
+msgstr "Texto del botón"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:135
+msgid "Enter the button text"
+msgstr "Escribe el texto del botón"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:136
+msgid "Button Link"
+msgstr "Enlace del botón"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:137
+msgid "Enter the button link"
+msgstr "Escribe el enlace del botón"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:146
+msgid "Testimonial Description"
+msgstr "Descripción de la recomendación"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:147
+msgid "Enter Testimonial Description"
+msgstr "Escribe la descripción de la recomendación"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:169
+msgid "Members Designation"
+msgstr "Denominación de los miembros"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:170
+msgid "Enter Member's Designation Here"
+msgstr "Escribe la denominación del miembro"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:171
+msgid "Role Description"
+msgstr "Descripción del rol"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:173
+msgid "Describe the Roles for the member(Use max-word 140)"
+msgstr "Describe los roles de los miembros (Utiliza máx 140 palabras)"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:175
+msgid "Social Media Setting"
+msgstr "Ajuste de Social Media"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:177
+msgid "Facebook Url"
+msgstr "Url de Facebook"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:178
+msgid "Enter Your Fb's URL in https formate"
+msgstr "Escribe la url de tu Fb en formato https"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:181
+msgid "Skype Url"
+msgstr "Url de Skype"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:182
+msgid "Enter Your Skyp's URL in https formate"
+msgstr "Escribe la url de tu Skype en formato https"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:185
+msgid "Google Url"
+msgstr "Url de Google"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:186
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:190
+msgid "Enter Your Google's URL in https formate"
+msgstr "Escribe tu url de Google en formato htpps"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:189
+msgid "Rss Url"
+msgstr "Url del Rss"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:193
+msgid "LinkedIn Url"
+msgstr "Url de Linkedin"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:194
+msgid "Enter Your LinkedIn's URL in https formate"
+msgstr "Escribe la url de tu LinkedIn en formato https"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:197
+msgid "Twitter Url"
+msgstr "Url de Twitter"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:198
+msgid "Enter Your Twitter's URL in https formate"
+msgstr "Escribe la url de tu Twitter en formato https"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:208
+msgid "Enter URL  link"
+msgstr "Escribe la url del enlace"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:210
+msgid "Open link in a new tab"
+msgstr "Abrir enlace en una nueva pestaña"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/meta-box/post-meta.php:213
+msgid ""
+"Upload Client image using Feature Image.Best fit scenario is using 130 X 130 "
+"px image."
+msgstr ""
+"Subir imagen del cliente utilizando Imagen destacada. El mejor ajuste es con "
+"una imagen de 130 x 130 px"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:14
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:16
+msgid "Add New Slide"
+msgstr "Añadir nueva diapositiva"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:15
+msgid "Add New Slider"
+msgstr "Añadir nuevo slider"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:17
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:51
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:86
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:119
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:152
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:187
+msgid "New Link"
+msgstr "Nuevo enlace"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:18
+msgid "All Featured Sliders"
+msgstr "Todos los sliders destacados"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:19
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:53
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:88
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:121
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:154
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:189
+msgid "View Link"
+msgstr "Ver enlace"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:20
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:54
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:89
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:155
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:190
+msgid "Search Links"
+msgstr "Enlaces de búsquedas"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:21
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:55
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:90
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:123
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:156
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:191
+msgid "No Links found"
+msgstr "No se encontraron enlaces"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:22
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:56
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:91
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:124
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:157
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:192
+msgid "No Links found in Trash"
+msgstr "No se encontraron enlace en la papelera"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:48
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:50
+msgid "Add New service"
+msgstr "Amanda nuevo servicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:49
+msgid "Add New Service"
+msgstr "Añadir nuevo Servicio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:52
+msgid "All Services"
+msgstr "Todos los servicios"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:83
+msgid "Add New Item"
+msgstr "Añadir nuevo elemento"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:84
+msgid "Add New Project"
+msgstr "Añadir nuevo proyecto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:85
+msgid "Add New Portfolio / project"
+msgstr "Añadir nuevo Portfolio / proyecto"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:87
+msgid "All Portfolio Project"
+msgstr "Todos los proyectos de portfolio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:116
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:117
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:118
+msgid "Add New Testimonial"
+msgstr "Añadir nueva recomendación"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:120
+msgid "All Testimonials"
+msgstr "Todas las recomendaciones"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:122
+msgid "Search Testimonials"
+msgstr "Buscar recomendaciones"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:149
+msgid "Add New Team Member"
+msgstr "Añadir nuevo miembro del equipo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:150
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:151
+msgid "Add New Member"
+msgstr "Añadir nuevo miembro"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:153
+msgid "All Team Member"
+msgstr "Todos los miembros del equipo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:184
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:185
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:186
+msgid "Add New Client"
+msgstr "Añadir nuevo cliente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/post-type/custom-post-type.php:188
+msgid "All Client"
+msgstr "Todos los clientes"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:31
+msgid "Insert Shortcode"
+msgstr "Insertar shortcode"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:67
+msgid "Shortcode Selector"
+msgstr "Selector de shortcodes"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:75
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:76
+msgid "column"
+msgstr "columna"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:77
+msgid "Tabs"
+msgstr "Pestañas"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:78
+msgid "Accordion"
+msgstr "Acordeón"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:79
+msgid "Alert"
+msgstr "Alerta"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:80
+msgid "Drop-Caps"
+msgstr "Letras-Capitales"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:81
+msgid "Button"
+msgstr "Botón"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:82
+msgid "Heading"
+msgstr "Encabezado"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:83
+msgid "Tool Tip"
+msgstr "Consejo"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/shortcodes/shortcodes_iframe.php:84
+msgid "List"
+msgstr "Lista"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/taxonomies/taxonomies.php:22
+msgid "Portfolio Categories"
+msgstr "Categorías de portfolio"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/custom-sidebar.php:6
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/custom-sidebar.php:8
+msgid "The left sidebar widget area"
+msgstr "El área de widget de la barra lateral izquierda"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/custom-sidebar.php:16
+msgid "Footer Widget Area"
+msgstr "Área de widget del pie"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/custom-sidebar.php:18
+msgid "footer widget area"
+msgstr "área del widget del pie"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/wallstreet-latest-widget.php:16
+msgid "Wallstreet Latest Blog"
+msgstr "Lo último del blog de Wallstreet"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/wallstreet-latest-widget.php:17
+msgid "This widget allows you to display latest, popular and comment posts."
+msgstr ""
+"Este widget te permite mostrar las últimas entradas, las más populares y sus "
+"comentarios."
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/wallstreet-latest-widget.php:35
+msgid "Popular"
+msgstr "Popular"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/wallstreet-latest-widget.php:36
+msgid "Recent"
+msgstr "Reciente"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/wallstreet-latest-widget.php:37
+msgid "Comment"
+msgstr "Comentario"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/wallstreet-latest-widget.php:55
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/wallstreet-latest-widget.php:82
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/wallstreet-latest-widget.php:105
+msgid "By"
+msgstr "Por"
+
+#: C:\xampp\htdocs\wp_pro\wp-content\themes\wallstreet-pro/functions/widget/wallstreet-latest-widget.php:125
+msgid "Title:"
+msgstr "Título:"
