@@ -12,6 +12,8 @@
 	$current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
 	$theme_feature_enabled = $current_options['theme_feature_enabled'];
 	$theme_feature_image = $current_options['theme_feature_image'];
+	$theme_feature_video = $current_options['theme_feature_video'];
+	$theme_feature_choose_imgvideo = $current_options['theme_feature_choose_imgvideo'];
 	$theme_feature_title = $current_options['theme_feature_title'];
 	$theme_first_feature_icon = $current_options['theme_first_feature_icon'];
 	$theme_first_title = $current_options['theme_first_title'];
@@ -28,10 +30,19 @@
 <div class="overlay">
 	<div class="container">
 		<div class="row">
+		<?php if($theme_feature_choose_imgvideo == 'image') {?>
 		<?php if(!empty($theme_feature_image)) {?>
 			<div class="col-md-6 col-sm-6">
 				<img class="img-responsive features-img" alt="Wallstreet Image" style="height:331px; width:525px;" src="<?php echo $theme_feature_image; ?>">
 			</div>
+			<?php } ?>
+			<?php } ?>
+		<?php if($theme_feature_choose_imgvideo == 'video') {?>	
+		<?php if(!empty($theme_feature_video)) {?>
+			<div class="col-md-6 col-sm-6">
+				<iframe src="<?php echo $theme_feature_video; ?>" allowfullscreen="" height="295" frameborder="0" width="525"></iframe>
+			</div>
+			<?php } ?>
 			<?php } ?>
 			<div class="col-md-6 col-sm-6">
 				<div class="features-title"><?php if(!empty($theme_feature_title)) { echo $theme_feature_title; } ?></div>
