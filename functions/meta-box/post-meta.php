@@ -4,16 +4,16 @@ add_action('admin_init','wallstreet_init');
 function wallstreet_init()
 	{
 		
-		add_meta_box('home_slider_meta', __('Slider Detail','wallstreet'), 'wallstreet_meta_slider', 'wallstreet_slider', 'normal', 'high');
-		add_meta_box('home_service_meta', __('Service Detail','wallstreet'), 'wallstreet_meta_service', 'wallstreet_service', 'normal', 'high');
-		add_meta_box('home_portfolio_meta', __('Portfolio Detail','wallstreet'), 'wallstreet_meta_portfolio', 'wallstreet_portfolio', 'normal', 'high');
-		add_meta_box('home_portfolio_meta_details', __('Portfolio Featured Detail','wallstreet'), 'wallstreet_meta_portfolio_details', 'wallstreet_portfolio', 'normal', 'high');
+		add_meta_box('home_slider_meta', __('Slider Details','wallstreet'), 'wallstreet_meta_slider', 'wallstreet_slider', 'normal', 'high');
+		add_meta_box('home_service_meta', __('Service Details','wallstreet'), 'wallstreet_meta_service', 'wallstreet_service', 'normal', 'high');
+		add_meta_box('home_portfolio_meta', __('Portfolio Details','wallstreet'), 'wallstreet_meta_portfolio', 'wallstreet_portfolio', 'normal', 'high');
+		add_meta_box('home_portfolio_meta_details', __('Portfolio Featured Details','wallstreet'), 'wallstreet_meta_portfolio_details', 'wallstreet_portfolio', 'normal', 'high');
 		
 		//add_meta_box('wallstreet_page', 'Page Info', 'page_layout_meta', 'page', 'normal', 'high');
 		//add_meta_box('wallstreet_post', 'Post Info', 'post_layout_meta', 'post', 'normal', 'high');
 		add_meta_box('wallstreet_testi', __('Testimonial Detail','wallstreet'), 'wallstreet_meta_testimonial', 'wallstreet_testi', 'normal', 'high');
-		add_meta_box('wallstreet_team', __('Team Detail','wallstreet'), 'wallstreet_meta_team', 'wallstreet_team', 'normal', 'high');
-		add_meta_box('wallstreet_client', __('Client Detail','wallstreet'), 'wallstreet_meta_client', 'wallstreet_client', 'normal', 'high');
+		add_meta_box('wallstreet_team', __('Team Details','wallstreet'), 'wallstreet_meta_team', 'wallstreet_team', 'normal', 'high');
+		add_meta_box('wallstreet_client', __('Client Details','wallstreet'), 'wallstreet_meta_client', 'wallstreet_client', 'normal', 'high');
 		
 		add_action('save_post','wallstreet_meta_save');
 		
@@ -90,7 +90,7 @@ function wallstreet_init()
 		$service_description_text =sanitize_text_field( get_post_meta( get_the_ID(), 'service_description_text', true ));
 		$service_readmore_text =sanitize_text_field( get_post_meta( get_the_ID(), 'service_readmore_text', true ));
 	?>	
-		<p><h4 class="heading"><?php _e('Icon','wallstreet'); echo " (Using font awesome icons name) like: fa-rub.";?> <label style="margin-left:10px;"><a target="_blank" href="http://fontawesome.io/icons/"> <?php _e('Get your fontawesome icons.','wallstreet') ;?></a></label></h4>
+		<p><h4 class="heading"><?php _e('Icon','wallstreet'); echo " (Using font awesome icons name) like: fa-rub.";?> <label style="margin-left:10px;"><a target="_blank" href="http://fontawesome.io/icons/"> <?php _e('Get your Font Awesome icons.','wallstreet') ;?></a></label></h4>
 		<p><input type="checkbox" id="service_icon_target" name="service_icon_target" <?php if($service_icon_target) echo "checked"; ?> ><?php _e('To enable service icon check mark the checkbox','wallstreet'); ?></p>
 		<p><input class="inputwidth"  name="service_icon_image" id="service_icon_image" style="width: 480px" placeholder="<?php _e('Icon','wallstreet'); ?>" type="text" value="<?php if (!empty($service_icon_image)) echo esc_attr($service_icon_image);?>"> </input></p>
 		<p><h4 class="heading"><?php _e('Link','wallstreet'); ?></h4>
@@ -99,7 +99,7 @@ function wallstreet_init()
 		<p><h4 class="heading"><?php _e('Description','wallstreet'); ?></h4>
 		<p><textarea name="service_description_text" id="service_description_text" style="width: 480px; height: 56px; padding: 0px;" placeholder="<?php _e('Description','wallstreet'); ?>"  rows="3" cols="10" ><?php if (!empty($service_description_text)) echo esc_textarea( $service_description_text ); ?></textarea></p>
 		<p><h4 class="heading"><?php _e('Button Text','wallstreet'); ?></h4>
-		<p><input class="inputwidth"  name="service_readmore_text" id="service_readmore_text" style="width: 480px" placeholder="<?php _e('Button Text','quality'); ?>" type="text" value="<?php if (!empty($service_readmore_text)) echo esc_attr($service_readmore_text);?>"> </input></p>
+		<p><input class="inputwidth"  name="service_readmore_text" id="service_readmore_text" style="width: 480px" placeholder="<?php _e('Button Text','wallstreet'); ?>" type="text" value="<?php if (!empty($service_readmore_text)) echo esc_attr($service_readmore_text);?>"> </input></p>
 <?php }
 
 // code for project description
@@ -157,8 +157,6 @@ function wallstreet_init()
 		$fb_meta_save_chkbx = sanitize_text_field( get_post_meta( get_the_ID(), 'fb_meta_save_chkbx', true ));
 		$skype_meta_save = sanitize_text_field( get_post_meta( get_the_ID(), 'skype_meta_save', true ));
 		$skype_meta_save_chkbx = sanitize_text_field( get_post_meta( get_the_ID(), 'skype_meta_save_chkbx', true ));
-		$google_meta_save = sanitize_text_field( get_post_meta( get_the_ID(), 'google_meta_save', true ));
-		$google_meta_save_chkbx = sanitize_text_field( get_post_meta( get_the_ID(), 'google_meta_save_chkbx', true ));
 		$rss_meta_save = sanitize_text_field( get_post_meta( get_the_ID(), 'rss_meta_save', true ));
 		$rss_meta_save_chkbx = sanitize_text_field( get_post_meta( get_the_ID(), 'rss_meta_save_chkbx', true ));
 		$lnkd_meta_save = sanitize_text_field( get_post_meta( get_the_ID(), 'lnkd_meta_save', true ));
@@ -172,7 +170,7 @@ function wallstreet_init()
 	<p><textarea name="description_meta_save" id="description_meta_save" style="width: 480px; height: 56px; padding: 0px;" 
 	placeholder="<?php _e("Description","wallstreet"); ?>"  rows="3" cols="10" ><?php if (!empty($description_meta_save)) echo esc_textarea( $description_meta_save ); ?></textarea></p>	
 	
-	<p><h4 class="heading"><span><?php _e('Social Media Setting','wallstreet');?></span></h4>
+	<p><h4 class="heading"><span><?php _e('Social Media Settings','wallstreet');?></span></h4>
 	
 	<p><h4 class="heading"><label><?php _e('Facebook URL','wallstreet');?></label></h4>
 	<input style="width:70%;padding: 10px;"  name="fb_meta_save" id="fb_meta_save" placeholder="<?php _e("Facebook URL","wallstreet"); ?>" value="<?php if(!empty($fb_meta_save)) echo esc_attr($fb_meta_save); ?>"/>
@@ -181,11 +179,7 @@ function wallstreet_init()
 	<p><h4 class="heading"><label><?php _e('Skype URL','wallstreet');?></label></h4>
 	<input style="width:70%;padding: 10px;"  name="skype_meta_save" id="skype_meta_save" placeholder="<?php _e("Skype URL","wallstreet"); ?>" value="<?php if(!empty($skype_meta_save)) echo esc_attr($skype_meta_save); ?>"/>
 	<input type="checkbox" name="skype_meta_save_chkbx" id="skype_meta_save_chkbx" <?php if($skype_meta_save_chkbx){echo "checked";}?> /><?php _e('Open link in new tab','wallstreet'); ?></p>
-	
-	<p><h4 class="heading"><label><?php _e('GooglePlus URL','wallstreet');?></label></h4>
-	<input style="width:70%; padding: 10px;"  name="google_meta_save" id="google_meta_save" placeholder= "<?php _e("GooglePlus URL","wallstreet"); ?>" value="<?php if(!empty($google_meta_save)) echo esc_attr($google_meta_save); ?>"/>
-	<input type="checkbox" name="google_meta_save_chkbx" id="google_meta_save_chkbx" <?php if($google_meta_save_chkbx){echo "checked";}?> /><?php _e('Open link in new tab','wallstreet'); ?></p>
-	
+
 	<p><h4 class="heading"><label><?php _e('RSS URL','wallstreet');?></label></h4>
 	<input style="width:70%; padding: 10px;"  name="rss_meta_save" id="rss_meta_save" placeholder="<?php _e("RSS URL","wallstreet"); ?>" value="<?php if(!empty($rss_meta_save)) echo esc_attr($rss_meta_save); ?>"/>
 	<input type="checkbox" name="rss_meta_save_chkbx" id="rss_meta_save_chkbx" <?php if($rss_meta_save_chkbx){echo "checked";}?> /><?php _e('Open link in new tab','wallstreet'); ?></p>
@@ -272,8 +266,6 @@ function wallstreet_meta_save($post_id)
 			update_post_meta($post_ID, 'fb_meta_save_chkbx', sanitize_text_field($_POST['fb_meta_save_chkbx']));
 			update_post_meta($post_ID, 'skype_meta_save', sanitize_text_field($_POST['skype_meta_save']));
 			update_post_meta($post_ID, 'skype_meta_save_chkbx', sanitize_text_field($_POST['skype_meta_save_chkbx']));
-			update_post_meta($post_ID, 'google_meta_save', sanitize_text_field($_POST['google_meta_save']));
-			update_post_meta($post_ID, 'google_meta_save_chkbx', sanitize_text_field($_POST['google_meta_save_chkbx']));
 			update_post_meta($post_ID, 'rss_meta_save', sanitize_text_field($_POST['rss_meta_save']));
 			update_post_meta($post_ID, 'rss_meta_save_chkbx', sanitize_text_field($_POST['rss_meta_save_chkbx']));
 			update_post_meta($post_ID, 'lnkd_meta_save', sanitize_text_field($_POST['lnkd_meta_save']));

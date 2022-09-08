@@ -39,7 +39,7 @@ function custom_dark()
 ?>
 	<style>
 .header-top-area, .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > .open > a,
-.navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .flex_btn, .service-area:hover, .service-btn a, .other-service-area:hover i, .home-portfolio-showcase-overlay, .proejct-btn a:hover, .home-blog-btn a, .feature-icon, .tweet-btn a:hover, .post-date, .team-area:hover, .callout-section a, .blog-post-date span.date, a.blog-btn, .blog-pagination a:hover, .blog-pagination a.active, .sidebar-widget > .tagcloud a:hover, .search_btn, .search_error, .search_heading, .sidebar-widget-tab > .active a, .blog-author-social li:hover, .reply a:hover, .blogdetail-btn a, #blogdetail_btn, .portfolio-tabs li.active > a, .portfolio-tabs li > a:hover, .main-portfolio-showcase-overlay, .portfolio-detail-pagi li a:hover, .portfolio-detail-info .project-btn:hover, .prelated-project-btn  li a:hover, .google-map-title, .contact-detail-area i, .cont-btn a, .qua_contact_btn, .short-btn-green, .dropcape-square span, .dropcape-circle span, .panel-default > .short-panel-heading h4, .short-tabs li a, .wallstreet_page_heading, .post-password-form input[type="submit"], .blog-pagination span.current { background-color:<?php echo $link_color; ?>; }
+.navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .flex_btn, .service-area:hover, .service-btn a, .other-service-area:hover i, .home-portfolio-showcase-overlay, .proejct-btn a:hover, .home-blog-btn a, .feature-icon, .tweet-btn a:hover, .post-date, .team-area:hover, .callout-section a, .blog-post-date span.date, a.blog-btn, .blog-pagination a:hover,.page-numbers:hover,span.page-numbers.current, .blog-pagination a.active, .sidebar-widget > .tagcloud a:hover, .search_btn, .search_error, .search_heading, .sidebar-widget-tab > .active a, .blog-author-social li:hover, .reply a:hover, .blogdetail-btn a, #blogdetail_btn, .portfolio-tabs li.active > a, .portfolio-tabs li > a:hover, .main-portfolio-showcase-overlay, .portfolio-detail-pagi li a:hover, .portfolio-detail-info .project-btn:hover, .prelated-project-btn  li a:hover, .google-map-title, .contact-detail-area i, .cont-btn a, .qua_contact_btn, .short-btn-green, .dropcape-square span, .dropcape-circle span, .panel-default > .short-panel-heading h4, .short-tabs li a, .wallstreet_page_heading, .post-password-form input[type="submit"], .blog-pagination span.current { background-color:<?php echo $link_color; ?>; }
 .pagetitle-separator-border { background: <?php echo $link_color; ?> !important;}
 .pagetitle-separator-box { background: <?php echo $link_color; ?> none repeat scroll 0 0 !important;}
 
@@ -118,6 +118,159 @@ function custom_dark()
 .woocommerce #respond input#submit.alt, .woocommerce button.button.alt{ background-color:<?php echo $link_color; ?>; }
 
 
+
+
+.cart-header > a.cart-total {
+    background: <?php echo $link_color; ?>;
+}
+.search-form input[type="submit"] {
+    background-color: <?php echo $link_color; ?>;
+    border: 1px solid <?php echo $link_color; ?>;
+}
+#searchbar_fullscreen .close {
+    background-color: <?php echo $link_color; ?>;
+}
+.navbar4 .navbar-header {
+    background-color: <?php echo $link_color; ?>;
+}.service1 .service-effect:hover .service-box i.fa {
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+    color: <?php echo $link_color; ?>;
+}
+.service1 .service-box i.fa {
+    background: <?php echo $link_color; ?>;
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+}
+.service1 .service-box img {
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+}
+.service1 .service-btn a, .service2 .service-btn a, .service3 .service-btn a, .service4 .service-btn a
+{
+    background-color: transparent;
+    border: 1px solid #F5F5F5 ;
+}
+.service1 h2>a:hover {color:<?php echo $link_color; ?> !important;}
+.service1 .service-effect .service-btn:hover a{background-color: <?php echo $link_color; ?> ;}
+.service2 .service-effect::before {
+    background-color: <?php echo $link_color; ?>;
+}
+.service2 .service-box i.fa {
+    color: <?php echo $link_color; ?>;
+}
+.service3 .service-box i.fa {
+    background: <?php echo $link_color; ?>;
+}
+.service3 .service-effect:hover {
+    background: <?php echo $link_color; ?>;
+}
+.service3 .service-effect:hover .service-box i.fa {
+    color: <?php echo $link_color; ?>;
+}
+.service4 .service-box i.fa {
+    color: <?php echo $link_color; ?>;
+}
+.service4 h2>a:hover {color:<?php echo $link_color; ?> ;}
+.service4 .service-effect .service-btn:hover a{background-color: <?php echo $link_color; ?> ;}
+
+.page_scrollup {
+    background-color: <?php echo $link_color; ?>;
+    }
+.team1 .team-img .overlay{background-color: rgba(<?php echo $r; ?>,<?php echo $g; ?>,<?php echo $b; ?>, 0.85);} 
+.team-section1 .position {
+    color: <?php echo $link_color; ?>;
+}  
+.team-section1 h3, .team-section1 p{color: #ffffff;} 
+.team-section1.team3 .team-details p, .team-section1.team4 .team-details p{color: #000000;padding: 0 10px;} 
+.team-section1 .custom-social-icons li > a:hover {
+    color: <?php echo $link_color; ?>;
+}
+.team4 .team-block .custom-social-icons li > a:hover {
+    color: <?php echo $link_color; ?>;
+}
+.blog-post-title-wrapper p, .blog-post-title-wrapper-full p {
+    color: #e5e5e5;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: transparent;
+    border-color: rgba(<?php echo $r; ?>,<?php echo $g; ?>,<?php echo $b; ?>, 0.5);
+}
+.navbar.navbar2 .navbar-nav > .active > a, .navbar.navbar2 .navbar-nav > .active > a:hover, .navbar.navbar2 .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.navbar.navbar2 .navbar-nav > li.active > a:after, .navbar2 ul li > a:hover:after {
+    background: <?php echo $link_color; ?>;
+}
+.navbar.navbar2 .navbar-nav > li > a:hover, .navbar.navbar2 .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.header-style-5.navbar-inverse .navbar-toggle, .header-style-5.navbar-inverse .navbar-toggle:hover {
+    background: none repeat scroll 0 0 rgba(<?php echo $r; ?>,<?php echo $g; ?>,<?php echo $b; ?>, 0.85);
+    border-color: transparent;
+}
+.page-template-blog-fullwidth .blog-post-title-wrapper-full div .blog-btn:after{background-color: <?php echo $link_color; ?>;}
+.portfolio-tabs-section .portfolio-tabs .nav-link.active,.portfolio-tabs-section .portfolio-tabs .nav-link:hover{border: 1px solid <?php echo $link_color; ?>;    background-color: <?php echo $link_color; ?>;color: #ffffff;}
+
+.navbar.navbar5 .navbar-nav > .active > a, 
+.navbar.navbar5 .navbar-nav > .active > a:hover, 
+.navbar.navbar5 .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.navbar.navbar5 .navbar-nav > .open > a, 
+.navbar.navbar5 .navbar-nav > .open > a:hover, 
+.navbar.navbar5 .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.navbar.navbar5 .navbar-nav > li > a:hover, 
+.navbar.navbar5 .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.service5 .service-box i.fa {
+    background: <?php echo $link_color; ?>;
+}
+.service5 .service-effect:hover {
+    background: <?php echo $link_color; ?>;
+}
+.service5 .service-effect:hover .service-box i.fa {
+    background-color: #ffffff;
+    color: <?php echo $link_color; ?>;
+}
+.service5 .service-effect {
+    background: #373941;
+}
+.service5 .service-box img {
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+}
+
+/*Widget css*/
+.sidebar-widget li a:hover,.sidebar-widget li a:focus,.footer-widget-section li a:hover,.footer-widget-section li a:focus{
+  color: <?php echo $link_color; ?>;
+}
+.wp-block-search .wp-block-search__button {
+  background-color: <?php echo $link_color; ?>;
+}
+.wp-block-calendar table caption,.wp-block-calendar a {    
+  color:<?php echo $link_color; ?>;
+}
+.wp-block-tag-cloud a:hover,.wp-block-tag-cloud a:focus{
+  background-color:<?php echo $link_color; ?>;
+  border: none;
+}
+.ui-slider-horizontal .ui-slider-range {
+  background:<?php echo $link_color; ?>;
+}
+.wc-block-product-search .wc-block-product-search__button{
+  background:<?php echo $link_color; ?>; 
+}
+.sidebar-widget p a,.footer-widget-section .footer_widget_column p a, .sidebar-widget .wp-block-latest-comments__comment-author, .footer-widget-section .wp-block-latest-comments__comment-author{
+  color: <?php echo $link_color; ?>;
+}
+.wpcf7-submit {
+    background-color: <?php echo $link_color; ?>;
+}
 </style>
 <?php 
 } 

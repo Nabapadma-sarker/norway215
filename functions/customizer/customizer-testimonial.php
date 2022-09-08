@@ -11,7 +11,7 @@ function wallstreet_testimonial_customizer( $wp_customize ) {
 	$wp_customize->add_section(
         'test_section_settings',
         array(
-            'title' => __('Home testimonial setting','wallstreet'),
+            'title' => __('Home testimonial settings','wallstreet'),
             'description' => '',
 			'panel'  => 'wallstreet_test_setting',)
     );
@@ -35,7 +35,24 @@ function wallstreet_testimonial_customizer( $wp_customize ) {
 		 'choices' => array('scroll'=>__('scroll', 'wallstreet'), 'fade'=>__('fade', 'wallstreet') ,'crossfade'=>__('crossfade','wallstreet'),'cover-fade' =>__('cover-fade','wallstreet')),
 		));
 		
-	
+	// Testimonial Design layout
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[testi_design_style]',
+    array(
+        'default' => 1,
+		'type' => 'option',
+    )
+	);
+
+	$wp_customize->add_control(
+    'wallstreet_pro_options[testi_design_style]',
+    array(
+        'type' => 'select',
+        'label' => __('Testimonial design style','wallstreet'),
+        'section' => 'test_section_settings',
+		 'choices' => array(1=>__('Style 1','wallstreet'), 2=>__('Style 2','wallstreet'), 3=>__('Style 3','wallstreet'), 4=>__('Style 4','wallstreet')),
+		));
+
 	//Testimonial Scroll Items
 	
 	$wp_customize->add_setting(
@@ -105,7 +122,7 @@ function wallstreet_testimonial_customizer( $wp_customize ) {
 		*/
 		public function render_content() {
 		?>
-		<a href="<?php bloginfo ( 'url' );?>/wp-admin/edit.php?post_type=wallstreet_testimonial" class="button"  target="_blank"><?php _e( 'Click here to add testimonial', 'wallstreet' ); ?></a>
+		<a href="<?php bloginfo ( 'url' );?>/wp-admin/edit.php?post_type=wallstreet_testi" class="button"  target="_blank"><?php _e( 'Click here to add testimonial', 'wallstreet' ); ?></a>
 		<?php
 		}
 	}

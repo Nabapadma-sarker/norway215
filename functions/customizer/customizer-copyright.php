@@ -16,6 +16,23 @@
         )
     );
 	
+    //Hide scroll to top
+    $wp_customize->add_setting(
+    'wallstreet_pro_options[footerbar_enabled]',
+    array(
+        'default' => true,
+        'capability'     => 'edit_theme_options',
+        'sanitize_callback' => 'sanitize_text_field',
+        'type' => 'option',
+    )   
+    );
+    $wp_customize->add_control(
+    'wallstreet_pro_options[footerbar_enabled]',
+    array(
+        'label' => __('Enable Footer Copyright','wallstreet'),
+        'section' => 'copyright_section_one',
+        'type' => 'checkbox',
+    ));
 	
 	$wp_customize->add_setting(
     'wallstreet_pro_options[footer_copyright]',

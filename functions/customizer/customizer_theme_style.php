@@ -36,7 +36,7 @@ public $type = 'new_menu';
 }
 	/* Theme Style settings */
 	$wp_customize->add_section( 'theme_style' , array(
-		'title'      => __('Theme style setting', 'wallstreet'),
+		'title'      => __('Theme Style settings', 'wallstreet'),
 		'priority'   => 0,
    	) );
 	

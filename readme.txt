@@ -1,4 +1,14 @@
-wallstreet-Pro.
+== Wallstreet-Pro ==
+
+Contributors: priyanshumittal
+Requires at least: 4.3
+Tested up to: 5.8
+Stable tag: 2.3.6
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+== Description ==
 
 A Premium multi colored Business Blog theme that supports Primary menu's , Primary sidebar,Four widgets area at the footer region  etc. 
 It has a perfect design that's great for any Business/Firms  Blogs who wants a new look for their site. Three page templates Home ,Blog and Contact Page. 
@@ -15,7 +25,7 @@ http://www.opensource.org/licenses/gpl-license.php
 
 Feel free to use as you please. I would be very pleased if you could keep the Auther-link in the footer. Thanks and enjoy.
 
-Appoinment supports Custom Menu, Widgets and 
+Wallstreet supports Custom Menu, Widgets and 
 the following extra features:
 
  - Pre-installed menu and content colors
@@ -57,7 +67,103 @@ Site Title and its description in not shown on home page besides this both are u
 Support
 -------
 
-Do you enjoy this theme? Send your ideas - issues - on the theme formn . Thank you!
+Do you enjoy this theme? Send your ideas - issues - on the theme form . Thank you!
+
+@version 2.3.6
+1. Removed the theme custom logo setting.
+2. Implemented the WordPress core logo setting.
+3. Added logo width setting.
+
+@version 2.3.5
+1. Renamed the lightbox-2.6.min.js file.
+
+@version 2.3.4
+1. Fixed wordpress 5.8 widgets design issues.
+2. Fixed WBR:latest posts widget issue.
+
+@version 2.3.3
+1. Added Header, Service & blog Variations.
+2. Added Service & Blog Templates and enable/disable footer copyright setting.
+3. Fixed search toggle in header preset style 3, and team section.
+4. Fixed portfolio link & portfolio category page pagination issues.
+5. Fixed blog page breadcrumb, empty markup and typography issues.
+6. Fixed some style issues.
+
+@version 2.3.2
+1. Fixed read more issue
+2. Fixed Service read more button hover issue
+3. Fixed service blank mark up in service
+4. Woocommerce Check out page placeholder color fixed
+5. Slider auto slide issue fixed
+
+@version 2.3.1
+1. Fixed Portfolio Js issue.
+
+@version 2.3
+1. Added Header Variation
+2. Added Service Variation
+3. Added Team Variation
+4. Added Testimonial & Blog Variation
+5. Added Service, Team, Testimonial & Blog Template
+
+@version 2.2.3
+1. Added enable or stop service animation feature in homepage service section
+2. Added setting for hide/show of slider description text for both desktop and mobile view independently
+3. Slider description issue resolved for mobile layout
+4. Video Layout issue for blog/page is fixed
+5. Added Scroll to top enable/disable setting
+6. Add column layout settings for home page project section
+7. Add a separate setting for showing excerpt or content on the blog page
+8. Added column layout setting for project section in homepage section
+
+
+@version 2.2.2
+1. Added WooCommerce Gallery Support.
+
+@version 2.2.1
+1. Added Scrollup.
+
+@version 2.2
+1. Added Instagram and vimeo social icon setting.
+
+@version 2.1.9
+1. Fixed Home page template issue.
+
+@version 2.1.8
+1. Added related project page setting.
+
+@version 2.1.7
+1. Added link feature in feature section image.
+2. Fixed link color issue in header part and contact us.
+
+@version 2.1.6
+1. Portuguese Brazil Locale Added (pt_BR)
+2. Portuguese Portugal Locale Added (pt_PT)
+3. German Locale Added (de_DE)
+4. English Locale Added (en_GB)
+5. Swedish Locale Added (sv_SE)
+6. Dutch(Netherlands) Locale Added (nl_NL)
+7. Danish(Denmark) Locale Added (da_DK)
+8. French Locale Added (fr_FR)
+9. Italian Locale Updated (it_IT)
+
+@version 2.1.5
+1. Added setting for social icons in new tab.
+2. Fixed error Invalid Post Type in testimonial.
+3. Fixed issue all clients did not show. 
+@version 2.1.4
+1. String Updated (Suggest by Transifex).
+@version 2.1.3
+1. Added pagination in portfolio template.
+@version 2.1.2
+1. Fixed header image respnsive issue.
+@version 2.1.1 
+1. Added view all posts button in blog section home page.
+@version 2.1 
+1. Added Italian Locale.
+@version 2.0
+1. Updated Spanish & Turkish Locale. 
+2. Added Russian Locale.
 @version 1.9.9
 1. Removed duplicate and unused js.
 @version 1.9.8

@@ -20,7 +20,14 @@ function qt_custom_breadcrumbs() {
  
   if (is_home() || is_front_page()) {
  
-    if ($showOnHome == 1) echo '<li><a href="' . $homeLink . '">' . $home . '</a></li>';
+    if ($showOnHome == 1) {
+      echo '<li><a href="' . $homeLink . '">' . $home . '</a></li>';
+    }
+    else
+    { 
+      echo '<li><a href="' . $homeLink . '">' . $home . '</a> &nbsp &#47; &nbsp </li>';
+      echo $before.single_post_title().$after;
+    }
  
   } else {
  
@@ -98,7 +105,7 @@ function qt_custom_breadcrumbs() {
     } elseif ( is_author() ) {
        global $author;
       $userdata = get_userdata($author);
-      echo $before . __('Articles posted by','wallstreet') . $userdata->display_name . $after;
+      echo $before . __('Articles posted by','wallstreet') . ' ' . $userdata->display_name . $after;
  
     } elseif ( is_404() ) {
       echo $before . __('Error 404','wallstreet') . $after;

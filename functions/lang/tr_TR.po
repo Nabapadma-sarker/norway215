@@ -3,13 +3,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: POEditor.com\n"
 "Project-Id-Version: Wallstreet WordPress Theme\n"
 "Language: tr\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/404.php:17
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/404.php:29
@@ -71,8 +67,7 @@ msgid "Page"
 msgstr "Sayfa"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:11
-msgid ""
-"This post is password protected. Enter the password to view any comments."
+msgid "This post is password protected. Enter the password to view any comments."
 msgstr "Bu yazı parola korumalı. Yorumları görmek için parola girin."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:23
@@ -199,7 +194,7 @@ msgstr "GooglePlus URL"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-blog.php:50
 msgid "No Comments"
-msgstr "Yorum yapılmamış"
+msgstr "Yorum yok"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-blog.php:50
 msgid "1 Comments"
@@ -207,12 +202,10 @@ msgstr "1 yorum"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-blog.php:50
 msgid "% Comments"
-msgstr "%s yorum"
+msgstr "% yorum"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-portfolio.php:79
-msgid ""
-"A wonderful serenity has taken possession of my entire soul, like these "
-"sweet mornings."
+msgid "A wonderful serenity has taken possession of my entire soul, like these sweet mornings."
 msgstr "Bu tatlı sabahlar gibi harika bir huzur tüm ruhumu elinde tuttu."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-portfolio.php:90
@@ -253,13 +246,8 @@ msgid "Clean & fresh theme"
 msgstr "Temiz ve taze tema"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-slider.php:82
-msgid ""
-"The state-of-the-art HTML5 powered flexible layout with lightspeed fast CSS3 "
-"transition effects. Works perfect in any modern mobile."
-msgstr ""
-"Işık hızında CSS3 geçiş efektleriyle en son teknolojiye sahip HTML5 ile "
-"güçlendirilmiş esnek yerleşim. Herhangi bir güncel mobil cihazlarda mükemmel "
-"çalışır."
+msgid "The state-of-the-art HTML5 powered flexible layout with lightspeed fast CSS3 transition effects. Works perfect in any modern mobile."
+msgstr "Işık hızında CSS3 geçiş efektleriyle en son teknolojiye sahip HTML5 ile güçlendirilmiş esnek yerleşim. Herhangi bir güncel mobil cihazlarda mükemmel çalışır."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-slider.php:84
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:269
@@ -270,11 +258,8 @@ msgstr "Şimdi satın al"
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/portfolio-3-column.php:146
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/portfolio-4-column.php:146
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/taxonomy-portfolio_categories.php:106
-msgid ""
-"Opps! No Portfolio Found! Add Portfolio Using PORTFOLIO/PROJECT section."
-msgstr ""
-"Offf! Portfolyo bulunamadı! Portfolyo/proje bölümünü kullanarak portfolyo "
-"ekleyin."
+msgid "Opps! No Portfolio Found! Add Portfolio Using PORTFOLIO/PROJECT section."
+msgstr "Offf! Portfolyo bulunamadı! Portfolyo/proje bölümünü kullanarak portfolyo ekleyin."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/search.php:72
 msgid "Previous"
@@ -289,12 +274,8 @@ msgid "Nothing Found"
 msgstr "Hiçbir şey bulunamadı"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/search.php:79
-msgid ""
-"Sorry, but nothing matched your search criteria. Please try again with some "
-"different keywords."
-msgstr ""
-"Üzgünüz fakat aradığınız kriterler ile örtüşen sonuç bulunamadı. Lütfen "
-"başka anahtar kelimeler ile tekrar deneyin."
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Üzgünüz fakat aradığınız kriterler ile örtüşen sonuç bulunamadı. Lütfen başka anahtar kelimeler ile tekrar deneyin."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:97
 msgid "Responsive Design"
@@ -362,12 +343,8 @@ msgstr "İnanılmaz esnek"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:74
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-client.php:41
-msgid ""
-"Have a look at our client we are growing their business and they are going "
-"up in the market by beating their competitors."
-msgstr ""
-"Müşterilerimize göz atın. Onların işlerini büyütüyoruz ve böylece "
-"rakiplerini alt ederek markette yukarı tırmanıyorlar."
+msgid "Have a look at our client we are growing their business and they are going up in the market by beating their competitors."
+msgstr "Müşterilerimize göz atın. Onların işlerini büyütüyoruz ve böylece rakiplerini alt ederek markette yukarı tırmanıyorlar."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:77
 msgid "Meet our"
@@ -518,7 +495,7 @@ msgstr "Alt kısım telif hakkı ayarları"
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:213
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-copyright.php:23
 msgid "Copyright @ 2016 - WallStreet. Designed by"
-msgstr "Telif hakkı @ 2016 - WallStreet. Tasarlayan "
+msgstr "Telif hakkı @ 2016 - WallStreet. Tasarlayan"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-copyright.php:31
 msgid "Copyright text"
@@ -553,8 +530,7 @@ msgstr "Favicon yükleyin"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:26
 msgid "Choose your favicon (ideal width and height is 16x16 or 32x32)"
-msgstr ""
-"Faviconunuzu seçin (ideal genişlik ve yükseklik 16x16px veya 32x32px dir)"
+msgstr "Faviconunuzu seçin (ideal genişlik ve yükseklik 16x16px veya 32x32px dir)"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:45
 msgid "Header logo setting"
@@ -592,19 +568,15 @@ msgstr "Etkisizleştir"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:33
 msgid "Slider section always top on the home page"
-msgstr "Kaydırıcı bölümü her zaman ana sayfanın en üstünde"
+msgstr "Slayt bölümü her zaman ana sayfanın en üstünde"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:34
 msgid "Note"
 msgstr "Not:"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:34
-msgid ""
-"By default all the section are enable on homepage. If you do not want to "
-"display any section just drag that section to the disabled box."
-msgstr ""
-"Varsayılan olarak ana sayfada tüm bölümler etkindir. Eğer herhangi bir "
-"bölümü görüntülemek istemezseniz sadece etkisizleştirildi kutusuna taşıyın."
+msgid "By default all the section are enable on homepage. If you do not want to display any section just drag that section to the disabled box."
+msgstr "Varsayılan olarak ana sayfada tüm bölümler etkindir. Eğer herhangi bir bölümü görüntülemek istemezseniz sadece etkisizleştirildi kutusuna taşıyın."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:84
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:89
@@ -819,18 +791,12 @@ msgid "Dropbox URL"
 msgstr "Dropbox URL"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:76
-msgid ""
-"Hide post meta i.e. author name, date of submission, category, tags from "
-"posts page"
-msgstr ""
-"Yazar adı, gönderme tarihi, kategori, etiket vb. yazı metasını yazı "
-"sayfalarından gizle"
+msgid "Hide post meta i.e. author name, date of submission, category, tags from posts page"
+msgstr "Yazar adı, gönderme tarihi, kategori, etiket vb. yazı metasını yazı sayfalarından gizle"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:95
-msgid ""
-"Hide post meta i.e. author name, date of submission, category, tags from page"
-msgstr ""
-"Yazar adı, gönderme tarihi, kategori, etiket vb. yazı metasını sayfadan gizle"
+msgid "Hide post meta i.e. author name, date of submission, category, tags from page"
+msgstr "Yazar adı, gönderme tarihi, kategori, etiket vb. yazı metasını sayfadan gizle"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:146
 msgid "Select column layout"
@@ -1096,12 +1062,8 @@ msgid "Social Media Setting"
 msgstr "Sosyal medya ayarı"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:214
-msgid ""
-"Upload client image using feature image. Best fit scenario is using 130 X "
-"130 px image."
-msgstr ""
-"Öne çıkan görseli kullanarak müşteri görselini yükleyin. En uygun senaryo "
-"için 130x130px görsel kullanın."
+msgid "Upload client image using feature image. Best fit scenario is using 130 X 130 px image."
+msgstr "Öne çıkan görseli kullanarak müşteri görselini yükleyin. En uygun senaryo için 130x130px görsel kullanın."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:13
 msgid "Featured Slider"
@@ -1289,8 +1251,7 @@ msgstr "WooCommerce kenar çubuğu bileşen alanı"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:17
 msgid "This widget allows you to display latest, popular and comment posts."
-msgstr ""
-"Bu bileşen en son, popüler ve yorum yazılarını görüntülemenize olanak tanır."
+msgstr "Bu bileşen en son, popüler ve yorum yazılarını görüntülemenize olanak tanır."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:35
 msgid "Popular"
@@ -1308,7 +1269,7 @@ msgstr "Yorum"
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:82
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:105
 msgid "By"
-msgstr "Tarafından"
+msgstr "ile"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-blog.php:61
 msgid "No posts to show"
@@ -1473,12 +1434,8 @@ msgid "Enable/Disable Logo"
 msgstr "Logoyu etkinleştir/etkisizleştir"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:110
-msgid ""
-"After Changing the slug, please do not forget to save permalinks. Without "
-"saving, the old permalinks will not revise."
-msgstr ""
-"Kısa adı değiştirdikten sonra lütfen kalıcı bağlantıları kaydetmeyi "
-"unutmayın. Çünkü kaydetmeden eski kalıcı bağlantılar düzeltilmeyecektir."
+msgid "After Changing the slug, please do not forget to save permalinks. Without saving, the old permalinks will not revise."
+msgstr "Kısa adı değiştirdikten sonra lütfen kalıcı bağlantıları kaydetmeyi unutmayın. Çünkü kaydetmeden eski kalıcı bağlantılar düzeltilmeyecektir."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:138
 msgid "Click here permalinks setting"
@@ -1489,12 +1446,8 @@ msgid "About page setting"
 msgstr "Hakkında sayfası ayarı"
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:115
-msgid ""
-"Hide post meta i.e. author name, date of submission, category, tags from "
-"archive page."
-msgstr ""
-"Yazar adı, gönderme tarihi, kategori, etiket vb. yazı metasını arşiv "
-"sayfasından gizle."
+msgid "Hide post meta i.e. author name, date of submission, category, tags from archive page."
+msgstr "Yazar adı, gönderme tarihi, kategori, etiket vb. yazı metasını arşiv sayfasından gizle."
 
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:128
 msgid "Portfolio category page setting"
@@ -1515,3 +1468,4 @@ msgstr "Tema sitil ayarı"
 #: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:16
 msgid "WBR : Latest Posts"
 msgstr "WBR : Son Yazılar"
+

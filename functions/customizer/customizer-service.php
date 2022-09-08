@@ -38,7 +38,26 @@ $wp_customize->add_panel( 'wallstreet_service_options', array(
 		'choices' => array(3=>3,6=>6,9=>9,12=>12,15=>15,18=>18,21=>21,24=>24),
 		));
 		
-	
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[service_variation]',
+    array(
+        'default' => 1,
+		'type' => 'option',
+		'sanitize_callback' => 'sanitize_text_field',
+		
+    )
+	);
+
+	$wp_customize->add_control(
+    'wallstreet_pro_options[service_variation]',
+    array(
+        'type' => 'select',
+        'label' => __('Select Service Style','wallstreet'),
+        'section' => 'service_section_head',
+		'priority'   => 50,
+		'choices' => array(1=>__('Style 1','wallstreet'), 2=>__('Style 2','wallstreet'), 3=>__('Style 3','wallstreet'), 4=>__('Style 4','wallstreet'), 5=>__('Style 5','wallstreet'), 6=>__('Style 6','wallstreet')),
+		));
+
 	//Sarvice title
 	$wp_customize->add_setting(
     'wallstreet_pro_options[service_title]',
@@ -73,6 +92,25 @@ $wp_customize->add_panel( 'wallstreet_service_options', array(
         'label' => __('Description','wallstreet'),
         'section' => 'service_section_head',
         'type' => 'text',
+		'sanitize_callback' => 'sanitize_text_field',
+		'priority'   => 200,
+    )
+	);
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[service_hover_change_effect]',
+    array(
+        'default' => true,
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option'
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[service_hover_change_effect]',
+    array(
+        'label' => __('Enable service animation effect','wallstreet'),
+        'description' => __('This setting will work with only service design 1 and service design 6','wallstreet'),
+        'section' => 'service_section_head',
+        'type' => 'checkbox',
 		'sanitize_callback' => 'sanitize_text_field',
 		'priority'   => 200,
     )
@@ -125,7 +163,7 @@ $wp_customize->add_control( new WP_service_Customize_Control( $wp_customize, 'se
 		$wp_customize->add_control(
 		'wallstreet_pro_options[other_service_section_enabled]',
 		array(
-			'label' => __('Enable other service section in service template','wallstreet'),
+			'label' => __('Enable other services section in service template','wallstreet'),
 			'section' => 'other_service_section',
 			'type' => 'checkbox',
 			'priority'   => 50,

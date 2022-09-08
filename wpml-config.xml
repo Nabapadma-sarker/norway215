@@ -1,54 +1,90 @@
 <wpml-config>
-	<admin-texts>
-		<key name='wallstreet_pro_options'>
-			<key name='social_media_twitter_link' />
-			<key name='social_media_facebook_link' />
-			<key name='social_media_googleplus_link' />
-			<key name='social_media_linkedin_link' />
-			<key name='social_media_pinterest_link' />
-			<key name='social_media_youtube_link' />
-			<key name='social_media_skype_link' />
-			<key name='social_media_rssfeed_link' />
-			<key name='social_media_wordpress_link' />
-			<key name='social_media_dropbox_link' />
-			<key name='service_title' />
-			<key name='service_description' />
-			<key name='other_service_title' />
-			<key name='other_service_description' />
-			<key name='call_out_title' />
-			<key name='call_out_text' />
-			<key name='call_out_button_text' />
-			<key name='call_out_button_link' />
-			<key name='portfolio_title' />
-			<key name='portfolio_description' />
-			<key name='portfolio_more_text' />
-			<key name='portfolio_more_link' />
-			<key name='theme_feature_title' />
-			<key name='theme_first_title' />
-			<key name='theme_first_description' />
-			<key name='theme_second_title' />
-			<key name='theme_second_description' />
-			<key name='theme_third_title' />
-			<key name='theme_third_description' />
-			<key name='home_blog_heading' />
-			<key name='home_blog_description' />
-			<key name='home_client_title' />
-			<key name='home_client_description' />
-			<key name='footer_copyright' />
-			<key name='about_team_title' />
-			<key name='about_team_description' />
-			<key name='contact_address_title' />
-			<key name='contact_address_designation_one' />
-			<key name='contact_address_designation_two' />
-			<key name='contact_phone_title' />
-			<key name='contact_phone_number_one' />
-			<key name='contact_phone_number_two' />
-			<key name='contact_email_title' />
-			<key name='contact_email_number_two' />
-			<key name='contact_email_number_one' />
-			<key name='contact_form_title' />
-			<key name='contact_form_description' />
-			<key name='contact_google_map_title' />
-		</key>
-	</admin-texts>
+  <custom-types>
+    <custom-type translate="0">busicare_portfolio</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="0">portfolio_categories</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="current_theme"/>
+    <key name="theme_mods_busicare">
+      <key name="0"/>
+      <key name="nav_menu_locations"/>
+      <key name="custom_css_post_id"/>
+      <key name="custom_logo"/>
+      <key name="header_textcolor"/>
+      <key name="footer_copyright"/>
+      <key name="busicare_blog_button_title"/>
+      <key name="blog_page_title_option"/>
+      <key name="home_slider_subtitle"/>
+      <key name="home_slider_title"/>
+      <key name="home_slider_discription"/>
+      <key name="home_slider_btn_txt"/>
+      <key name="home_slider_btn_link"/>
+      <key name="home_slider_btn_txt2"/>
+      <key name="home_slider_btn_link2"/>
+      <key name="home_service_section_title"/>
+      <key name="home_service_section_discription"/>
+      <key name="busicare_service_content"/>
+      <key name="home_cta1_title"/>
+      <key name="home_cta1_btn_text"/>
+      <key name="home_testimonial_section_title"/>
+      <key name="testimonial_callout_background"/>
+      <key name="home_testimonial_thumb"/>
+      <key name="home_testimonial_title"/>
+      <key name="home_testimonial_desc"/>
+      <key name="home_testimonial_name"/>
+      <key name="home_testimonial_designation"/>
+      <key name="home_testimonial_link"/>
+      <key name="home_news_section_title"/>
+      <key name="home_news_section_discription"/>
+      <key name="home_news_button_title"/>
+      <key name="home_blog_more_btn"/>
+      <key name="home_blog_more_btn_link"/>
+      <key name="home_cta1_btn_link"/>
+      <key name="busicare_related_post_title"/>
+      <key name="busicare_slider_content"/>
+      <key name="home_fun_section_title"/>
+      <key name="busicare_funfact_content"/>
+      <key name="home_portfolio_section_title"/>
+      <key name="home_portfolio_section_subtitle"/>
+      <key name="busicare_testimonial_content"/>
+      <key name="home_cta2_title"/>
+      <key name="home_cta2_desc"/>
+      <key name="home_cta2_btn1_text"/>
+      <key name="home_cta2_btn1_link"/>
+      <key name="home_cta2_btn2_text"/>
+      <key name="home_cta2_btn2_link"/>
+      <key name="home_team_section_title"/>
+      <key name="home_team_section_discription"/>
+      <key name="busicare_team_content"/>
+      <key name="home_shop_section_title"/>
+      <key name="home_shop_section_discription"/>
+      <key name="home_client_section_title"/>
+      <key name="home_client_section_discription"/>
+      <key name="busicare_clients_content"/>
+      <key name="porfolio_page_title"/>
+      <key name="porfolio_page_subtitle"/>
+      <key name="porfolio_category_page_title"/>
+      <key name="porfolio_category_page_desc"/>
+      <key name="contact_cf7_title"/>
+      <key name="contact_form_shortcode"/>
+      <key name="contact_info_title"/>
+      <key name="busicare_contact_content"/>
+      <key name="busicare_social_links"/>
+      <key name="contact_google_map_shortcode"/>
+    </key>
+    <key name="widget_busicare_address_info_widget">
+      <key name="_multiwidget"/>
+    </key>
+    <key name="widget_busicare_header_topbar_info_widget">
+      <key name="_multiwidget"/>
+    </key>
+    <key name="widget_busicare_plus_social_icon_widget">
+      <key name="_multiwidget"/>
+    </key>
+    <key name="widget_busicare_plus_address_info_widget">
+      <key name="_multiwidget"/>
+    </key>
+  </admin-texts>
 </wpml-config>

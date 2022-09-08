@@ -21,12 +21,14 @@
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/font/font.php');
 	
 	//Customizer 
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/scroll-to-top.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-client.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-service.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-slider.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-copyright.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-home.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-project.php');
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-team.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-testimonial.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-template.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-layout.php');
@@ -38,7 +40,9 @@
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-post-type-slugs.php');
 	require( WEBRITI_TEMPLATE_DIR . '/css/custom_light.php');
 	require( WEBRITI_TEMPLATE_DIR . '/css/custom_dark.php');
-
+    require ( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/single-blog-options.php' ); // adding width slider for site identity 
+    //Range Slider Control added in Site Indentity tab 
+     require( WEBRITI_TEMPLATE_DIR . '/inc/customizer/customizer-slider/customizer-slider.php');
 	
 	// Sidebar Widgets
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/widget/wallstreet-latest-widget.php');
@@ -68,6 +72,7 @@
 	add_filter( 'wp_title', 'webriti_head', 10, 2);
 	
 	add_action( 'after_setup_theme', 'webriti_setup' ); 	
+	if ( ! function_exists( 'webriti_setup' ) ) :
 	function webriti_setup()
 	{
 		global $content_width;
@@ -80,8 +85,7 @@
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menu( 'primary', __( 'Primary Menu', 'wallstreet' ) ); //Navigation
 		// theme support 	
-		$args = array('default-color' => '000000',);
-		add_theme_support( 'custom-background', $args  ); 
+ 
 		add_theme_support( 'automatic-feed-links');
 		add_theme_support( 'title-tag' );
 		
@@ -109,9 +113,34 @@
 	
 		add_theme_support( 'woocommerce' );
 		
+		//Added Woocommerce Galllery Support
+		add_theme_support( 'wc-product-gallery-zoom' );
+		add_theme_support( 'wc-product-gallery-lightbox' );
+		add_theme_support( 'wc-product-gallery-slider' );
+		
 		// setup admin pannel defual data for index page		
 		$wallstreet_pro_options=theme_data_setup();
+		
+	   //Custom logo
+        add_theme_support('custom-logo', array(
+            'width' => 300,
+            'height' => 50,
+            'flex-width' => true,
+		    'flex-height' => true,
+            'header-text' => array('site-title', 'site-description'),
+        ));
+
 	}
+	endif;
+	
+if ( ! function_exists( 'busiprof_customizer_preview_scripts' ) ) {
+    function busiprof_customizer_preview_scripts() {
+        wp_enqueue_script( 'honeypress-customizer-preview', trailingslashit( get_template_directory_uri() ) . 'inc/customizer/customizer-slider/js/customizer-preview.js', array( 'customize-preview', 'jquery' ) );
+    }
+}
+add_action( 'customize_preview_init', 'busiprof_customizer_preview_scripts' ); 
+
+	
 	// Read more tag to formatting in blog page 	
 	function new_content_more($more)
 	{  global $post;
@@ -128,7 +157,6 @@
 		$contactmethods['facebook_profile'] = __('Facebook URL','wallstreet');
 		$contactmethods['twitter_profile'] = __('Twitter URL','wallstreet');
 		$contactmethods['linkedin_profile'] = __('LinkedIn URL','wallstreet');
-		$contactmethods['google_profile'] = __('GooglePlus URL','wallstreet');
 		return $contactmethods;
 	}
 	add_filter( 'user_contactmethods', 'add_to_author_profile', 10, 1);
@@ -162,4 +190,33 @@ function mfields_set_default_object_terms( $post_id, $post ) {
     }
 }
 add_action( 'save_post', 'mfields_set_default_object_terms', 100, 2 );
-?>
+
+function portfolio_excerpt($limit, $post_id) {
+  global $post;  
+  $save_post = $post;
+  $post = get_post($post_id);
+  $output = get_the_excerpt();
+  $post = $save_post;
+  $excerpt = explode(' ', $output, $limit);
+
+      if (count($excerpt) >= $limit) {
+          array_pop($excerpt);
+          $excerpt = implode(" ", $excerpt) . '...';
+      } else {
+          $excerpt = implode(" ", $excerpt);
+      }
+
+      $excerpt = preg_replace('`\[[^\]]*\]`', '', $excerpt);
+  return $excerpt;
+}
+
+add_action('pre_get_posts','wallstreet_taxonomies_paged_function');
+function wallstreet_taxonomies_paged_function( $query ) {
+  if ( ! is_admin() && is_main_query() && is_tax('portfolio_categories') ) {
+  	$current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), theme_data_setup() );
+	$tax_page= $current_options['portfolio_numbers_for_templates_category'];
+	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+    $query->set( 'posts_per_page', $tax_page );
+    $query->set('paged', $paged);
+  }
+}

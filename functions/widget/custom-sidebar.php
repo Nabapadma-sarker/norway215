@@ -24,9 +24,9 @@ register_sidebar( array(
 	
 	
 register_sidebar( array(
-	'name' => __( 'Woocommerce sidebar widget area', 'wallstreet' ),
+	'name' => __( 'WooCommerce sidebar widget area', 'wallstreet' ),
 	'id' => 'woocommerce',
-	'description' => __( 'Woocommerce sidebar widget area', 'wallstreet' ),
+	'description' => __( 'WooCommerce sidebar widget area', 'wallstreet' ),
 	'before_widget' => '<div class="sidebar-widget" >',
 	'after_widget' => '</div>',
 	'before_title' => '<h3 class="widget-title">',

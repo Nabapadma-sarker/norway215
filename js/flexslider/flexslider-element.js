@@ -1,7 +1,6 @@
 /*
  * jQuery FlexSlider v2.2.0
  * Copyright 2012 WooThemes
- * Created by ----Shahid
  */
  
 $(window).load(function(){

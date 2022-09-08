@@ -12,8 +12,6 @@
 	$current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
 	$theme_feature_enabled = $current_options['theme_feature_enabled'];
 	$theme_feature_image = $current_options['theme_feature_image'];
-	$theme_feature_video = $current_options['theme_feature_video'];
-	$theme_feature_choose_imgvideo = $current_options['theme_feature_choose_imgvideo'];
 	$theme_feature_title = $current_options['theme_feature_title'];
 	$theme_first_feature_icon = $current_options['theme_first_feature_icon'];
 	$theme_first_title = $current_options['theme_first_title'];
@@ -30,43 +28,50 @@
 <div class="overlay">
 	<div class="container">
 		<div class="row">
-		<?php if($theme_feature_choose_imgvideo == 'image') {?>
 		<?php if(!empty($theme_feature_image)) {?>
 			<div class="col-md-6 col-sm-6">
+				<?php if($current_options['feature_image_link']) { ?>
+				<a href="<?php echo $current_options['feature_image_link']; ?>" <?php if($current_options['image_link_target'] == true) { ?>target="_blank" <?php } ?>><img class="img-responsive features-img" alt="Wallstreet Image" style="height:331px; width:525px;" src="<?php echo $theme_feature_image; ?>"></a>
+				<?php } else { ?>
 				<img class="img-responsive features-img" alt="Wallstreet Image" style="height:331px; width:525px;" src="<?php echo $theme_feature_image; ?>">
+				<?php } ?>
 			</div>
 			<?php } ?>
-			<?php } ?>
-		<?php if($theme_feature_choose_imgvideo == 'video') {?>	
-		<?php if(!empty($theme_feature_video)) {?>
 			<div class="col-md-6 col-sm-6">
-				<iframe src="<?php echo $theme_feature_video; ?>" allowfullscreen="" height="295" frameborder="0" width="525"></iframe>
-			</div>
-			<?php } ?>
-			<?php } ?>
-			<div class="col-md-6 col-sm-6">
-				<div class="features-title"><?php if(!empty($theme_feature_title)) { echo $theme_feature_title; } ?></div>
+				<?php if(!empty($theme_feature_title)) { ?><div class="features-title"><?php echo $theme_feature_title; ?></div><?php } ?>
+				<?php if(!empty($theme_first_feature_icon) || (!empty($theme_first_title)) || (!empty($theme_first_description))):?>
 				<div class="media features-area">
+					<?php if(!empty($theme_first_feature_icon)):?>
 					<div class="feature-icon"><i class="fa <?php if(!empty($theme_first_feature_icon)){ echo $theme_first_feature_icon; } ?>"></i></div>
+					<?php endif;?>		
+					<?php if(!empty($theme_first_title) || (!empty($theme_first_description))):?>			
 					<div class="media-body">
-						<h3><?php if(!empty($theme_first_title)){ echo $theme_first_title; } ?></h3>
-						<p><?php if(!empty($theme_first_description)){ echo $theme_first_description; } ?></p>
+						<?php if(!empty($theme_first_title)){?><h3><?php  echo $theme_first_title; ?></h3><?php } ?>
+						<?php if(!empty($theme_first_description)){?><p><?php echo $theme_first_description; ?></p><?php } ?>
 					</div>
+				<?php endif;?>
 				</div>
+			<?php endif;?>
+			<?php if(!empty($theme_second_feature_icon) || (!empty($theme_second_title)) || (!empty($theme_second_description))):?>
 				<div class="media features-area">
-					<div class="feature-icon"><i class="fa <?php if(!empty($theme_second_feature_icon)){ echo $theme_second_feature_icon; } ?>"></i></div>
+					<?php if(!empty($theme_second_feature_icon)):?><div class="feature-icon"><i class="fa <?php if(!empty($theme_second_feature_icon)){ echo $theme_second_feature_icon; } ?>"></i></div><?php endif;?>
 					<div class="media-body">
-						<h3><?php if(!empty($theme_second_title)){ echo $theme_second_title; } ?></h3>
-						<p><?php if(!empty($theme_second_description)){ echo $theme_second_description; } ?></p>
+						<?php if(!empty($theme_second_title)){?><h3><?php echo $theme_second_title; ?></h3><?php } ?>
+						<?php if(!empty($theme_second_description)){?><p><?php echo $theme_second_description; ?></p><?php } ?>
 					</div>
 				</div>
+				<?php endif;?>
+
+				<?php if(!empty($theme_third_feature_icon) || (!empty($theme_third_title)) || (!empty($theme_third_description))):?>
 				<div class="media features-area">
-					<div class="feature-icon"><i class="fa <?php if(!empty($theme_third_feature_icon)){ echo $theme_third_feature_icon; } ?>"></i></div>
+					<?php if(!empty($theme_third_feature_icon)):?><div class="feature-icon"><i class="fa <?php if(!empty($theme_third_feature_icon)){ echo $theme_third_feature_icon; } ?>"></i></div><?php endif;?>
 					<div class="media-body">
-						<h3><?php if(!empty($theme_third_title)){ echo $theme_third_title; } ?></h3>
-						<p><?php if(!empty($theme_third_description)){ echo $theme_third_description; } ?></p>
+						<?php if(!empty($theme_third_title)){?><h3><?php echo $theme_third_title; ?></h3><?php } ?>
+						<?php if(!empty($theme_third_description)){?><p><?php echo $theme_third_description; ?></p><?php } ?>
 					</div>
 				</div>
+				<?php endif;?>
+
 			</div>
 		</div>
 	</div>

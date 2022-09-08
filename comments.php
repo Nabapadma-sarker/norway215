@@ -49,7 +49,7 @@
 <?php if ( have_comments() ) { ?>
 
 <div class="comment-section">
-	<div class="comment-title"><h3><i class="fa fa-comment-o"></i> <?php comments_number('No Comments so far', '1 Comment so far','% Comments so far'); ?> </h3>
+	<div class="comment-title"><h3><i class="fa fa-comment-o"></i> <?php comments_number('No comments so far', '1 comment so far','% comments so far'); ?> </h3>
 	</div>
 	<?php wp_list_comments( array( 'callback' => 'wallstreet_comment' ) ); ?>
 </div> <!---comment_section--->
@@ -68,7 +68,7 @@
 	} ?>
 	<?php if ('open' == $post->comment_status) { ?>
 	<?php if ( get_option('comment_registration') && !$user_ID ) { ?>
-	<p><?php echo sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment','wallstreet' ), site_url( 'wp-login.php' ) . '?redirect_to=' .  urlencode(get_permalink())); ?></p>
+	<p><?php echo sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.','wallstreet' ), site_url( 'wp-login.php' ) . '?redirect_to=' .  urlencode(get_permalink())); ?></p>
 <?php } else { 
 ?>
 <div class="comment-form-section">
@@ -86,7 +86,7 @@
 			'fields'=> apply_filters( 'comment_form_default_fields', $fields ),
 			'comment_field'=> '<div class="blog-form-group-textarea" >
 			<textarea id="comments" rows="5" class="blog-form-control-textarea" name="comment" type="text" placeholder="'.__('Leave your message','wallstreet').'"></textarea></div>',		
-			'logged_in_as' => '<p class="logged-in-as">' . __( "Logged in as","wallstreet" ).' '.'<a href="'. admin_url( 'profile.php' ).'">'.$user_identity.'</a>'. '<a href="'. wp_logout_url( get_permalink() ).'" title="'.__('Logout from this Account','wallstreet').'">'.' '.__("Logout",'wallstreet').'</a>' . '</p>',
+			'logged_in_as' => '<p class="logged-in-as">' . __( "Logged in as","wallstreet" ).' '.'<a href="'. admin_url( 'profile.php' ).'">'.$user_identity.'</a>'. '<a href="'. wp_logout_url( get_permalink() ).'" title="'.__('Log out from this Account','wallstreet').'">'.' '.__("Log out",'wallstreet').'</a>' . '</p>',
 			'id_submit'=> 'blogdetail_btn',
 			'label_submit'=>__( 'Send Message','wallstreet'),
 			'comment_notes_after'=> '',

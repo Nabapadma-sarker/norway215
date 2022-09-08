@@ -11,7 +11,7 @@ class WP_layout_Customize_Control extends WP_Customize_Control {
 	$wallstreet_pro_options = theme_data_setup(); 
 	$current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
 	$data_enable = is_array($current_options['front_page_data']) ? $current_options['front_page_data'] : explode(",",$current_options['front_page_data']);
-	$defaultenableddata=array('service','portfolio','blog','testimonials','features','client');
+	$defaultenableddata=array('service','portfolio','team','blog','testimonials','features','client');
 	$layout_disable=array_diff($defaultenableddata,$data_enable);
 
     ?>
@@ -31,7 +31,7 @@ class WP_layout_Customize_Control extends WP_Customize_Control {
  </ul>
  <div class="section">
 		<p> <b><?php _e('Slider section always top on the home page','wallstreet'); ?></b></p>
-		<p> <b><?php _e('Note','wallstreet'); ?> </b> <?php _e('By default all the section are enable on homepage. If you do not want to display any section just drag that section to the disabled box.','wallstreet'); ?><p>
+		<p> <b><?php _e('Note :','wallstreet'); ?> </b> <?php _e('By default, all the sections are enabled on the homepage. If you do not want to display any section just drag that section to the disabled box.','wallstreet'); ?><p>
 		</div>
 <script>
 jQuery(document).ready(function($) {
@@ -109,7 +109,7 @@ $wp_customize->add_control( new WP_layout_Customize_Control( $wp_customize, 'wal
 $wp_customize->add_setting(
     'wallstreet_pro_options[front_page_data]',
     array(
-        'default' =>'service,portfolio,testimonials,blog,features,client',
+        'default' =>'service,portfolio,team,testimonials,blog,features,client',
 		'type'=>'option'
     )
 	

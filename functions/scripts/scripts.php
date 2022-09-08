@@ -1,6 +1,8 @@
 <?php
+error_reporting(0);
 function webriti_scripts()
 {	
+	global $template;
 	$wallstreet_pro_options=theme_data_setup();
 	$current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options ); 
 	wp_enqueue_style('wallstreet-style', get_stylesheet_uri() );	
@@ -36,24 +38,26 @@ function webriti_scripts()
 	wp_enqueue_script('menu', WEBRITI_TEMPLATE_DIR_URI .'/js/menu/menu.js',array('jquery'));
 	wp_enqueue_script('bootstrap', WEBRITI_TEMPLATE_DIR_URI .'/js/bootstrap.min.js');
 	
+	
 	// Portfolio js and css
 	if(is_page_template('portfolio-2-column.php') || is_page_template('portfolio-3-column.php') || is_page_template('portfolio-4-column.php'))
 	{
 		wp_enqueue_style('lightbox', WEBRITI_TEMPLATE_DIR_URI . '/css/lightbox.css');	
-		wp_enqueue_script('lightbox', WEBRITI_TEMPLATE_DIR_URI .'/js/lightbox/lightbox-2.6.min.js');
+		wp_enqueue_script('lightbox', WEBRITI_TEMPLATE_DIR_URI .'/js/lightbox/lightbox.js');
 	}
 	if(is_page_template('single-wallstreet_portfolio.php') || 'wallstreet_portfolio' == get_post_type())
 	{
 		wp_enqueue_style('lightbox', WEBRITI_TEMPLATE_DIR_URI . '/css/lightbox.css');	
-		wp_enqueue_script('lightbox1', WEBRITI_TEMPLATE_DIR_URI .'/js/lightbox/lightbox-2.6.min.js');
+		wp_enqueue_script('lightbox1', WEBRITI_TEMPLATE_DIR_URI .'/js/lightbox/lightbox.js');
 		wp_enqueue_script('carouFredSel', WEBRITI_TEMPLATE_DIR_URI .'/js/caroufredsel/jquery.carouFredSel-6.2.1-packed.js');
 		wp_enqueue_script('carouFredSel1', WEBRITI_TEMPLATE_DIR_URI .'/js/caroufredsel/caroufredsel-element.js');
 	}
-	if(is_front_page())
+	global $template;
+	if(is_front_page() || is_page_template('template-homepage.php') || basename($template)=='testimonial-carousel-1.php' || basename($template)=='testimonial-carousel-2.php' || basename($template)=='testimonial-carousel-3.php' || basename($template)=='testimonial-carousel-4.php')
 	{
 		wp_enqueue_style('lightbox', WEBRITI_TEMPLATE_DIR_URI . '/css/lightbox.css');	
 		wp_enqueue_style('flexslider', WEBRITI_TEMPLATE_DIR_URI . '/css/flexslider/flexslider.css');
-		wp_enqueue_script('lightbox', WEBRITI_TEMPLATE_DIR_URI .'/js/lightbox/lightbox-2.6.min.js');
+		wp_enqueue_script('lightbox', WEBRITI_TEMPLATE_DIR_URI .'/js/lightbox/lightbox.js');
 		wp_enqueue_script('flexslider', WEBRITI_TEMPLATE_DIR_URI .'/js/flexslider/jquery.flexslider.js');		
 		wp_enqueue_script('carouFredSel', WEBRITI_TEMPLATE_DIR_URI .'/js/caroufredsel/jquery.carouFredSel-6.2.1-packed.js');
 	}

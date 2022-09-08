@@ -12,22 +12,31 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 ?>
 
 <!-- Page Title Section -->
-<div class="page-mycarousel" style='background: url("<?php echo( get_header_image() ); ?>") repeat scroll center 0 #143745;'>
-	<div class="page-title-col">
+<div class="page-mycarousel">
+	<img src="<?php  echo( get_header_image() ); ?>" class="img-responsive header-img">
+	<div class="container page-title-col">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h1><?php echo single_cat_title("", false); ?></h1>		
+			</div>	
+		</div>
+	</div>
+	<div class="page-breadcrumbs">
 		<div class="container">
 			<div class="row">
-				<div class="page-header-title">
-					<h1><?php echo single_cat_title("", false); ?></h1>		
+				<div class="col-md-12">
+					<ol class="breadcrumbs">
+						<?php if (function_exists('qt_custom_breadcrumbs')) qt_custom_breadcrumbs();?>
+					</ol>
 				</div>
 			</div>	
 		</div>
-		<?php get_template_part('index', 'banner'); ?>
 	</div>
 </div>
 <!-- /Page Title Section -->
 
 <!-- Blog & Sidebar Section -->
-<div class="container">
+<div class="container category">
 	<div class="row">
 
 		<div class="col-md-<?php echo (is_active_sidebar( 'sidebar_primary' )?'8':'12'); ?>">
@@ -39,7 +48,7 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 				while($post_type_data->have_posts()){
 				$post_type_data->the_post();
 			?>
-			<div id="post-<?php the_ID(); ?>" <?php post_class('blog-section-right'); ?>>
+			<div id="post-<?php the_ID(); ?>" <?php post_class('blog-section-left'); ?>>
 				<?php if(has_post_thumbnail()){ ?>
 				<?php $defalt_arg =array('class' => "img-responsive"); ?>
 				<div class="blog-post-img">

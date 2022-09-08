@@ -38,7 +38,7 @@ function wallstreet_client_customizer( $wp_customize ) {
 	$wp_customize ->add_setting (
 	'wallstreet_pro_options[home_client_description]',
 	array( 
-	'default' => __('Have a look at our client we are growing their business and they are going up in the market by beating their competitors.','wallstreet'),
+	'default' => __('Have a look at our clients we are growing their business and they are going up in the market by beating their competitors.','wallstreet'),
 	'capability'     => 'edit_theme_options',
 	'sanitize_callback' => 'sanitize_text_field',
 	'type' => 'option'

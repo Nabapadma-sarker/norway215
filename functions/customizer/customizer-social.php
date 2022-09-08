@@ -78,7 +78,6 @@ function wallstreet_social_customizer( $wp_customize ) {
     )
 	);
 	
-	
 	//twitter link
 	
 	$wp_customize->add_setting(
@@ -99,6 +98,27 @@ function wallstreet_social_customizer( $wp_customize ) {
         'type' => 'text',
     )
 	);
+	
+	//twitter link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[twitter_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[twitter_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
+    )
+	);
+	
 
 	// Facebook link
 	$wp_customize->add_setting(
@@ -118,27 +138,27 @@ function wallstreet_social_customizer( $wp_customize ) {
         'type' => 'text',
     )
 	);
-
-	//Google plus
 	
+	
+	//facebook link new tab/window 
 	$wp_customize->add_setting(
-	'wallstreet_pro_options[social_media_googleplus_link]' ,
+	'wallstreet_pro_options[facebook_link_new_tab]'
+    ,
     array(
-        'default' => '#',
+        'default' => false,
+		'capability'     => 'edit_theme_options',
 		'sanitize_callback' => 'sanitize_text_field',
 		'type' => 'option',
-    )
-	
+    )	
 	);
 	$wp_customize->add_control(
-    'wallstreet_pro_options[social_media_googleplus_link]',
+    'wallstreet_pro_options[facebook_link_new_tab]',
     array(
-        'label' => __('GooglePlus URL','wallstreet'),
+        'label' => __('Open link in new tab','wallstreet'),
         'section' => 'social_icon',
-        'type' => 'text',
+        'type' => 'checkbox',
     )
-	);	
-
+	);
 	
 	//Linkdin link
 	
@@ -157,6 +177,26 @@ function wallstreet_social_customizer( $wp_customize ) {
         'label' => __('LinkedIn URL','wallstreet'),
         'section' => 'social_icon',
         'type' => 'text',
+    )
+	);
+	
+	//linkdin link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[linkdin_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[linkdin_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
     )
 	);
 	
@@ -180,6 +220,26 @@ function wallstreet_social_customizer( $wp_customize ) {
     )
 	);
 	
+	//linkdin link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[pintrest_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[pintrest_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
+    )
+	);
+	
 	//Youtube Profile Link:
 	
 	$wp_customize->add_setting(
@@ -200,6 +260,26 @@ function wallstreet_social_customizer( $wp_customize ) {
     )
 	);
 	
+	//youtube link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[youtube_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[youtube_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
+    )
+	);
+	
 	//Skype Profile Link:
 	$wp_customize->add_setting(
 	'wallstreet_pro_options[social_media_skype_link]' ,
@@ -216,6 +296,26 @@ function wallstreet_social_customizer( $wp_customize ) {
         'label' => __('Skype URL','wallstreet'),
         'section' => 'social_icon',
         'type' => 'text',
+    )
+	);
+	
+	//skype link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[skype_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[skype_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
     )
 	);
 	
@@ -239,6 +339,26 @@ function wallstreet_social_customizer( $wp_customize ) {
     )
 	);
 	
+	//skype link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[rss_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[rss_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
+    )
+	);
+	
 	//WordPress Profile Link:
 	
 	$wp_customize->add_setting(
@@ -256,6 +376,26 @@ function wallstreet_social_customizer( $wp_customize ) {
         'label' => __('WordPress URL','wallstreet'),
         'section' => 'social_icon',
         'type' => 'text',
+    )
+	);
+	
+	//wordpress link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[wp_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[wp_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
     )
 	);
 	
@@ -278,6 +418,110 @@ function wallstreet_social_customizer( $wp_customize ) {
         'type' => 'text',
     )
 	);
+	
+	//wordpress link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[db_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[db_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
+    )
+	);
+	
+	
+	//Instagram Profile Link:
+	
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[social_media_instagram_link]' ,
+    array(
+        'default' => '#',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )
+	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[social_media_instagram_link]',
+    array(
+        'label' => __('Instagram URL','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'text',
+    )
+	);
+	
+	//Instagram link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[insta_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[insta_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
+    )
+	);
+	
+	
+	//Vimeo Profile Link:
+	
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[social_media_vimeo_link]' ,
+    array(
+        'default' => '',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )
+	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[social_media_vimeo_link]',
+    array(
+        'label' => __('Vimeo URL','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'text',
+    )
+	);
+	
+	//Vimeo link new tab/window 
+	$wp_customize->add_setting(
+	'wallstreet_pro_options[vimeo_link_new_tab]'
+    ,
+    array(
+        'default' => false,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[vimeo_link_new_tab]',
+    array(
+        'label' => __('Open link in new tab','wallstreet'),
+        'section' => 'social_icon',
+        'type' => 'checkbox',
+    )
+	);
+	
+	
 	
 	}
 	add_action( 'customize_register', 'wallstreet_social_customizer' );

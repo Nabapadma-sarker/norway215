@@ -14,7 +14,7 @@ class wallstreet_latest_widget extends WP_Widget {
 		parent::__construct(
 			'wallstreet_latest_widget', // Base ID
 			__('WBR : Latest Posts', 'wallstreet'), // Name
-			array( 'description' => __( 'This widget allows you to display latest, popular and comment posts.', 'wallstreet' ), ) // Args
+			array( 'description' => __( 'This widget allows you to display latest, popular and commented posts.', 'wallstreet' ), ) // Args
 		);
 	}
 
@@ -102,7 +102,7 @@ class wallstreet_latest_widget extends WP_Widget {
 											<h3><a href="<?php echo get_permalink($comment->comment_post_ID); ?>#comment-<?php echo $comment->comment_ID; ?>"><?php echo get_comment_sidebr($comment->comment_content); ?></a></h3>
 										</div>
 										<div class="sidebar-comment-box">
-											<span><?php echo get_the_date('M j, Y', $post1->id); ?><small>|</small><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php _e('By','wallstreet'); tahe_author(); ?> </a></span>
+											<span><?php echo get_the_date('M j, Y', $post1->id); ?><small>|</small><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php _e('By','wallstreet'); the_author(); ?> </a></span>
 										</div>
 									</div>
 								<?php 

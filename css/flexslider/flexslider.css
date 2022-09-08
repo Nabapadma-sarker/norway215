@@ -179,7 +179,7 @@ html[xmlns] .slides {
     font-family: "FontAwesome";
     font-size: 40px;
     line-height: 1.2;
-    display: inline-block;
+    display: block;
     content: '\f104';
 }
 

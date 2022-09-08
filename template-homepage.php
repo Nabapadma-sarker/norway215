@@ -22,6 +22,11 @@
 					//****** get index project  ********
 					get_template_part('index', 'portfolio');				
 					break;
+
+					case 'team':
+					//****** get index project  ********
+					get_template_part('index', 'team');				
+					break;
 					
 					case 'testimonials':
 					//****** get index testimonials  ********
