@@ -49,48 +49,42 @@ $wp_customize->add_panel( 'wallstreet_features_options', array(
       'label'    => __( 'Image', 'wallstreet' ),
       'section'  => 'features_section',
       'settings' => 'wallstreet_pro_options[theme_feature_image]',
-    ) ) );	
+    ) ) );
 	
-		//Feature video
 	
-	$wp_customize->add_setting(
-    'wallstreet_pro_options[theme_feature_video]',
+	//feature section image link
+	 $wp_customize->add_setting(
+    'wallstreet_pro_options[feature_image_link]',
     array(
-        'default' => 'https://www.youtube.com/embed/HxV5W9zL6l8',
-		'type' => 'option',
+        'default' =>'#',
+		'capability'     => 'edit_theme_options',
 		'sanitize_callback' => 'sanitize_text_field',
-		
-    )
-	);
-
-	$wp_customize->add_control(
-    'wallstreet_pro_options[theme_feature_video]',
-    array(
-    'type' => 'text',
-    'label' => __('Featured Video','wallstreet'),
+		'type' => 'option',
+		));	
+	
+	$wp_customize->add_control( 'wallstreet_pro_options[feature_image_link]',array(
+    'label'   => __('Image Link','wallstreet'),
     'section' => 'features_section',
-	));
-		
-	//Feature video or image choosing
-		
-	$wp_customize->add_setting( 'wallstreet_pro_options[theme_feature_choose_imgvideo]', array(
-		'default' => 'image',
-		'type' => 'option',
-	    'capability'     => 'edit_theme_options',
+	 'type' => 'text',)  );
+	 
+	 //View all portfolio Button Link
+	 $wp_customize->add_setting(
+    'wallstreet_pro_options[image_link_target]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
 		'sanitize_callback' => 'sanitize_text_field',
-    ) );
-
-	$wp_customize->add_control( 'wallstreet_pro_options[theme_feature_choose_imgvideo]', array(
-		'type' => 'radio',
-		'section' => 'features_section', 
-		'label' => __( 'Choose what to show','wallstreet'),
-		'choices' => array(
-		'image' => __( 'image' ),
-		'video' => __( 'video' ),
-		),
-	) );
-
-
+		'type' => 'option',
+		'description' => __('Open link in new tab','wallstreet'),
+		));	
+	
+	$wp_customize->add_control( 'wallstreet_pro_options[image_link_target]',array(
+    'label'   => __('Open link in new tab','wallstreet'),
+    'section' => 'features_section',
+	 'type' => 'checkbox',)  );
+	
+	
+	
 	//Feature title
 	
 	$wp_customize->add_setting(

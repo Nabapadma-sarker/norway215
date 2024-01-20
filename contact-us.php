@@ -14,67 +14,65 @@ get_header(); ?>
 	  $mapsrc=$mapsrc.'&amp;output=embed';
 ?>
 <!-- Page Title Section -->
-<div class="page-mycarousel" style='background: url("<?php echo( get_header_image() ); ?>") repeat scroll center 0 #143745;'>
-	<div class="page-title-col">
-		<div class="container">
-			<div class="row">
-				<div class="page-header-title">
-					<h1><?php the_title(); ?></h1>		
-				</div>
-			</div>	
-		</div>
-		<?php get_template_part('index', 'banner'); ?>
-	</div>	
-</div>
+<?php get_template_part('index', 'banner'); ?>
 <!-- /Page Title Section -->
 <!-- Location Map Section -->
 <div class="qua_contact_area">	
 	<?php if($current_options['contact_google_map_enabled'] == "on"){ ?>
-	<div class="google-map-title">
-		<?php if($current_options['contact_google_map_title']) { ?>
-		<h1><?php echo $current_options['contact_google_map_title']; ?></h1>
-		<?php } ?>
-	</div>	
+		<?php if(!empty($current_options['contact_google_map_title'])) { ?>
+			<div class="google-map-title">
+				<h1><?php echo $current_options['contact_google_map_title']; ?></h1>
+			</div>
+		<?php } ?>	
 	<div class="qua_google_map">			
 		<iframe width="100%" scrolling="no" height="500" frameborder="0" src="<?php echo esc_url($mapsrc); ?>" marginwidth="0" marginheight="0"></iframe>	
 	</div>
 	<?php } ?>
 	<!--contact detail-->
 	<div class="container">
-		<div class="row contact-detail-section">
+		<div class="row contact-detail-section <?php if($current_options['contact_google_map_enabled'] != "on") { ?>map-disabled <?php } ?>">
 			<?php if($current_options['contact_address_settings'] == "on"){ ?>
 			<div class="col-md-4">
 				<div class="contact-detail-area">
-					<span><i class="fa <?php if($current_options['contact_address_icon']) { echo $current_options['contact_address_icon']; } ?>"></i></span>
-					<?php if($current_options['contact_address_title']) { ?>
+					<?php if(!empty($current_options['contact_address_icon'])):?><span><i class="fa <?php if($current_options['contact_address_icon']) { echo $current_options['contact_address_icon']; } ?>"></i></span><?php endif;?>
+					<?php if(!empty($current_options['contact_address_title'])) { ?>
 					<h5><?php echo $current_options['contact_address_title']; ?></h5>
 					<?php } ?>
-					<address><?php if($current_options['contact_address_designation_one']) { echo $current_options['contact_address_designation_one']; } ?> </address>
-					<address><?php if($current_options['contact_address_designation_two']) { echo $current_options['contact_address_designation_two']; } ?> </address>
+					<?php if(!empty($current_options['contact_address_designation_one'])) { ?><address><?php echo $current_options['contact_address_designation_one']; ?> </address>
+				<?php } if(!empty($current_options['contact_address_designation_two'])) { ?>
+					<address><?php echo $current_options['contact_address_designation_two']; ?> </address><?php } ?>
 				</div>
 			</div>
 			<?php } ?>
 			<?php if($current_options['contact_phone_settings'] == "on"){ ?>
 			<div class="col-md-4">
 				<div class="contact-detail-area">
-					<span><i class="fa <?php if($current_options['contact_phone_icon']) { echo $current_options['contact_phone_icon']; } ?>"></i></span>
-					<?php if($current_options['contact_phone_title']) { ?>
+					<?php if(!empty($current_options['contact_phone_icon'])) {?><span><i class="fa <?php echo $current_options['contact_phone_icon']; ?>"></i></span><?php } ?>
+					<?php if(!empty($current_options['contact_phone_title'])) { ?>
 					<h5><?php echo $current_options['contact_phone_title']; ?></h5>
-					<?php } ?>
-					<address><?php if($current_options['contact_phone_number_one']) { echo $current_options['contact_phone_number_one']; } ?></address>
-					<address><?php if($current_options['contact_phone_number_two']) { echo $current_options['contact_phone_number_two']; } ?></address>
+					<?php } 
+					if(!empty($current_options['contact_phone_number_one'])) {
+					?>
+					<address><?php echo $current_options['contact_phone_number_one']; ?></address>
+				<?php }
+				if(!empty($current_options['contact_phone_number_two'])) {
+				?>
+					<address><?php echo $current_options['contact_phone_number_two']; ?></address>
+				<?php } ?>
 				</div>
 			</div>
 			<?php } ?>
 			<?php if($current_options['contact_email_settings'] == "on"){ ?>
 			<div class="col-md-4">
 				<div class="contact-detail-area">
-					<span><i class="fa <?php if($current_options['contact_email_icon']) { echo $current_options['contact_email_icon']; } ?>"></i></span>
-					<?php if($current_options['contact_email_title']) { ?>
+					<?php if(!empty($current_options['contact_email_icon'])) {?><span><i class="fa <?php echo $current_options['contact_email_icon']; ?>"></i></span><?php } ?>
+					<?php if(!empty($current_options['contact_email_title'])) { ?>
 					<h5><?php echo $current_options['contact_email_title']; ?></h5>
-					<?php } ?>
-					<address><?php if($current_options['contact_email_number_one']) { echo $current_options['contact_email_number_one']; } ?></address>
-					<address><?php if($current_options['contact_email_number_two']) { echo $current_options['contact_email_number_two']; } ?></address>
+					<?php } if(!empty($current_options['contact_email_number_one'])) {?>
+					<address><?php echo $current_options['contact_email_number_one']; ?></address><?php } 
+					if(!empty($current_options['contact_email_number_two'])) {?>
+					<address><?php echo $current_options['contact_email_number_two']; ?></address>
+				<?php } ?>
 				</div>
 			</div>
 			<?php } ?>
@@ -82,14 +80,16 @@ get_header(); ?>
 		
 		<div class="row contact-form-section" id="myformdata">
 			<div class="col-md-12">
+				<?php if(!empty($current_options['contact_form_title']) || !empty($current_options['contact_form_description'])):?>
 				<div class="cont-heading-title">
-					<?php if($current_options['contact_form_title']) { ?>
+					<?php if(!empty($current_options['contact_form_title'])) { ?>
 					<h1><?php echo $current_options['contact_form_title']; ?></h1>
 					<?php } ?>
-					<?php if($current_options['contact_form_description']) { ?>
+					<?php if(!empty($current_options['contact_form_description'])) { ?>
 					<p><?php echo $current_options['contact_form_description']; ?></p>
 					<?php } ?>
 				</div>
+			<?php endif;?>
 				<form role="form" class="form-inline" method="post"  action="#">
 					<?php wp_nonce_field('wallstreet_name_nonce_check','wallstreet_name_nonce_field'); ?>
 					<div class="cont-form-group">

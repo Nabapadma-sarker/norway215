@@ -1,0 +1,1471 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Wallstreet WordPress Theme\n"
+"Language: ru\n"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/404.php:17
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/404.php:29
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/breadcrumbs/breadcrumbs.php:104
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/404.php:30
+msgid "Oops! Page not found"
+msgstr "Упс! Страница не найдена"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/404.php:31
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Мы сожалеем, но страница, которую вы ищете, не существует."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/404.php:32
+msgid "Go Back"
+msgstr "Вернуться назад"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/about-us.php:170
+msgid "FOUNDER"
+msgstr "ОСНОВАТЕЛЬ"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/about-us.php:170
+msgid "DEVELOPER"
+msgstr "РАЗРАБОТЧИК"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/about-us.php:170
+msgid "DESIGNER"
+msgstr "ДИЗАЙНЕР"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/archive.php:66
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/author.php:59
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/category.php:60
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions.php:118
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-blog.php:55
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-portfolio.php:80
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-service.php:92
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index.php:59
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/search.php:55
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:107
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/tag.php:59
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/excerpt/excerpt.php:34
+msgid "Read More"
+msgstr "Прочитать больше"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/archive.php:67
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/author.php:60
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/blog-fullwidth.php:62
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/blog-left-sidebar.php:57
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/blog-right-sidebar.php:59
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/category.php:61
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions.php:65
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index.php:60
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/single.php:57
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/tag.php:60
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/breadcrumbs/breadcrumbs.php:109
+msgid "Page"
+msgstr "Страница"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:11
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Это запись защищена паролем. Введите пароль для просмотра комментариев."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:23
+msgid "Reply"
+msgstr "Ответить"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:34
+msgid "Edit"
+msgstr "Редактировать"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:40
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:59
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Старые комментарии"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:71
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "Вы должны быть <a href=\"%s\">авторизованы</a>, чтобы оставить комментарий."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:78
+msgid "Name"
+msgstr "Имя"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:79
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:104
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:105
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:451
+msgid "Email"
+msgstr "Email"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:88
+msgid "Leave your message"
+msgstr "Оставьте свое сообщение"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:89
+msgid "Logged in as"
+msgstr "Вы вошли как"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:89
+msgid "Logout from this Account"
+msgstr "Выйти из этой учетной записи"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:89
+msgid "Logout"
+msgstr "Выход"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:91
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:115
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:94
+msgid "Leave a Reply"
+msgstr "Оставить ответ"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:108
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:109
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/single-wallstreet_portfolio.php:61
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/single-wallstreet_portfolio.php:64
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:130
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:132
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:112
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:113
+msgid "Message"
+msgstr "Сообщение"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:116
+msgid "Sorry, your nonce did not verify"
+msgstr "Извините, у вас не прав для осуществления этого действия."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:122
+msgid "Thank you"
+msgstr "Спасибо"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:122
+msgid "Your information has been sent."
+msgstr "Ваша информация была отправлена."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions.php:81
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions.php:128
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:116
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:177
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:178
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions.php:129
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:97
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:197
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:198
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions.php:130
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:157
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:193
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:194
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions.php:131
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:136
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:185
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:186
+msgid "GooglePlus URL"
+msgstr "GooglePlus URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-blog.php:50
+msgid "No Comments"
+msgstr "Без комментариев"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-blog.php:50
+msgid "1 Comments"
+msgstr "1 Комментарии"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-blog.php:50
+msgid "% Comments"
+msgstr "% Комментарии"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-portfolio.php:79
+msgid "A wonderful serenity has taken possession of my entire soul, like these sweet mornings."
+msgstr "Замечательное спокойствие овладело всей моей душой, люблю это сладкое утро."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-portfolio.php:90
+msgid "%s"
+msgstr "%s"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-service.php:68
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:83
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:169
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:90
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:150
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:210
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:237
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:338
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:441
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:93
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:95
+msgid "Icon"
+msgstr "Иконка"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-service.php:83
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:97
+msgid "Product designing"
+msgstr "Дизайн продукта"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-service.php:83
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:97
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:178
+msgid "WordPress themes"
+msgstr "WordPress темы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-service.php:83
+msgid "Responsive designs"
+msgstr "Отзывчивый дизайн"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-slider.php:79
+msgid "Clean & fresh theme"
+msgstr "Чистые и свежие темы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-slider.php:82
+msgid "The state-of-the-art HTML5 powered flexible layout with lightspeed fast CSS3 transition effects. Works perfect in any modern mobile."
+msgstr "Отличный гибкий макет с использованием HTML5 и быстрыми эффектами трансформации CSS3. Идеально работает в любом современном телефоне."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-slider.php:84
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:269
+msgid "Purchase Now"
+msgstr "Купить сейчас"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/portfolio-2-column.php:148
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/portfolio-3-column.php:146
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/portfolio-4-column.php:146
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/taxonomy-portfolio_categories.php:106
+msgid "Opps! No Portfolio Found! Add Portfolio Using PORTFOLIO/PROJECT section."
+msgstr "Упс! Портфолио не найдено. Добавьте портфолио используя секцию Портфолио/Проекты."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/search.php:72
+msgid "Previous"
+msgstr "предыдущий"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/search.php:73
+msgid "Next"
+msgstr "следующий"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/search.php:77
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/search.php:79
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Жаль, но ничего не соответствуют критериям вашего поиска. Пожалуйста, попробуйте снова с другими ключевыми словами."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:97
+msgid "Responsive Design"
+msgstr "Отзывчивый дизайн"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:178
+msgid "Responsive"
+msgstr "Отзывчивый"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/single-wallstreet_portfolio.php:57
+msgid "Date"
+msgstr "Дата"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/single-wallstreet_portfolio.php:58
+msgid "Categories"
+msgstr "категории"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:33
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:35
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:43
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:139
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:65
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:160
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:44
+msgid "We offer great services to our clients"
+msgstr "Мы предлагаем отличные услуги для наших клиентов"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:40
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:51
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:42
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:156
+msgid "Featured portfolio project"
+msgstr "Рекомендуемый проект портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:41
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:52
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:57
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:174
+msgid "Most popular of our works."
+msgstr "Самое популярное из наших работ."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:42
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:79
+msgid "Related projects"
+msgstr "Похожие проекты"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:44
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:88
+msgid "View All Projects"
+msgstr "Просмотр всех проектов"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:58
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:60
+msgid "Core features of theme"
+msgstr "Основные особенности темы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:60
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:63
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:66
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:101
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:161
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:221
+msgid "Incredibly flexible"
+msgstr "Невероятная гибкость"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:74
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-client.php:41
+msgid "Have a look at our client we are growing their business and they are going up in the market by beating their competitors."
+msgstr "Посмотрите на наших клиентов - мы развиваем их бизнес, и они идут вверх на рынке, побеждая своих конкурентов."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:77
+msgid "Meet our"
+msgstr "Познакомьтесь с"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:78
+msgid "Great team"
+msgstr "Отличной командой"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:82
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:239
+msgid "Wallstreet is an elegant and modern theme for business websites."
+msgstr "Wallstreet - это элегантная и современная тема для бизнеса веб-сайтов."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:84
+msgid "See All Feature"
+msgstr "Посмотреть все особенности"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:113
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:600
+msgid "Location map"
+msgstr "Карта"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:118
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:247
+msgid "Address"
+msgstr "Адрес"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:134
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:537
+msgid "Drop us a mail"
+msgstr "Напишите нам письмо"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:135
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:555
+msgid "Feel free to write us a message"
+msgstr "Не стесняйтесь написать нам сообщение"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:138
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:26
+msgid "Our great team"
+msgstr "Наша отличная команда"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:140
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-blog.php:36
+msgid "Our latest blog post"
+msgstr "Наша последняя запись в блоге"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:141
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-blog.php:51
+msgid "We work with new customers and grow their businesses"
+msgstr "Мы работаем с новыми клиентами и помогаем им развивать свой бизнес"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:213
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-copyright.php:23
+msgid "Webriti"
+msgstr "Webriti"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/breadcrumbs/breadcrumbs.php:13
+msgid "Home"
+msgstr "Главная"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/breadcrumbs/breadcrumbs.php:32
+msgid "Archive by category"
+msgstr "Архив по рубрикам"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/breadcrumbs/breadcrumbs.php:35
+msgid "Search results for"
+msgstr "Результаты поиска по"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/breadcrumbs/breadcrumbs.php:96
+msgid "Posts tagged"
+msgstr "Записи с метками"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/breadcrumbs/breadcrumbs.php:101
+msgid "Articles posted by"
+msgstr "Записи от автора"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-blog.php:8
+msgid "Home blog settings"
+msgstr "Настройка блога на главной странице"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-blog.php:26
+msgid "Hide blog meta from home page"
+msgstr "Скрыть мета информацию в блоге на домашней странице"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-blog.php:43
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-client.php:32
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:71
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:109
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:169
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:229
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:49
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:55
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:147
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:246
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:34
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:164
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:255
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:357
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:459
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:545
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:608
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:71
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:72
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:125
+msgid "Title"
+msgstr "Заголовок"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-blog.php:58
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-client.php:50
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:129
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:189
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:249
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:64
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:73
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:169
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:261
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:52
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:182
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:563
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:29
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:30
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:73
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:74
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:99
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:100
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:146
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:147
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:171
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:173
+msgid "Description"
+msgstr "Описание"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-client.php:8
+msgid "Client settings"
+msgstr "Настройки клиента"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-client.php:64
+msgid "Click here to add client"
+msgstr "Нажмите здесь, чтобы добавить клиента"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-copyright.php:7
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-copyright.php:13
+msgid "Footer copyright settings"
+msgstr "Настройки копирайта в подвале"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:213
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-copyright.php:23
+msgid "Copyright @ 2016 - WallStreet. Designed by"
+msgstr "Copyright @ 2016 - WallStreet. Дизайн"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-copyright.php:31
+msgid "Copyright text"
+msgstr "Текст копирайта"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:8
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:13
+msgid "Theme feature settings"
+msgstr "Настройки функций темы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:35
+msgid "Check to enable theme featured section on homepage"
+msgstr "Отметьте, чтобы включить раздел с избранным на главной странице"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:49
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:270
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:143
+msgid "Image"
+msgstr "Изображение"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:8
+msgid "Header settings"
+msgstr "Настройки шапки"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:13
+msgid "Site favicon"
+msgstr "Иконка сайта"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:15
+msgid "Upload a favicon"
+msgstr "Загрузить иконку"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:26
+msgid "Choose your favicon (ideal width and height is 16x16 or 32x32)"
+msgstr "Выберите вашу иконку (идеальный размер 16х16 или 32х32)"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:45
+msgid "Header logo setting"
+msgstr "Настройка логотипа в шапке"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:63
+msgid "Upload a 150x150 for Logo Image"
+msgstr "Загрузить картинку 150x150 для логотипа"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:103
+msgid "Enter Logo Width"
+msgstr "Введите ширину логотипа"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:122
+msgid "Enter Logo Height"
+msgstr "Введите высоту логотипа"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:144
+msgid "Show Logo text"
+msgstr "Показать текст логотипа"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:174
+msgid "Header contact setting"
+msgstr "Настройки контактной информации в шапке"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:18
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:120
+msgid "Enable"
+msgstr "Включить"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:26
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:137
+msgid "Disable"
+msgstr "Выключить"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:33
+msgid "Slider section always top on the home page"
+msgstr "Секция слайдера всегда вверху на главной странице"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:34
+msgid "Note"
+msgstr "Примечание"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:34
+msgid "By default all the section are enable on homepage. If you do not want to display any section just drag that section to the disabled box."
+msgstr "По умолчанию все секции включены на главной странице. Если вы не хотите отображать какую-то секцию, просто перенесите ее в область отключённых секций."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:84
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-layout.php:89
+msgid "Theme layout manager"
+msgstr "Менеджер макета темы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:10
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:15
+msgid "SEO Friendly Url's"
+msgstr "Ссылки дружелюбные для поисковых систем"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:26
+msgid "Slider slug"
+msgstr "Slider пробкового"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:38
+msgid "Service slug"
+msgstr "Услуги пробкового"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:50
+msgid "Team slug"
+msgstr "Слаг команды"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:62
+msgid "Portfolio slug"
+msgstr "Слаг портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:75
+msgid "Portfolio category slug"
+msgstr "Слаг рубрики портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:88
+msgid "Testimonial slug"
+msgstr "Слаг отзывов"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:101
+msgid "Client slug"
+msgstr "Клиент пробкового"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:125
+msgid "Wallstreet slug"
+msgstr "Wallstreet слаг"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:8
+msgid "Project settings"
+msgstr "Настройки проекта"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:32
+msgid "Number of portfolio on portfolio section"
+msgstr "Количество элементов в разделе портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:79
+msgid "Enable view all porfolio button"
+msgstr "Включить кнопку Посмотреть все портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:95
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:279
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:75
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:101
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:102
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:133
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:135
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:110
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:297
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:77
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:136
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:137
+msgid "Button Link"
+msgstr "Ссылка кнопки"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:126
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:314
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:79
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:98
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:115
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:138
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:179
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:183
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:187
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:191
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:195
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:199
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:211
+msgid "Open link in new tab"
+msgstr "Открыть ссылку в новой вкладке"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:139
+msgid "Click here to add project"
+msgstr "Нажмите здесь, чтобы добавить проект"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:8
+msgid "Service settings"
+msgstr "Настройки услуг"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:35
+msgid "Number of services on service section"
+msgstr "Количество услуг в секции услуг"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:89
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:184
+msgid "Click here to add service"
+msgstr "Нажмите здесь, чтобы добавить услугу"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:110
+msgid "Other services section"
+msgstr "Другие секции услуг"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:128
+msgid "Enable other service section in service template"
+msgstr "Включить другие секции услуг в шаблоне услуг"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:209
+msgid "Service callout settings"
+msgstr "Настройки контактной информации услуг"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:229
+msgid "Enable Callout area section"
+msgstr "Включить секцию контактов"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:8
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:14
+msgid "Slider settings"
+msgstr "Настройки слайдера"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:55
+msgid "Select slider animation"
+msgstr "Выберите анимацию слайдера"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:58
+msgid "slide"
+msgstr "слайд"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:58
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:35
+msgid "fade"
+msgstr "fade"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:78
+msgid "Slide direction"
+msgstr "Направление слайда"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:81
+msgid "horizontal"
+msgstr "горизонтально"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:81
+msgid "vertical"
+msgstr "вертикально"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:98
+msgid "Animation speed"
+msgstr "Скорость анимации"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:118
+msgid "Slideshow speed"
+msgstr "Скорость слайдшоу"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:131
+msgid "Click here ho add slider"
+msgstr "Нажмите здесь, чтобы добавить слайдер"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:7
+msgid "Social link settings"
+msgstr "Настройки социальных ссылок"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:37
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:15
+msgid "Social Links"
+msgstr "Социальные ссылки"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:35
+msgid "Enable social media links on header section"
+msgstr "Включить ссылки на социальные сети в шапке"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:55
+msgid "Enable social media links on about us section"
+msgstr "Включить ссылки на социальные сети в секции О нас"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:75
+msgid "Enable social media links on footer section"
+msgstr "Включить ссылки на социальные сети в подвале"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:177
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:197
+msgid "Youtube URL"
+msgstr "YouTube URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:216
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:181
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:182
+msgid "Skype URL"
+msgstr "Skype URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:236
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:189
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:190
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:256
+msgid "WordPress URL"
+msgstr "WordPress URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-social.php:276
+msgid "Dropbox URL"
+msgstr "Dropbox URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:76
+msgid "Hide post meta i.e. author name, date of submission, category, tags from posts page"
+msgstr "Скрыть мета информацию записи (имя автора, время публикации, рубрика, метки) на странице записи"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:95
+msgid "Hide post meta i.e. author name, date of submission, category, tags from page"
+msgstr "Скрыть мета информацию записи (имя автора, время публикации, рубрика, метки) для страниц"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:146
+msgid "Select column layout"
+msgstr "Выберите макет колонок"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:196
+msgid "Contact page address setting"
+msgstr "Настройки адреса контактной страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:214
+msgid "Enable contact page address section"
+msgstr "Включить секцию адреса контактной страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:273
+msgid "Address one"
+msgstr "Адрес одного"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:289
+msgid "Address two"
+msgstr "Адрес две"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:298
+msgid "Contact page phone setting"
+msgstr "Настройки телефона контактной страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:318
+msgid "Enable contact page phone section"
+msgstr "Включить секцию телефона контактной страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:349
+msgid "Phone"
+msgstr "Телефон"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:375
+msgid "Phone number one"
+msgstr "Телефонный номер 1"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:393
+msgid "Phone number two"
+msgstr "Телефонный номер 2"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:404
+msgid "Contact page email setting"
+msgstr "Настройки email адреса контактной страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:424
+msgid "Enable contact page email section"
+msgstr "Включить секцию email адреса контактной страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:526
+msgid "Contact page form setting"
+msgstr "Настройки формы контактной страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:572
+msgid "Contact page Google maps"
+msgstr "Google Карты контактной страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:591
+msgid "Enable Google map in contact page"
+msgstr "Включить Google Карты контактной страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:626
+msgid "URL"
+msgstr "URL"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:8
+msgid "Testimonial settings"
+msgstr "Настройки отзывов"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:14
+msgid "Home testimonial setting"
+msgstr "Настройка отзывов на главной странице"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:33
+msgid "Slide type variations"
+msgstr "Варианты типов слайда"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:35
+msgid "scroll"
+msgstr "свиток"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:35
+msgid "crossfade"
+msgstr "склейка"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:35
+msgid "cover-fade"
+msgstr "cover-fade"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:53
+msgid "Scroll items"
+msgstr "Прокрутка элементов"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:73
+msgid "Scroll duration"
+msgstr "Длительность прокрутки"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:93
+msgid "Time out duration"
+msgstr "Продолжительность паузы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:108
+msgid "Click here to add testimonial"
+msgstr "Нажмите здесь для добавления отзыва"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:13
+msgid "Typhography enable / disable"
+msgstr "Включить / выключить типографию"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:27
+msgid "Enable custom typography"
+msgstr "Включить пользовательскую типографию"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:60
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:117
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:174
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:230
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:286
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:343
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:399
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:455
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:511
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:65
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:122
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:179
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:235
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:291
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:348
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:404
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:460
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:516
+msgid "Pixels"
+msgstr "Пиксели"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:77
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:134
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:191
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:247
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:303
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:360
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:416
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:472
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:528
+msgid "Font family"
+msgstr "Семейство шрифта"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:93
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:150
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:207
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:263
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:319
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:376
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:432
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:488
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:544
+msgid "Font style"
+msgstr "Стиль шрифта"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:103
+msgid "Menus"
+msgstr "меню"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:216
+msgid "Service title"
+msgstr "Название услуги"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:272
+msgid "Portfolio title"
+msgstr "Заголовок портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:329
+msgid "Widget heading title"
+msgstr "Заголовок виджета"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:385
+msgid "Callout title"
+msgstr "Заголовок контактного блока"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:441
+msgid "Callout description"
+msgstr "Описание контактного блока"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:497
+msgid "Callout button"
+msgstr "Кнопка контактного блока"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer_theme_style.php:84
+msgid "Change skin color for light and dark background"
+msgstr "Изменить цветовую гамму для светлого и темного фона"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:47
+msgid "Featured Service"
+msgstr "Избранная услуга"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:14
+msgid "Testimonial Detail"
+msgstr "Детали отзыва"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:15
+msgid "Team Detail"
+msgstr "Детали команды"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:16
+msgid "Client Detail"
+msgstr "Детали клиента"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:48
+msgid "Page Description"
+msgstr "Описание страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:49
+msgid "Enter page description"
+msgstr "Введите описание страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:50
+msgid "Page Layout"
+msgstr "Макет страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:76
+msgid "Text"
+msgstr "Текст"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:78
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:96
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:97
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:113
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:114
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:208
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:209
+msgid "Link"
+msgstr "Ссылка"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:93
+msgid "Get your fontawesome icons."
+msgstr "Получить иконки FontAwesome."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:94
+msgid "To enable service icon check mark the checkbox"
+msgstr "Для включения иконок для услуг отметьте чекбокс"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:116
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:117
+msgid "Page Info"
+msgstr "Информация о странице"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/single-wallstreet_portfolio.php:55
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:128
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:129
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:182
+msgid "Clients"
+msgstr "клиенты"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:169
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:170
+msgid "Designation"
+msgstr "Обозначение"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:175
+msgid "Social Media Setting"
+msgstr "Настройка социальный сетей"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:214
+msgid "Upload client image using feature image. Best fit scenario is using 130 X 130 px image."
+msgstr "Загрузите картинку клиента. Лучше всего подходит картинки размером 130х130 px."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:13
+msgid "Featured Slider"
+msgstr "Избранный слайдер"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:14
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:16
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:48
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:50
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:83
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:85
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:116
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:118
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:149
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:151
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:184
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:186
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:15
+msgid "Add New Slider"
+msgstr "Добавить новый слайдер"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:17
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:51
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:86
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:119
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:152
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:187
+msgid "New Link"
+msgstr "Новая ссылка"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:18
+msgid "All Featured Slides"
+msgstr "Все избранные слайды"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:19
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:53
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:88
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:121
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:154
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:189
+msgid "View Link"
+msgstr "Посмотреть ссылку"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:20
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:54
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:89
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:155
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:190
+msgid "Search Links"
+msgstr "Ссылки на поиск"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:21
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:55
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:90
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:123
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:156
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:191
+msgid "No Links found"
+msgstr "Не найдено ни одной ссылки"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:22
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:56
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:91
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:124
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:157
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:192
+msgid "No Links found in Trash"
+msgstr "В корзине ссылки не найдены"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:49
+msgid "Add New Service"
+msgstr "Добавить  новую услугу"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:52
+msgid "All Services"
+msgstr "Все услуги"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:82
+msgid "Portfolio / Project"
+msgstr "Портфолио / проект"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:84
+msgid "Add New Project"
+msgstr "Добавить новый проект"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:87
+msgid "All Portfolio Project"
+msgstr "Все проекты портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:115
+msgid "Testimonial"
+msgstr "Отзывы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:117
+msgid "Add New Testimonial"
+msgstr "Добавить новый отзыв"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:120
+msgid "All Testimonials"
+msgstr "Все отзывы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:122
+msgid "Search Testimonials"
+msgstr "Поиск отзывов"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:148
+msgid "Our Team"
+msgstr "Наша команда"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:150
+msgid "Add New Member"
+msgstr "Добавить нового человека"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:153
+msgid "All Teams"
+msgstr "Все команды"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:185
+msgid "Add New Client"
+msgstr "Добавить нового клиента"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/post-type/custom-post-type.php:188
+msgid "All Clients"
+msgstr "Все клиенты"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:31
+msgid "Insert Shortcode"
+msgstr "Вставить Шорткод"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:67
+msgid "Shortcode Selector"
+msgstr "Выбор шорткодов"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:75
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:76
+msgid "column"
+msgstr "колонка"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:77
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:78
+msgid "Accordion"
+msgstr "аккордеон"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:79
+msgid "Alert"
+msgstr "бдительный"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:80
+msgid "Drop-Caps"
+msgstr "Буквица"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:81
+msgid "Button"
+msgstr "кнопка"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:82
+msgid "Heading"
+msgstr "заголовок"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:83
+msgid "Tool Tip"
+msgstr "Всплывающая подсказка"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/shortcodes/shortcodes_iframe.php:84
+msgid "List"
+msgstr "Список"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/taxonomies/taxonomies.php:22
+msgid "Portfolio Categories"
+msgstr "Рубрики портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/custom-sidebar.php:27
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/custom-sidebar.php:29
+msgid "Woocommerce sidebar widget area"
+msgstr "Область виджетов WooCommerce в боковой панели"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:17
+msgid "This widget allows you to display latest, popular and comment posts."
+msgstr "Этот виджет позволяет вам отображать последние, популярные и комментируемые записи."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:35
+msgid "Popular"
+msgstr "Популярный"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:36
+msgid "Recent"
+msgstr "недавний"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:37
+msgid "Comment"
+msgstr "Комментарий"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:55
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:82
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:105
+msgid "By"
+msgstr "Автор:"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-blog.php:61
+msgid "No posts to show"
+msgstr "Нет новостей для отображения"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:73
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-client.php:23
+msgid "Our Clients"
+msgstr "Наши клиенты"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:13
+msgid "Service heading"
+msgstr "Шапка услуги"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-slider.php:33
+msgid "Enable home slider"
+msgstr "Включить слайдер на главной странице"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:8
+msgid "Template settings"
+msgstr "Настройки шаблона"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:59
+msgid "Blog meta setting"
+msgstr "Настройки мета информации в блоге"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:8
+msgid "Typography settings"
+msgstr "Настройки типографики"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/custom-sidebar.php:6
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/custom-sidebar.php:8
+msgid "Sidebar widget area"
+msgstr "Область виджетов в боковой колонке"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/custom-sidebar.php:16
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/custom-sidebar.php:18
+msgid "Footer widget area"
+msgstr "Область виджетов в подвале"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:32
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:46
+msgid "Our Services"
+msgstr "Наши услуги"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:152
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:165
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/archive.php:21
+msgid "Daily Archive"
+msgstr "Архив за день"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/archive.php:23
+msgid "Monthly Archive"
+msgstr "Архив за месяц"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/archive.php:25
+msgid "Yearly Archive"
+msgstr "Архив за год"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/archive.php:27
+msgid "Blog Archive"
+msgstr "Архив блога"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:96
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:97
+msgid "First name"
+msgstr "Ваше имя"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:100
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/contact-us.php:101
+msgid "Last name"
+msgstr "Ваша фамилия"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-portfolio.php:78
+msgid "WallStreet style"
+msgstr "Стиль WallStreet"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:178
+msgid "Mobile ready"
+msgstr "Подготовлена для мобильных"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/service-template.php:178
+msgid "Live support"
+msgstr "Живая поддержка"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/tag.php:19
+msgid "Tag Archive %s"
+msgstr "Архив метки %s"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/theme_setup_data.php:34
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-service.php:138
+msgid "Other services"
+msgstr "Другие услуги"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-client.php:14
+msgid "Section Heading"
+msgstr "Заголовок секции"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:192
+msgid "Enable/Disable contact header"
+msgstr "Включить / Отключить заголовок контакта"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-project.php:14
+msgid "Home project setting"
+msgstr "Настройки проекта на главной странице"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:477
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:495
+msgid "Email one"
+msgstr "Email 1"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:512
+msgid "Email two"
+msgstr "Email 2"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer_theme_style.php:13
+msgid "Light & Dark Predefined Colors Setting"
+msgstr "Настройки цветов светлой и темной цветовой гаммы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:7
+msgid "Slider Detail"
+msgstr "Детали слайдера"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:8
+msgid "Service Detail"
+msgstr "Детали услуги"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:9
+msgid "Portfolio Detail"
+msgstr "Детали портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/meta-box/post-meta.php:10
+msgid "Portfolio Featured Detail"
+msgstr "Детали избранного портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/index-slider.php:80
+msgid "Welcome to wallstreet"
+msgstr "Добро пожаловать в Wallstreet"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/author.php:19
+msgid "Author Archive %s"
+msgstr "Архив автора %s"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/comments.php:32
+msgid "Posted on"
+msgstr "Опубликовано в"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/search.php:33
+msgid "Search results for: %s"
+msgstr "Результат поиска: %s"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-feature.php:257
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-testimonial.php:130
+msgid "Background Image"
+msgstr "Изображение фона"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-home.php:82
+msgid "Enable/Disable Logo"
+msgstr "Включить/Выключить логотип"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:110
+msgid "After Changing the slug, please do not forget to save permalinks. Without saving, the old permalinks will not revise."
+msgstr "После изменения слага, пожалуйста, не забудьте сохранить постоянные ссылки. Без этого новые ссылки не начнут работать."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-post-type-slugs.php:138
+msgid "Click here permalinks setting"
+msgstr "Нажмите здесь для настройки постоянных ссылок"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:16
+msgid "About page setting"
+msgstr "Настройки страницы О Нас"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:115
+msgid "Hide post meta i.e. author name, date of submission, category, tags from archive page."
+msgstr "Скрыть мета информацию записи (автор, время публикации, рубрика, метки) на странице архива."
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-template.php:128
+msgid "Portfolio category page setting"
+msgstr "Настройки страницы категории портфолио"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:46
+msgid "General Paragraph"
+msgstr "Общие настройки"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer-typography.php:160
+msgid "Post / Page title"
+msgstr "Заголовок записи/страницы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/customizer/customizer_theme_style.php:39
+msgid "Theme style setting"
+msgstr "Настройки стилей темы"
+
+#: D:\xampp\htdocs\wp7\wp-content\themes\wallstreet_pro_customizer/functions/widget/wallstreet-latest-widget.php:16
+msgid "WBR : Latest Posts"
+msgstr "WBR : последние записи"
+

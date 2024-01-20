@@ -21,17 +21,50 @@
 		return $excerpt;
 	}
 	
-	function get_home_blog_excerpt()
+	function get_home_blog_excerpt($length,$read)
 	{
 		global $post;
 		$excerpt = get_the_content();
 		$excerpt = strip_tags(preg_replace(" (\[.*?\])",'',$excerpt));
 		$excerpt = strip_shortcodes($excerpt);		
 		$original_len = strlen($excerpt);
-		$excerpt = substr($excerpt, 0, 275);		
+		$excerpt = substr($excerpt, 0, $length);		
 		$len=strlen($excerpt);	 
-		if($original_len>275)
-		   $excerpt = $excerpt.'<div class="blog-btn-col"><a href="'.get_the_permalink().'" class="blog-btn">'.__('Read More','wallstreet').'</a></div>';
+		if($original_len>$length)
+		   $excerpt = $excerpt.'<div class="blog-btn-col"><a href="'.get_the_permalink().'" class="blog-btn">'.__($read,'wallstreet').'</a></div>';
 		return $excerpt;
+	}
+
+	function get_post_blog_excerpt($length,$read)
+	{
+		$wallstreet_pro_options=theme_data_setup();
+		$current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
+	global $post;
+		$excerpt = get_the_excerpt();
+		$excerpt = strip_tags(preg_replace(" (\[.*?\])",'',$excerpt));
+		$excerpt = strip_shortcodes($excerpt);		
+		$original_len = strlen($excerpt);
+		$excerpt = substr($excerpt, 0, $length);		
+		$len=strlen($excerpt);	 
+		
+		if($original_len>$length){
+			if($current_options['blog_template_read_more'] != null) {
+		   	$excerpt = $excerpt.'<div class="blog-btn-col"><a href="'.get_the_permalink().'" class="blog-btn">'.__($read,'wallstreet').'</a></div>';
+			}else{
+				$excerpt = $excerpt;
+			}
+		}
+		return $excerpt;	
+	}
+
+	function get_only_post_blog_excerpt($length)
+	{
+	global $post;
+		$excerpt = get_the_excerpt();
+		$excerpt = strip_tags(preg_replace(" (\[.*?\])",'',$excerpt));
+		$excerpt = strip_shortcodes($excerpt);		
+		$original_len = strlen($excerpt);
+		$excerpt = substr($excerpt, 0, $length);		
+		return $excerpt;	
 	}
 ?>

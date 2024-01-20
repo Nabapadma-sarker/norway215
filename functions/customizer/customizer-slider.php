@@ -55,7 +55,7 @@ function wallstreet_slider_customizer( $wp_customize ) {
         'label' => __('Select slider animation','wallstreet'),
         'section' => 'slider_section_settings',
 		'priority'   => 200,
-		 'choices' => array('slide'=>__('slide','wallstreet'), 'fade'=>__('fade','wallstreet')),
+		 'choices' => array('slide'=>__('Slide','wallstreet'), 'fade'=>__('Fade','wallstreet')),
 		));
 		
 		
@@ -119,6 +119,162 @@ function wallstreet_slider_customizer( $wp_customize ) {
         'section' => 'slider_section_settings',
 		'priority'   => 300,
 		 'choices' => array('500'=>'0.5','1000'=>'1.0','1500'=>'1.5','2000' => '2.0','2500' => '2.5' ,'3000' =>'3.0' , '3500' => '3.5', '4000' => '4.0','4500' => '4.5' ,'5000' => '5.0' , '5500' => '5.5' )));	
+
+
+
+	//Section For Desktop View
+	$wp_customize->add_section(
+        'slider_desktop_section_settings',
+        array(
+            'title' => __('Slider desktop view settings','wallstreet'),
+            'description' => '',
+			'panel'  => 'wallstreet_slider_setting',)
+    );
+    $wp_customize->add_setting(
+    'wallstreet_pro_options[home_slider_desktop_title_enabled]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[home_slider_desktop_title_enabled]',
+    array(
+        'label' => __('Enable slider title','wallstreet'),
+        'section' => 'slider_desktop_section_settings',
+        'type' => 'checkbox',
+		'priority'   => 100,
+    ));
+    $wp_customize->add_setting(
+    'wallstreet_pro_options[home_slider_desktop_subtitle_enabled]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[home_slider_desktop_subtitle_enabled]',
+    array(
+        'label' => __('Enable slider subtitle','wallstreet'),
+        'section' => 'slider_desktop_section_settings',
+        'type' => 'checkbox',
+		'priority'   => 100,
+    ));
+    $wp_customize->add_setting(
+    'wallstreet_pro_options[home_slider_desktop_desc_enabled]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[home_slider_desktop_desc_enabled]',
+    array(
+        'label' => __('Enable slider description','wallstreet'),
+        'section' => 'slider_desktop_section_settings',
+        'type' => 'checkbox',
+		'priority'   => 100,
+    ));
+     $wp_customize->add_setting(
+    'wallstreet_pro_options[home_slider_desktop_button_enabled]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[home_slider_desktop_button_enabled]',
+    array(
+        'label' => __('Enable button','wallstreet'),
+        'section' => 'slider_desktop_section_settings',
+        'type' => 'checkbox',
+		'priority'   => 100,
+    ));
+
+    //Section For Desktop View
+	$wp_customize->add_section(
+        'slider_mobile_section_settings',
+        array(
+            'title' => __('Slider mobile view settings','wallstreet'),
+            'description' => '',
+			'panel'  => 'wallstreet_slider_setting',)
+    );
+    $wp_customize->add_setting(
+    'wallstreet_pro_options[home_slider_mobile_title_enabled]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[home_slider_mobile_title_enabled]',
+    array(
+        'label' => __('Enable slider title','wallstreet'),
+        'section' => 'slider_mobile_section_settings',
+        'type' => 'checkbox',
+		'priority'   => 100,
+    ));
+    $wp_customize->add_setting(
+    'wallstreet_pro_options[home_slider_mobile_subtitle_enabled]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[home_slider_mobile_subtitle_enabled]',
+    array(
+        'label' => __('Enable slider subtitle','wallstreet'),
+        'section' => 'slider_mobile_section_settings',
+        'type' => 'checkbox',
+		'priority'   => 100,
+    ));
+    $wp_customize->add_setting(
+    'wallstreet_pro_options[home_slider_mobile_desc_enabled]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[home_slider_mobile_desc_enabled]',
+    array(
+        'label' => __('Enable slider description','wallstreet'),
+        'section' => 'slider_mobile_section_settings',
+        'type' => 'checkbox',
+		'priority'   => 100,
+    ));
+     $wp_customize->add_setting(
+    'wallstreet_pro_options[home_slider_mobile_button_enabled]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[home_slider_mobile_button_enabled]',
+    array(
+        'label' => __('Enable button','wallstreet'),
+        'section' => 'slider_mobile_section_settings',
+        'type' => 'checkbox',
+		'priority'   => 100,
+    ));
 	
 	//Add Slider setting
 	class WP_slider_Customize_Control extends WP_Customize_Control {
@@ -128,7 +284,7 @@ function wallstreet_slider_customizer( $wp_customize ) {
     */
     public function render_content() {
     ?>
-    <a href="<?php bloginfo ( 'url' );?>/wp-admin/edit.php?post_type=wallstreet_slider" class="button"  target="_blank"><?php _e( 'Click here ho add slider', 'wallstreet' ); ?></a>
+    <a href="<?php bloginfo ( 'url' );?>/wp-admin/edit.php?post_type=wallstreet_slider" class="button"  target="_blank"><?php _e( 'Click here to add slider', 'wallstreet' ); ?></a>
     <?php
     }
 }

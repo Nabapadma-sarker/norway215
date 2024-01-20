@@ -10,18 +10,7 @@ $wallstreet_pro_options=theme_data_setup();
 $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
 ?>
 <!-- Page Title Section -->
-<div class="page-mycarousel" style='background: url("<?php echo( get_header_image() ); ?>") repeat scroll center 0 #143745;'>
-	<div class="page-title-col">
-		<div class="container">
-			<div class="row">
-				<div class="page-header-title">
-					<h1><?php the_title(); ?></h1>		
-				</div>
-			</div>	
-		</div>
-		<?php get_template_part('index', 'banner'); ?>
-	</div>
-</div>
+<?php get_template_part('index', 'banner'); ?>
 <!-- /Page Title Section -->
 
 <!-- Blog & Sidebar Section -->
@@ -33,7 +22,7 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 				<?php printf( __( "Search results for: %s", 'wallstreet' ), '<span>' . get_search_query() . '</span>' ); ?>
 				</h1>
 			<?php while ( have_posts() ) { the_post();  ?>
-			<div id="post-<?php the_ID(); ?>" <?php post_class('blog-section-right'); ?>>
+			<div id="post-<?php the_ID(); ?>" <?php post_class('blog-section-left'); ?>>
 				<?php if(has_post_thumbnail()){ ?>
 				<?php $defalt_arg =array('class' => "img-responsive"); ?>
 				<div class="blog-post-img">

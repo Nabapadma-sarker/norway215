@@ -11,7 +11,8 @@
 <?php $wallstreet_pro_options=theme_data_setup();
 	  $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options ); ?>	
 <div class="container client-section">	
-	<div class="row">			
+	<div class="row">	
+	<?php if(!empty($current_options['home_client_title']) || (!empty($current_options['home_client_description']))):?>		
 		<div class="section_heading_title">
 			<?php if($current_options['home_client_title']) { ?>
 			<h1><?php echo $current_options['home_client_title']; ?></h1>
@@ -25,11 +26,12 @@
 				<p><?php echo $current_options['home_client_description']; ?></p>
 			<?php } ?>
 			
-		</div>		
+		</div>	
+		<?php endif;?>	
 		<div class="row">
 			<?php
 			$j=1;
-			$args = array( 'post_type' => 'wallstreet_client'); 	
+			$args = array( 'post_type' => 'wallstreet_client','posts_per_page'=>-1); 	
 			$client = new WP_Query( $args );
 			if( $client->have_posts() ){
 				

@@ -11,12 +11,33 @@ function wallstreet_project_customizer( $wp_customize ) {
 	$wp_customize->add_section(
         'project_section_settings',
         array(
-            'title' => __('Home project setting','wallstreet'),
+            'title' => __('Homepage project settings','wallstreet'),
             'description' => '',
 			'panel'  => 'wallstreet_project_setting',)
     );
 	
 	
+	//Column Layout
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[portfolio_homepage_column_laouts]',
+    array(
+       'default' => 3,
+	   'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+		)
+	);	
+	$wp_customize->add_control( 'wallstreet_pro_options[portfolio_homepage_column_laouts]',array(
+	 'type' => 'radio',
+	 'label'   => __('Portfolio Column layout section','wallstreet'),
+    'section' => 'project_section_settings',
+	'choices' => array(3=>'4 Column Layout',4=>'3 Column Layout',6=>'2 Column Layout'),
+		)
+	);
+
+
+
+
 	// Number of Portfolio section
 	$wp_customize->add_setting(
     'wallstreet_pro_options[portfolio_list]',
@@ -28,10 +49,12 @@ function wallstreet_project_customizer( $wp_customize ) {
 		)
 	);	
 	$wp_customize->add_control( 'wallstreet_pro_options[portfolio_list]',array(
-	 'type' => 'select',
+	 'type' => 'number',
 	 'label'   => __('Number of portfolio on portfolio section','wallstreet'),
     'section' => 'project_section_settings',
-	'choices' => array(4=>4,8=>8,12=>12,16=>16,20=>20,24=>24),
+	'input_attrs' => array(
+            'min' => '1', 'step' => '1', 'max' => '24',
+          ),
 		)
 	);
 	
@@ -39,7 +62,7 @@ function wallstreet_project_customizer( $wp_customize ) {
 	$wp_customize->add_setting(
     'wallstreet_pro_options[portfolio_title]',
     array(
-        'default' => __('Featured portfolio project','wallstreet'),
+        'default' => __('Featured portfolio','wallstreet'),
 		'capability'     => 'edit_theme_options',
 		'sanitize_callback' => 'sanitize_text_field',
 		'type' => 'option',
@@ -76,7 +99,7 @@ function wallstreet_project_customizer( $wp_customize ) {
 		));	
 	
 	$wp_customize->add_control( 'wallstreet_pro_options[view_all_projects_btn_enabled]',array(
-    'label'   => __('Enable view all porfolio button','wallstreet'),
+    'label'   => __('Enable view all portfolios button','wallstreet'),
     'section' => 'project_section_settings',
 	 'type' => 'checkbox',)  );
 	 

@@ -11,18 +11,7 @@ $wallstreet_pro_options=theme_data_setup();
 $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
  ?>
 <!-- Page Title Section -->
-<div class="page-mycarousel" style='background: url("<?php echo( get_header_image() ); ?>") repeat scroll center 0 #143745;'>
-	<div class="page-title-col">
-		<div class="container">
-			<div class="row">
-				<div class="page-header-title">
-					<h1><?php the_title(); ?></h1>		
-				</div>
-			</div>	
-		</div>
-		<?php get_template_part('index', 'banner'); ?>
-	</div>	
-</div>
+<?php get_template_part('index', 'banner'); ?>
 <!-- /Page Title Section -->
 <!-- Blog & Sidebar Section -->
 <div class="container">
@@ -101,11 +90,7 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 								if ( $twitter_profile && $twitter_profile != '' ) {
 									echo '<li class="twitter"><a href="' . esc_url($twitter_profile) . '"><i class="fa fa-twitter"></i></a></li>';
 								}
-								$google_profile = get_the_author_meta( 'google_profile' );
-								if ( $google_profile && $google_profile != '' ) {
-									echo '<li class="googleplus"><a href="' . esc_url($google_profile) . '" rel="author"><i class="fa fa-google-plus"></i></a></li>';
-								}
-							?>
+								?>
 						</ul>
 					</div>
 				</div>	

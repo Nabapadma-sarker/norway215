@@ -30,7 +30,7 @@ function custom_light() {
 	?>
 	<style type="text/css"> 
 .header-top-area, .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > .open > a,
-.navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .flex_btn, .service-area:hover, .service-btn a, .other-service-area:hover i, .home-portfolio-showcase-overlay, .proejct-btn a:hover, .home-blog-btn a, .feature-icon, .tweet-btn a:hover, .post-date, .team-area:hover, .callout-section a, .blog-post-date span.date, a.blog-btn, .blog-pagination a:hover, .blog-pagination a.active, .sidebar-widget > .tagcloud a:hover, .search_btn, .search_error, .search_heading, .sidebar-widget-tab > .active a, .blog-author-social li:hover, .reply a:hover, .blogdetail-btn a, #blogdetail_btn, .portfolio-tabs li.active > a, .portfolio-tabs li > a:hover, .main-portfolio-showcase-overlay, .portfolio-detail-pagi li a:hover, .portfolio-detail-info .project-btn:hover, .prelated-project-btn  li a:hover, .google-map-title, .contact-detail-area i, .cont-btn a, .qua_contact_btn, .short-btn-green, .dropcape-square span, .dropcape-circle span, .panel-default > .short-panel-heading h4, .short-tabs li a, .wallstreet_page_heading, .post-password-form input[type="submit"], .blog-pagination span.current { background-color: <?php echo $link_color; ?>; }
+.navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .flex_btn, .service-area:hover, .service-btn a, .other-service-area:hover i, .home-portfolio-showcase-overlay, .proejct-btn a:hover, .home-blog-btn a, .feature-icon, .tweet-btn a:hover, .post-date, .team-area:hover, .callout-section a, .blog-post-date span.date, a.blog-btn, .blog-pagination a:hover,.page-numbers:hover,span.page-numbers.current, .blog-pagination a.active, .sidebar-widget > .tagcloud a:hover, .search_btn, .search_error, .search_heading, .sidebar-widget-tab > .active a, .blog-author-social li:hover, .reply a:hover, .blogdetail-btn a, #blogdetail_btn, .portfolio-tabs li.active > a, .portfolio-tabs li > a:hover, .main-portfolio-showcase-overlay, .portfolio-detail-pagi li a:hover, .portfolio-detail-info .project-btn:hover, .prelated-project-btn  li a:hover, .google-map-title, .contact-detail-area i, .cont-btn a, .qua_contact_btn, .short-btn-green, .dropcape-square span, .dropcape-circle span, .panel-default > .short-panel-heading h4, .short-tabs li a, .wallstreet_page_heading, .post-password-form input[type="submit"], .blog-pagination span.current { background-color: <?php echo $link_color; ?>; }
 .pagetitle-separator-border { background: <?php echo $link_color; ?> !important;}
 .pagetitle-separator-box { background: <?php echo $link_color; ?> none repeat scroll 0 0 !important;}
 
@@ -49,7 +49,7 @@ function custom_light() {
 .blog-post-title-wrapper-full h2, .blog-post-title-wrapper h3, .blog-post-title-wrapper-full h3, .blog-post-title-wrapper h4, .blog-post-title-wrapper-full h4,
 .blog-post-title-wrapper h5, .blog-post-title-wrapper-full h5, .blog-post-title-wrapper h6, .blog-post-title-wrapper-full h6, .blog-post-title-wrapper p a, .blog-post-title-wrapper-full p a, .post_message, .comment-detail > table > tbody > tr > th > a:hover, .comment-detail > table > tbody > tr > td > a, .comment-detail > dl > dt a, .comment-detail > dl > dd a, .comment-detail p a, .comment-detail > dl > dt a, .comment-detail > dl > dd a, .comment-detail > ul, .comment-detail > ul > li a, .comment-detail > ul, .comment-detail > ul > li a, .comment-detail > ul > li > ul > li a, .comment-detail > ul > li > ul > li > ul > li a, .comment-detail > ol,
 .comment-detail > ol > li a, .comment-detail > ol > li > ol > li a, .comment-detail > ol > li > ol > li > ol > li a, #comment-nav-below > .nav-previous a, #comment-nav-below > .nav-next a, .tiled-gallery .tiled-gallery-item img, .tiled-gallery .tiled-gallery-item img:hover, #gallery-2 img, .post-content li > a:hover, 
-.sidebar-widget > ul > li > a:hover, .sidebar-widget > ul > li > ul > li > a:hover, .menu-primary-container li a:hover, .page-links a, th { color: <?php echo $link_color; ?>; }
+.sidebar-widget > ul > li > a:hover, .sidebar-widget > ul > li > ul > li > a:hover, .menu-primary-container li a:hover, .page-links a { color: <?php echo $link_color; ?>; }
 
 .testimonial-section .overlay { background: rgba(<?php echo $r; ?>,<?php echo $g; ?>,<?php echo $b; ?>,0.7) !important; }
 
@@ -107,6 +107,200 @@ function custom_light() {
 .woocommerce-message a {color:<?php echo $link_color; ?>;}
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, 
 .woocommerce #respond input#submit.alt, .woocommerce button.button.alt{ background-color:<?php echo $link_color; ?>; }
+
+
+.cart-header > a.cart-total {
+    background: <?php echo $link_color; ?>;
+}
+.team-section1 .position {
+    color: <?php echo $link_color; ?>;
+}
+.page_scrollup {
+    background-color: <?php echo $link_color; ?>;
+    }
+.team1 .team-img .overlay{background-color: rgba(<?php echo $r; ?>,<?php echo $g; ?>,<?php echo $b; ?>, 0.85);}
+.search-form input[type="submit"] {
+    background-color: <?php echo $link_color; ?>;
+    border: 1px solid <?php echo $link_color; ?>;
+}    
+#searchbar_fullscreen .close {
+    background-color: <?php echo $link_color; ?>;
+}.team-details 
+.service1 .service-box img {
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+}
+.team2 .name {
+    color: #2A2C33;
+}
+.team-section1 .custom-social-icons li > a {
+    color: #2A2C33;
+}
+.team-section1 .custom-social-icons li > a:hover {
+    color: <?php echo $link_color; ?>;
+}
+.service2 .service-effect::before {
+    background-color: <?php echo $link_color; ?>;
+}
+.team-section1.team3 .team-details p, .team-section1.team4 .team-details p{color: #000000;padding: 0 10px;}
+.service-box img {
+    border: 2px solid rgb(234, 234, 234);
+}
+.service3 .service-effect:hover {
+    background: <?php echo $link_color; ?>;
+}
+.service2 .service-effect:hover h2 > a, .service3 .service-effect:hover h2 > a {
+    color: #ffffff;
+}
+.service2 .service-effect:hover p, .service3 .service-effect:hover p {
+    color: #ffffff;
+    transition: all 0.4s ease 0s;
+}
+.service1 .service-effect:hover h2 > a, .service4 .service-effect:hover h2 > a {
+    color: rgb(42, 44, 51);
+}
+.service1 .service-effect:hover p, .service4 .service-effect:hover p {
+    color: rgb(114, 114, 114);
+    transition: all 0.4s ease 0s;
+}
+.service1 .service-effect:hover .service-btn a, .service1 .service-area:hover .service-btn a, .service4 .service-effect:hover .service-btn a, .service4 .service-area:hover .service-btn a {
+    background-color: <?php echo $link_color; ?>;
+    border: 1px solid <?php echo $link_color; ?>;
+    color: rgb(255, 255, 255);
+}
+
+.service1 .service-box img {
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+}
+.navbar-header.index2 {
+    background-color: #ffffff;
+}
+.navbar4 .navbar-header {
+    background-color: <?php echo $link_color; ?>;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: transparent;
+    border-color: rgba(<?php echo $r; ?>,<?php echo $g; ?>,<?php echo $b; ?>, 0.5);
+}
+.navbar.navbar2 .navbar-nav > .active > a, .navbar.navbar2 .navbar-nav > .active > a:hover, .navbar.navbar2 .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.navbar.navbar2 .navbar-nav > li.active > a:after, .navbar2 ul li > a:hover:after {
+    background: <?php echo $link_color; ?>;
+}
+.navbar.navbar2 .navbar-nav > li > a:hover, .navbar.navbar2 .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.header-style-3 .search-box-outer a, .header-style-3 .cart-header > a.cart-icon{color: #211f1f;}
+.header-style-3 .cart-header {border-left: 1px dotted #211f1f;}
+.header-style-5.navbar-inverse .navbar-toggle, .header-style-5.navbar-inverse .navbar-toggle:hover {
+    background: none repeat scroll 0 0 rgba(<?php echo $r; ?>,<?php echo $g; ?>,<?php echo $b; ?>, 0.85);
+}
+.service1 .service-effect:hover .service-box i.fa {
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+    color: <?php echo $link_color; ?>;
+}
+.service1 .service-box i.fa {
+    background: <?php echo $link_color; ?>;
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+}
+.service1 .service-box img {
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+}
+.service2 .service-effect::before {
+    background-color: <?php echo $link_color; ?>;
+}
+.service2 .service-box i.fa {
+    color: <?php echo $link_color; ?>;
+}
+.service3 .service-box i.fa {
+    background: <?php echo $link_color; ?>;
+}
+.service3 .service-effect:hover {
+    background: <?php echo $link_color; ?>;
+}
+.service3 .service-effect:hover .service-box i.fa {
+    color: <?php echo $link_color; ?>;
+}
+.service4 .service-box i.fa {
+    color: <?php echo $link_color; ?>;
+}
+.page-template-blog-fullwidth .blog-post-title-wrapper-full div .blog-btn:after{background-color: <?php echo $link_color; ?>;}
+.portfolio-tabs-section .portfolio-tabs .nav-link.active,.portfolio-tabs-section .portfolio-tabs .nav-link:hover{border: 1px solid <?php echo $link_color; ?>;    background-color: <?php echo $link_color; ?>;color: #ffffff;}
+
+.service4 h2>a:hover {color: <?php echo $link_color; ?> !important;}
+
+.service1 h2>a:hover {color:<?php echo $link_color; ?> !important;}
+.navbar.navbar5 .navbar-nav > .active > a, 
+.navbar.navbar5 .navbar-nav > .active > a:hover, 
+.navbar.navbar5 .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.navbar.navbar5 .navbar-nav > .open > a, 
+.navbar.navbar5 .navbar-nav > .open > a:hover, 
+.navbar.navbar5 .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.navbar.navbar5 .navbar-nav > li > a:hover, 
+.navbar.navbar5 .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: <?php echo $link_color; ?>;
+}
+.service5 .service-box i.fa {
+    background: <?php echo $link_color; ?>;
+}
+.service5 .service-effect:hover {
+    background: <?php echo $link_color; ?>;
+}
+.service5 .service-effect:hover .service-box i.fa {
+    background-color: #ffffff;
+    color: <?php echo $link_color; ?>;
+}
+.service5 .service-effect {
+        background: #f8f8f8;
+}
+.service5 .service-box img {
+    box-shadow: <?php echo $link_color; ?> 0px 0px 0px 1px;
+}
+.navbar-header .wallstreet_title_head, .navbar-header .site-description{
+    color: #333333;
+}
+
+/*Widget css*/
+.sidebar-widget li a:hover,.sidebar-widget li a:focus,.footer-widget-section li a:hover,.footer-widget-section li a:focus{
+  color: <?php echo $link_color; ?>;
+}
+.wp-block-search .wp-block-search__button {
+  background-color: <?php echo $link_color; ?>;
+}
+.wp-block-calendar table caption,.wp-block-calendar a {    
+  color:<?php echo $link_color; ?>;
+}
+.wp-block-tag-cloud a:hover,.wp-block-tag-cloud a:focus{
+  background-color:<?php echo $link_color; ?>;
+  border: none;
+}
+.ui-slider-horizontal .ui-slider-range {
+  background:<?php echo $link_color; ?>;
+}
+.wc-block-product-search .wc-block-product-search__button{
+  background:<?php echo $link_color; ?>; 
+}
+.sidebar-widget p a,.footer-widget-section .footer_widget_column p a, .sidebar-widget .wp-block-latest-comments__comment-author, .footer-widget-section .wp-block-latest-comments__comment-author{
+  color: <?php echo $link_color; ?>;
+}
+.wpcf7-submit {
+    background-color: <?php echo $link_color; ?>;
+}
+.sidebar-widget .wp-block-tag-cloud a:hover{
+    background-color: <?php echo $link_color; ?>;
+    border: 1px solid <?php echo $link_color; ?>;
+    color: #fff;
+}
+
 </style>
 <?php
 	endif;

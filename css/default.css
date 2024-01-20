@@ -4,7 +4,7 @@ Theme URI:
 Author: Webriti
 Author URI: http://webriti.com/
 Description: 
-Version:  1.2
+Version:  2.3.4
 Tags: white, red, full-width-template, threaded-comments, custom-menu, two-columns,translation-ready , custom-background , sticky-post
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -21,7 +21,7 @@ body { background-color: #2a2c33 !important; color: #333333; }
 .head-contact-social li:hover { background-color: #ffffff; }
 .head-contact-social li:last-child { border-right: 1px solid #FFFFFF; }
 .head-contact-social li > a > i { color: #FFFFFF; }
-.head-contact-info li { color: #FFFFFF; }
+.head-contact-info li, .head-contact-info a { color: #FFFFFF; }
 
 /*Homepage Flex Slider Section--------------------------------------------------------------------------*/ 
 .homepage_mycarousel { background: #2a2c33;	box-shadow: 0 7px 10px -10px #000; }
@@ -170,8 +170,8 @@ body { background-color: #2a2c33 !important; color: #333333; }
 .blog-tags i { color: #e5e5e5; }
 .blog-tags a { color: #e5e5e5; }
 a.blog-btn { color: #FFFFFF; border: 1px solid transparent; }
-.blog-pagination a:hover, .blog-pagination a.active, .page-links a:hover, .page-links a.active, .blog-pagination span { color: #FFFFFF; }
-.blog-pagination a, .page-links a, .blog-pagination span { background-color: #3c3f49; color: #FFFFFF; }
+.blog-pagination a:hover, .blog-pagination a.active, .page-links a:hover, .page-links a.active, .blog-pagination span,.page-numbers:hover,span.page-numbers.current{ color: #FFFFFF; }
+.blog-pagination a, .page-links a, .blog-pagination span,.page-numbers { background-color: #3c3f49; color: #FFFFFF; }
 .page-links a { background-color: #2a2c33; } 
 
 .blog-pagination span.current{background-color: #00c2a9; color: #FFFFFF;}
@@ -187,7 +187,7 @@ a.blog-btn { color: #FFFFFF; border: 1px solid transparent; }
 .footer_widget_column > ul > li > ul > li > a,
 .footer_widget_column > ul > li > ul > li > ul > li > a{ color: #e5e5e5; }
 .sidebar-widget ul.sidebar-tab.sidebar-widget-tab > li{ color: #e5e5e5; }
-.sidebar-widget ul.sidebar-tab.sidebar-widget-tab > li > a:hover{ color: #ffffff; }
+ul.sidebar-tab.sidebar-widget-tab > li > a:hover, ul.sidebar-tab.sidebar-widget-tab > li.active > a{ color: #ffffff !important; }
 .sidebar-widget > ul > li > a,
 .sidebar-widget > ul > li > ul > li > a,
 .sidebar-widget > ul > li > ul > li > ul > li > a { color: #ffffff; }
@@ -294,7 +294,7 @@ textarea::-webkit-input-placeholder { color: #e5e5e5; }
 .contact-detail-area { background: none repeat scroll 0 0 #3c3f49; border: 1px solid #7b7f8c; }
 .contact-detail-area i { color: #ffffff; }
 .contact-detail-area h5 { color: #fefefe; }
-.contact-detail-area address { color: #e5e5e5; }
+.contact-detail-area address, .contact-detail-area a{ color: #e5e5e5; }
 .cont-heading-title h1 { color: #ffffff; }
 .cont-heading-title p { color: #e5e5e5; }
 .cont-form-control { color: #e5e5e5; background-color: transparent; border: 1px solid #7b7f8c; }
@@ -437,6 +437,7 @@ input#pwbox-1168{ background-color: #ffffff; border: 1px solid #e0e4e6; box-shad
 .entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, .gallery-item .attachment-thumbnail { 
 box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); 
 }
+.page-title-col a {color:#fff;}
 .wp-caption .wp-caption-text, .gallery-caption, .entry-caption { color: #e5e5e5; }
 article.format-aside .aside { background: none repeat scroll 0 0 #d2e0f9; border-left: 22px solid #a8bfe8; padding: 1.71429rem; }
 .footer_widget_column a { color:#fff; }
@@ -538,7 +539,7 @@ article.format-aside .aside { background: none repeat scroll 0 0 #d2e0f9; border
 .woocommerce input.button:disabled:hover, .woocommerce input.button:disabled[disabled]:hover { background-color:#00c2a9; color:#fff; } 
 .woocommerce form .form-row input[type="text"],.woocommerce form .form-row input[type="email"], .woocommerce form .form-row input[type="tel"], .select2-container .select2-choice, .woocommerce form .form-row textarea, .woocommerce form .form-row input.input-text {  background-color: transparent; border: 1px solid #7b7f8c; }
 .select2-container .select2-choice, .about_paypal { color: #fff; }
-.woocommerce form .form-row .input-text::-webkit-input-placeholder { color: #e5e5e5; }
+.woocommerce form .form-row .input-text::-webkit-input-placeholder { color: #888; }
 .woocommerce form .form-row .input-text:-moz-placeholder { color: #e5e5e5; }
 .woocommerce form .form-row .input-text::-moz-placeholder { color: #e5e5e5; }
 .woocommerce form .form-row .input-text:-ms-input-placeholder { color: #e5e5e5; } 
@@ -596,3 +597,67 @@ article.format-aside .aside { background: none repeat scroll 0 0 #d2e0f9; border
 .woocommerce-message a {color:#00c2a9;}
 
 
+.service4 h2>a:hover {color:#00c2a9;}
+.service4 .service-effect .service-btn:hover a{background-color: #00C2A9;}
+.service1 h2>a:hover {color:#00c2a9;}
+.service1 .service-effect .service-btn:hover a{background-color: #00C2A9;}
+
+.navbar.navbar5 .navbar-nav > .active > a, 
+.navbar.navbar5 .navbar-nav > .active > a:hover, 
+.navbar.navbar5 .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #00C2A9;
+}
+.navbar.navbar5 .navbar-nav > .open > a, 
+.navbar.navbar5 .navbar-nav > .open > a:hover, 
+.navbar.navbar5 .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #00C2A9;
+}
+.navbar.navbar5 .navbar-nav > li > a:hover, 
+.navbar.navbar5 .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #00C2A9;
+}
+.service5 .service-box i.fa {
+    background: #00C2A9;
+}
+.service5 .service-effect:hover {
+    background: #00C2A9;
+}
+.service5 .service-effect:hover .service-box i.fa {
+    background-color: #ffffff;
+    color: #00C2A9;
+}
+.service5 .service-effect {
+    background: #373941;
+}
+.service5 .service-box img {
+    box-shadow: #00c2a9 0px 0px 0px 1px;
+}
+/*Widget css*/
+.sidebar-widget li a:hover,.sidebar-widget li a:focus,.footer-widget-section li a:hover,.footer-widget-section li a:focus{
+  color: #00c2a9;
+}
+.wp-block-search .wp-block-search__button {
+  background-color: #00c2a9;
+}
+.wp-block-calendar table caption,.wp-block-calendar a {    
+  color:#00c2a9;
+}
+.wp-block-tag-cloud a:hover,.wp-block-tag-cloud a:focus{
+  background-color: #00c2a9;
+  border: none;
+}
+.ui-slider-horizontal .ui-slider-range {
+  background: #00c2a9;
+}
+.wc-block-product-search .wc-block-product-search__button{
+  background: #00c2a9; 
+}
+.sidebar-widget p a,.footer-widget-section .footer_widget_column p a, .sidebar-widget .wp-block-latest-comments__comment-author, .footer-widget-section .wp-block-latest-comments__comment-author{
+  color: #00c2a9;
+}
+.wpcf7-submit {
+    background-color: #00c2a9;
+}

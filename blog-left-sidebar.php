@@ -7,18 +7,42 @@ $wallstreet_pro_options=theme_data_setup();
 $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
 ?>
 <!-- Page Title Section -->
-<div class="page-mycarousel" style='background: url("<?php echo( get_header_image() ); ?>") repeat scroll center 0 #143745;'>
-	<div class="page-title-col">
-		<div class="container">
-			<div class="row">
-				<div class="page-header-title">
-					<h1><?php the_title(); ?></h1>		
-				</div>
-			</div>	
-		</div>
-		<?php get_template_part('index', 'banner'); ?>
-	</div>
-</div>
+<?php get_template_part('index', 'banner'); ?>
+<style>
+.blog-post-title-wrapper-full div .blog-btn {
+	visibility: hidden;
+	border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: contents;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 0;
+    line-height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.blog-post-title-wrapper-full div .blog-btn:after {
+   content:'<?php echo $current_options['blog_template_read_more'];?>'; 
+   visibility: visible;
+   background-color: #00c2a9;
+   border-radius: 3px 3px 3px 3px;
+   cursor: pointer;
+   display: inline-block;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 20px;
+   margin-top: 12px;
+   margin-bottom: 35px;
+   padding: 9px 18px;
+   text-align: center;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-decoration: none;
+   float: left;
+}
+</style>
 <!-- /Page Title Section -->
 <!-- Blog & Sidebar Section -->
 <div class="container">
@@ -33,7 +57,7 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 			$post_type_data->the_post();
 			global $more;
 			$more = 0;
-		?><div id="post-<?php the_ID(); ?>" <?php post_class('blog-section-left'); ?>>
+		?><div id="post-<?php the_ID(); ?>" <?php post_class('blog-section-right'); ?>>
 				<?php if(has_post_thumbnail()){ ?>
 				<?php $defalt_arg =array('class' => "img-responsive attachment-post-thumbnail"); ?>
 				<div class="blog-post-img">
@@ -52,7 +76,14 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 					<?php } ?>
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<p><?php //the_content( __( 'Read More' , 'wallstreet' ) );
-						echo get_home_blog_excerpt();
+						if($current_options['blog_template_content_excerpt_get_seting']=="content")
+						{
+						the_content();
+						}
+						else
+						{
+						echo get_post_blog_excerpt($current_options['blog_template_content_excerpt_length'],$current_options['blog_template_read_more']);	
+						}
 						?></p>
 						<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Page', 'wallstreet' ), 'after' => '</div>' ) ); ?>
 						<?php if($current_options['blog_meta_section_settings'] == false) {?>

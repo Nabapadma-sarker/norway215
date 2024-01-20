@@ -7,23 +7,10 @@
 @author       :	webriti
 * @filesource   :	wp-content/themes/wallstreet/service-template.php
 */
-get_header(); ?>
-<!-- Page Title Section -->
-<div class="page-mycarousel" style='background: url("<?php echo( get_header_image() ); ?>") repeat scroll center 0 #143745;'>
-	<div class="page-title-col">
-		<div class="container">
-			<div class="row">
-				<div class="page-header-title">
-					<h1><?php the_title(); ?></h1>		
-				</div>
-			</div>	
-		</div>
-		<?php get_template_part('index', 'banner'); ?>
-	</div>	
-</div>
-<!-- /Page Title Section -->
-<?php $wallstreet_pro_options=theme_data_setup();
-	  $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options ); ?>
+get_header(); 
+get_template_part('index', 'banner'); 
+$wallstreet_pro_options=theme_data_setup();
+$current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options ); ?>
 <!-- Service Section -->
 <div class="container">
 	<div class="row">

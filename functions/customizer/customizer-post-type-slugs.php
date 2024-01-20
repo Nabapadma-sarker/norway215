@@ -7,7 +7,7 @@ function wallstreet_post_type_slugs_customizer( $wp_customize ){
 	$wp_customize->add_panel( 'post_type_slug_settings', array(
 		'priority'       => 950,
 		'capability'     => 'edit_theme_options',
-		'title'      => __("SEO Friendly Url's", 'wallstreet'),
+		'title'      => __("SEO Friendly URL", 'wallstreet'),
 	) );
 	
 		/* post type slugs page */
@@ -107,7 +107,7 @@ function wallstreet_post_type_slugs_customizer( $wp_customize ){
 			
 			class wallstreet_Customize_slug extends WP_Customize_Control {
 			public function render_content() { ?>
-			<h3><?php _e("After Changing the slug, please do not forget to save permalinks. Without saving, the old permalinks will not revise.","wallstreet"); ?> 
+			<h3><?php _e("After changing the slug, please do not forget to save the permalinks. Without saving, the old permalinks will not update.","wallstreet"); ?> 
 			<?php
 			}
 			}

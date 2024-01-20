@@ -10,7 +10,7 @@ function wallstreet_slider_type() {
 	register_post_type( 'wallstreet_slider',
 		array(
 			'labels' => array(
-			'name' => __('Featured Slider','wallstreet'),
+			'name' => __('Featured Sliders','wallstreet'),
 			'add_new' => __('Add New', 'wallstreet'),
 			'add_new_item' => __('Add New Slider','wallstreet'),
 			'edit_item' => __('Add New','wallstreet'),
@@ -44,7 +44,7 @@ function wallstreet_service_type()
 	register_post_type( 'wallstreet_service',
 		array(
 			'labels' => array(
-			'name' => __('Featured Service','wallstreet'),
+			'name' => __('Featured Services','wallstreet'),
 			'add_new' => __('Add New', 'wallstreet'),
 			'add_new_item' => __('Add New Service','wallstreet'),
 			'edit_item' => __('Add New','wallstreet'),
@@ -79,12 +79,12 @@ function wallstreet_portfolio_type()
 register_post_type( 'wallstreet_portfolio',
 		array(
 			'labels' => array(
-				'name' => __('Portfolio / Project','wallstreet'),
+				'name' => __('Portfolios / Projects','wallstreet'),
 				'add_new' => __('Add New', 'wallstreet'),
 				'add_new_item' => __('Add New Project','wallstreet'),
 				'edit_item' => __('Add New','wallstreet'),
 				'new_item' => __('New Link','wallstreet'),
-				'all_items' => __('All Portfolio Project','wallstreet'),
+				'all_items' => __('All Portfolios / Projects','wallstreet'),
 				'view_item' => __('View Link','wallstreet'),
 				'search_items' => __('Search Links','wallstreet'),
 				'not_found' =>  __('No Links found','wallstreet'),
@@ -112,7 +112,7 @@ function wallstreet_tesimonial_type()
 	register_post_type( 'wallstreet_testi',
 		array(
 			'labels' => array(
-				'name' => __('Testimonial','wallstreet'),
+				'name' => __('Testimonials','wallstreet'),
 				'add_new' => __('Add New', 'wallstreet'),
 				'add_new_item' => __('Add New Testimonial','wallstreet'),
 				'edit_item' => __('Add New','wallstreet'),

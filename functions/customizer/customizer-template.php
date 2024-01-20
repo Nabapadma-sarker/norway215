@@ -8,7 +8,6 @@ function wallstreet_template_customizer( $wp_customize ) {
 		'title'      => __('Template settings', 'wallstreet'),
 	) );
 	
-	
 	// add section to manage Section heading
 	$wp_customize->add_section(
         'section_heading',
@@ -20,6 +19,21 @@ function wallstreet_template_customizer( $wp_customize ) {
     );
 	
 	// About us page Heading
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[about_team_section_show_hide]',
+		array('capability'  => 'edit_theme_options',
+		'default' => true, 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[about_team_section_show_hide]',
+		array(
+			'type' => 'checkbox',
+			'label' => __('Enable team section','wallstreet'),
+			'section' => 'section_heading',
+		)
+	);
 	$wp_customize->add_setting(
 		'wallstreet_pro_options[about_team_title]',
 		array('capability'  => 'edit_theme_options',
@@ -36,8 +50,6 @@ function wallstreet_template_customizer( $wp_customize ) {
 		)
 	);
 	
-	
-	
 	$wp_customize->add_setting(
 		'wallstreet_pro_options[about_team_description]',
 		array('capability'  => 'edit_theme_options',
@@ -53,10 +65,239 @@ function wallstreet_template_customizer( $wp_customize ) {
 			'section' => 'section_heading',
 		)
 	);
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[about_callout_section_show_hide]',
+		array('capability'  => 'edit_theme_options',
+		'default' => true, 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[about_callout_section_show_hide]',
+		array(
+			'type' => 'checkbox',
+			'label' => __('Enable Callout section','wallstreet'),
+			'section' => 'section_heading',
+		)
+	);
+
+	//Team Pgae template setting
+	$wp_customize->add_section(
+        'team_page_template',
+        array(
+            'title' => __('Team page setting','wallstreet'),
+			'panel'  => 'wallstreet_template',
+			'priority'   => 100,
+			)
+    );
+
+ 	// Enable Team section
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[team_template_team_section_show_hide]',
+		array('capability'  => 'edit_theme_options',
+		'default' => true, 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[team_template_team_section_show_hide]',
+		array(
+			'type' => 'checkbox',
+			'label' => __('Enable team section','wallstreet'),
+			'section' => 'team_page_template',
+		)
+	);   
+	//Enable Feature section
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[team_template_feature_section_show_hide]',
+		array('capability'  => 'edit_theme_options',
+		'default' => true, 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[team_template_feature_section_show_hide]',
+		array(
+			'type' => 'checkbox',
+			'label' => __('Enable feature section','wallstreet'),
+			'section' => 'team_page_template',
+		)
+	); 
+	//Enable Client Section
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[team_template_client_section_show_hide]',
+		array('capability'  => 'edit_theme_options',
+		'default' => true, 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[team_template_client_section_show_hide]',
+		array(
+			'type' => 'checkbox',
+			'label' => __('Enable client section','wallstreet'),
+			'section' => 'team_page_template',
+		)
+	); 
+
+
+	//Testimonial Pgae template setting
+	$wp_customize->add_section(
+        'testi_page_template',
+        array(
+            'title' => __('Testimonial page setting','wallstreet'),
+			'panel'  => 'wallstreet_template',
+			'priority'   => 100,
+			)
+    );
+
+ 	// Enable cta section
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[testi_template_cta_section_show_hide]',
+		array('capability'  => 'edit_theme_options',
+		'default' => true, 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[testi_template_cta_section_show_hide]',
+		array(
+			'type' => 'checkbox',
+			'label' => __('Enable cta section','wallstreet'),
+			'section' => 'testi_page_template',
+		)
+	);   
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[testi_cta_title]',
+		array('capability'  => 'edit_theme_options',
+		'default' => __('Why choose us','wallstreet'), 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[testi_cta_title]',
+		array(
+			'type' => 'text',
+			'label' => __('Title','wallstreet'),
+			'section' => 'testi_page_template',
+		)
+	);
 	
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[testi_cta_description]',
+		array('capability'  => 'edit_theme_options',
+		'default' => __('We offer great services to our clients','wallstreet'), 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[testi_cta_description]',
+		array(
+			'type' => 'textarea',
+			'label' => __('Description','wallstreet'),
+			'section' => 'testi_page_template',
+		)
+	);
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[testi_template_testi_section_show_hide]',
+		array('capability'  => 'edit_theme_options',
+		'default' => true, 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[testi_template_testi_section_show_hide]',
+		array(
+			'type' => 'checkbox',
+			'label' => __('Enable testimonial section','wallstreet'),
+			'section' => 'testi_page_template',
+		)
+	); 
+	//Enable Client Section
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[testi_template_client_section_show_hide]',
+		array('capability'  => 'edit_theme_options',
+		'default' => true, 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[testi_template_client_section_show_hide]',
+		array(
+			'type' => 'checkbox',
+			'label' => __('Enable client section','wallstreet'),
+			'section' => 'testi_page_template',
+		)
+	); 
+	//Blog template setting
+	$wp_customize->add_section( 'blog_template_content_excerpt_seting' , array(
+		'title'      => __('Blog template data setting', 'wallstreet'),
+		'panel'  => 'wallstreet_template',
+		'priority'   => 149,
+   	) );
+	
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[blog_template_content_excerpt_get_seting]',
+    array(
+        'default' => 'content',
+		'capability'     => 'edit_theme_options',
+		'type' => 'option',
+		
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[blog_template_content_excerpt_get_seting]',
+    array(
+        'label' => __('From which format do you want to display data','wallstreet'),
+        'section' => 'blog_template_content_excerpt_seting',
+        'type' => 'radio',
+        'choices' => array(
+        	'excert' => 'Excerpt Data',
+        	'content' => 'Content Data'),
+    )
+	);
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[blog_template_content_excerpt_length]',
+    array(
+        'default' => 275,
+		'capability'     => 'edit_theme_options',
+		'type' => 'option',
+		
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[blog_template_content_excerpt_length]',
+    array(
+        'label' => __('Excerpt length only for excerpt option','wallstreet'),
+        'section' => 'blog_template_content_excerpt_seting',
+        'type'=>'number',
+        'input_attrs' => array(
+            'min' => '1', 'step' => '1', 'max' => '1000',
+          ),
+       
+    )
+	);
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[blog_template_read_more]',
+    array(
+        'default' => 'Read More',
+		'capability'     => 'edit_theme_options',
+		'type' => 'option',
+		
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[blog_template_read_more]',
+    array(
+        'label' => __('Read more button text','wallstreet'),
+        'section' => 'blog_template_content_excerpt_seting',
+        'type'=>'text',
+       
+    )
+	);
 	//enable/disable blog post meta content
 	$wp_customize->add_section( 'blog_template' , array(
-		'title'      => __('Blog meta setting', 'wallstreet'),
+		'title'      => __('Blog meta settings', 'wallstreet'),
 		'panel'  => 'wallstreet_template',
 		'priority'   => 150,
    	) );
@@ -112,7 +353,7 @@ function wallstreet_template_customizer( $wp_customize ) {
 	$wp_customize->add_control(
     'wallstreet_pro_options[archive_page_meta_section_settings]',
     array(
-        'label' => __('Hide post meta i.e. author name, date of submission, category, tags from archive page.','wallstreet'),
+        'label' => __('Hide post meta i.e. author name, date of submission, category, tags from archive page','wallstreet'),
         'section' => 'blog_template',
         'type' => 'checkbox',
     )
@@ -148,12 +389,30 @@ function wallstreet_template_customizer( $wp_customize ) {
 	 'choices' => array(2=>2,3=>3,4=>4),
 		)
 	);
-	
+		// Number of Portfolio Template
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[portfolio_numbers_for_templates_category]',
+    array(
+       'default' => 8,
+	   'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+		)
+	);	
+	$wp_customize->add_control( 'wallstreet_pro_options[portfolio_numbers_for_templates_category]',array(
+	 'type' => 'number',
+	 'label'   => __('Numbers of portfolio in portfolio category page','wallstreet'),
+    'section' => 'portfolio_texonomy',
+	'input_attrs' => array(
+            'min' => '1', 'step' => '1', 'max' => '10',
+          ),
+		)
+	);
 	//texonomy Title
 	$wp_customize->add_setting(
 		'wallstreet_pro_options[wallstreet_texonomy_title]',
 		array('capability'  => 'edit_theme_options',
-		'default' => __('Featured portfolio project','wallstreet'), 
+		'default' => __('Featured portfolio','wallstreet'), 
 		'type' => 'option',
 		));
 
@@ -184,6 +443,126 @@ function wallstreet_template_customizer( $wp_customize ) {
 		)
 	);
 	
+	//Portfolio Texonomy Setting
+	
+	$wp_customize->add_section(
+        'project_realted',
+        array(
+            'title' => __('Portfolio template and related page setting','wallstreet'),
+			'panel'  => 'wallstreet_template',
+			'priority'   => 100,
+			
+			)
+    );
+	
+	
+	//Project Template Title
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[two_thre_four_col_port_tem_title]',
+		array('capability'  => 'edit_theme_options',
+		'default' => __('Our Portfolio','wallstreet'), 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[two_thre_four_col_port_tem_title]',
+		array(
+			'type' => 'text',
+			'label' => __('Title For Portfolio Template','wallstreet'),
+			'section' => 'project_realted',
+		)
+	);
+	
+	
+	//Project Template Description
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[two_thre_four_col_port_tem_desc]',
+		array('capability'  => 'edit_theme_options',
+		'default' => __('Most popular of our works','wallstreet'), 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[two_thre_four_col_port_tem_desc]',
+		array(
+			'type' => 'textarea',
+			'label' => __('Description For Portfolio Template','wallstreet'),
+			'section' => 'project_realted',
+		)
+	);
+	// Number of Portfolio Template
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[portfolio_numbers_on_templates]',
+    array(
+       'default' => 4,
+	   'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+		)
+	);	
+	$wp_customize->add_control( 'wallstreet_pro_options[portfolio_numbers_on_templates]',array(
+	 'type' => 'number',
+	 'label'   => __('Number of portfolio on portfolio template','wallstreet'),
+    'section' => 'project_realted',
+	'input_attrs' => array(
+            'min' => '1', 'step' => '1', 'max' => '50',
+          ),
+		)
+	);
+
+	//Related project Title
+	$wp_customize->add_setting(
+    'wallstreet_pro_options[related_portfolio_project_hide_show]',
+    array(
+        'default' => true,
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' => 'option',
+    )	
+	);
+	$wp_customize->add_control(
+    'wallstreet_pro_options[related_portfolio_project_hide_show]',
+    array(
+        'label' => __('Enable Related Project Setting','wallstreet'),
+        'section' => 'project_realted',
+        'type' => 'checkbox'
+    ));
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[related_portfolio_title]',
+		array('capability'  => 'edit_theme_options',
+		'default' => __('Related projects','wallstreet'), 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[related_portfolio_title]',
+		array(
+			'type' => 'text',
+			'label' => __('Title For Related projects','wallstreet'),
+			'section' => 'project_realted',
+		)
+	);
+	
+	
+	//Related project Description
+	$wp_customize->add_setting(
+		'wallstreet_pro_options[related_portfolio_description]',
+		array('capability'  => 'edit_theme_options',
+		'default' => __('We offer great services to our clients','wallstreet'), 
+		'type' => 'option',
+		));
+
+	$wp_customize->add_control(
+		'wallstreet_pro_options[related_portfolio_description]',
+		array(
+			'type' => 'textarea',
+			'label' => __('Description For Related projects','wallstreet'),
+			'section' => 'project_realted',
+		)
+	);
+	
+	
+	
 	
 	
 	
@@ -193,7 +572,7 @@ function wallstreet_template_customizer( $wp_customize ) {
 	$wp_customize->add_section(
         'conatact_page',
         array(
-            'title' => __('Contact page address setting','wallstreet'),
+            'title' => __('Contact page address settings','wallstreet'),
 			'panel'  => 'wallstreet_template',
 			'priority'   => 200,
 			
@@ -295,7 +674,7 @@ function wallstreet_template_customizer( $wp_customize ) {
 	$wp_customize->add_section(
         'conatact_phone',
         array(
-            'title' => __('Contact page phone setting','wallstreet'),
+            'title' => __('Contact page phone settings','wallstreet'),
 			'panel'  => 'wallstreet_template',
 			'priority'   => 200,
 			
@@ -401,7 +780,7 @@ function wallstreet_template_customizer( $wp_customize ) {
 	$wp_customize->add_section(
         'conatact_mail',
         array(
-            'title' => __('Contact page email setting','wallstreet'),
+            'title' => __('Contact page email settings','wallstreet'),
 			'panel'  => 'wallstreet_template',
 			'priority'   => 200,
 			
@@ -569,7 +948,7 @@ function wallstreet_template_customizer( $wp_customize ) {
 	$wp_customize->add_section(
         'conatact_page_map',
         array(
-            'title' => __('Contact page Google maps','wallstreet'),
+            'title' => __('Contact page Google Maps','wallstreet'),
 			'panel'  => 'wallstreet_template',
 			'priority'   => 190,
 			

@@ -1,6 +1,11 @@
 /* -----@Media screen Responsive css created by Shahid - Scientech IT ------------------------------------------------------------------------------------------------------- */
 
-
+@media only screen and (max-width: 960px) and (min-width: 200px) { 
+.navbar-wrapper { position: relative !important; }
+.navbar .navbar-nav > li > a { padding: 25px 19px; }
+.navbar-inverse { background-color: #2a2c33; }
+}
+	
 @media only screen and (min-width: 960px) and (max-width: 1200px) {
 /*Flexslider--------------------------*/
 .flex-slider-center {
@@ -245,13 +250,6 @@
 .flexslider:hover .flex-next {
     right: 20px;
 }
-/*Page Mycarousel----------*/
-.page-title-col {
-	top: 31%;
-}
-.page-header-title {
-	margin: 0 auto 95px;
-}
 /*Menu Dropdown--------------*/
 .navbar-brand {
 	margin-right: 0px;
@@ -273,8 +271,7 @@
 .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, 
 .navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-	background-color: transparent;
-	color: #00c2a9;
+	background-color: transparent !important;
 }
 .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
 	padding: 15px 20px 15px 20px;
@@ -446,12 +443,12 @@
     line-height: 20px;
 }
 .slide-text-bg3 {
-    margin: 0 0 5px;
+    margin: 0 0 0;
+    padding: 0;
 }
 .slide-text-bg3 p {
-    display: none;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 13px;
     margin: 0;
 }
 
@@ -484,19 +481,6 @@
 .flexslider:hover .flex-next {
     right: 10px;
 }
-/*Page Mycarousel----------*/
-.page-title-col {
-	top: 31%;
-}
-.page-header-title {
-	margin: 0 auto 95px;
-	width: 97.4%;
-}
-.page-header-title h1 {
-	text-align: center;
-	font-size: 30px;
-	line-height: 40px;
-}
 /*Menu Dropdown--------------*/	
 .navbar-brand {
 	margin-right: 0px;
@@ -518,8 +502,7 @@
 .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, 
 .navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-	background-color: transparent;
-	color: #00c2a9;
+	background-color: transparent !important;
 }
 .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
 	padding: 15px 20px 15px 20px;
@@ -694,7 +677,6 @@
 .blog-post-title-wrapper > td:before {
 	/* Now like a table header */
 	position: absolute;
-	/* Top/left values mimic padding */
 	top: 6px;
 	left: 6px;
 	width: 45%;

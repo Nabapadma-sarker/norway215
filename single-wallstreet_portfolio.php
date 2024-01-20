@@ -8,18 +8,7 @@
 get_header();
 ?>
 <!-- Page Title Section -->
-<div class="page-mycarousel" style='background: url("<?php echo( get_header_image() ); ?>") repeat scroll center 0 #143745;'>
-	<div class="page-title-col">
-		<div class="container">
-			<div class="row">
-				<div class="page-header-title">
-					<h1><?php the_title(); ?></h1>		
-				</div>
-			</div>	
-		</div>
-		<?php get_template_part('index', 'banner'); ?>
-	</div>	
-</div>
+<?php get_template_part('index', 'banner'); ?>
 <!-- /Page Title Section -->
 
 <!--Project Section Detail -->
@@ -75,12 +64,16 @@ get_header();
 <!-- /Project Section Detail-->
 
 <!-- Realted Project ---->
+<?php 
+$wallstreet_pro_options=theme_data_setup();
+$current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
+if($current_options['related_portfolio_project_hide_show'] == true) { ?>
 <div class="container">
+	<?php if(!empty($current_options['related_portfolio_title']) || !empty($current_options['related_portfolio_description'])):?>
 	<div class="row">
 		<div class="section_heading_title">
 			<?php 
-			$wallstreet_pro_options=theme_data_setup();
-			$current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
+			
 			if($current_options['related_portfolio_title']) { ?>
 			<h1><?php echo $current_options['related_portfolio_title']; ?></h1>
 			<div class="pagetitle-separator"></div>
@@ -90,6 +83,7 @@ get_header();
 		<?php } ?>				
 		</div>
 	</div>
+<?php endif;?>
 	<div class="row related-project-section" id="related_project_scroll">
 	<?php 
 		
@@ -109,8 +103,7 @@ get_header();
 		{   while ($portfolio_query->have_posts()) : $portfolio_query->the_post(); 
 			if(get_post_meta( get_the_ID(),'meta_project_link', true )) 
 			{ $meta_project_link=get_post_meta( get_the_ID(),'meta_project_link', true ); }
-			else
-			{ $meta_project_link = get_post_permalink(); } ?>
+			 ?>
 		<div class="col-md-4 pull-left main-portfolio-area">
 			<div class="main-portfolio-showcase">
 				<div class="main-portfolio-showcase-media">
@@ -124,10 +117,12 @@ get_header();
 						<div class="main-portfolio-showcase-overlay-inner">
 							<div class="main-portfolio-showcase-detail">
 								<h4><?php the_title(); ?></h4>
-								<p><?php the_excerpt();?></p>
+								<p><?php echo portfolio_excerpt(15, get_the_ID());?></p>
 								<div class="portfolio-icon">
 									<a href="<?php echo $post_thumbnail_url; ?>" <?php  if(get_post_meta( get_the_ID(),'meta_project_target', true )) { echo "target='_blank'"; }  ?> data-lightbox="image"><i class="fa fa-picture-o"></i></a>
+									<?php if($meta_project_link){?>
 									<a href="<?php echo $meta_project_link; ?>" <?php  if(get_post_meta( get_the_ID(),'meta_project_target', true )) { echo "target='_blank'"; } ?>><i class="fa fa-link"></i></a>
+									<?php }?>
 								</div>
 							</div>
 						</div>
@@ -161,4 +156,7 @@ get_header();
 	</div>
 	
 </div>	
+<?php
+}
+?>
 <?php get_footer(); ?>
